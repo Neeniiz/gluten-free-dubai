@@ -2,164 +2,255 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=DM+Mono:wght@400;500&family=Noto+Naskh+Arabic:wght@500;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap">
 <style>
-/* Layout: a single reading column of restaurant "tickets"; header carries the rules, tabs switch between saved places, the menu checker and the rules. */
+/* Layout: a bold greeting, then an "ask" bar and filter chips, then compact place cards whose details fold away. Tabs switch to the menu checker, the staff card and the rules. */
 :root {
-  --bg: #f6f7f9;
+  --bg: #f6f1fa;
   --surface: #ffffff;
-  --ink: #1b2233;
-  --muted: #5d6578;
-  --line: #dde1ea;
-  --accent: #e0644a;      /* salmon, as in sake */
+  --ink: #26113d;
+  --muted: #6d5f80;
+  --line: #e6dcef;
+  --accent: #ff3d7f;
   --accent-ink: #ffffff;
-  --indigo: #27325a;      /* soy-ink */
-  --ok: #1f7a4d;   --ok-bg: #e3f3ea;
-  --ask: #8a5a00;  --ask-bg: #fbefd6;
-  --bad: #b3261e;  --bad-bg: #fbe4e2;
-  --chip: #eef0f5;
-  --display: "Shippori Mincho", "Hiragino Mincho ProN", Georgia, serif;
-  --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --accent-soft: #ffe1ec;
+  --grape: #5b2a86;
+  --grape-soft: #efe5f8;
+  --ok: #127a4a;  --ok-bg: #dcf3e6;
+  --ask: #8a5300; --ask-bg: #fdecc8;
+  --bad: #c0262d; --bad-bg: #fde1e2;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "DM Mono", ui-monospace, Menlo, monospace;
+  --arabic: "Noto Naskh Arabic", "Geeza Pro", "Segoe UI", serif;
+  --deva: "Noto Sans Devanagari", "Kohinoor Devanagari", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #12151d; --surface: #1a1f2b; --ink: #e9ecf3; --muted: #a2a9ba; --line: #2c3344;
-    --accent: #f08a72; --accent-ink: #1a1f2b; --indigo: #c3cbec;
-    --ok: #7fd3a6; --ok-bg: #173327; --ask: #f0c470; --ask-bg: #3a2e14; --bad: #f29a93; --bad-bg: #3d1c1a;
-    --chip: #252b3a; color-scheme: dark;
+    --bg: #140a1f; --surface: #1f1230; --ink: #f3eafb; --muted: #b6a6c8; --line: #352449;
+    --accent: #ff6b9b; --accent-ink: #1a0b19; --accent-soft: #3d1a33; --grape: #c9a5ee; --grape-soft: #2c1a40;
+    --ok: #7ddcaa; --ok-bg: #12331f; --ask: #f5c56b; --ask-bg: #3a2a10; --bad: #ff9a9f; --bad-bg: #3e1619;
+    color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #12151d; --surface: #1a1f2b; --ink: #e9ecf3; --muted: #a2a9ba; --line: #2c3344;
-  --accent: #f08a72; --accent-ink: #1a1f2b; --indigo: #c3cbec;
-  --ok: #7fd3a6; --ok-bg: #173327; --ask: #f0c470; --ask-bg: #3a2e14; --bad: #f29a93; --bad-bg: #3d1c1a;
-  --chip: #252b3a; color-scheme: dark;
+  --bg: #140a1f; --surface: #1f1230; --ink: #f3eafb; --muted: #b6a6c8; --line: #352449;
+  --accent: #ff6b9b; --accent-ink: #1a0b19; --accent-soft: #3d1a33; --grape: #c9a5ee; --grape-soft: #2c1a40;
+  --ok: #7ddcaa; --ok-bg: #12331f; --ask: #f5c56b; --ask-bg: #3a2a10; --bad: #ff9a9f; --bad-bg: #3e1619;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
-  background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body);
+  background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body);
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 0 48px;
+  padding-block: 0 56px;
 }
-.wrap { max-width: 860px; margin: 0 auto; }
-header { padding-block: 28px 8px; display: grid; gap: 10px; }
-.brand { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-h1 { font: 800 clamp(30px, 6vw, 44px)/1.05 var(--display); margin: 0; color: var(--indigo); letter-spacing: -0.01em; text-wrap: balance; }
-h1 .dot { color: var(--accent); }
-.tag { font: 500 12px var(--mono); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.wrap { max-width: 880px; margin: 0 auto; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* hero */
+.hero { padding-block: 32px 18px; display: grid; gap: 10px; }
+.hero h1 { font: 800 clamp(40px, 9vw, 72px)/0.95 var(--display); letter-spacing: -0.035em; margin: 0; text-wrap: balance; }
+.hero h1 .swash { position: relative; white-space: nowrap; color: var(--accent); }
+.hero h1 .swash svg { position: absolute; left: 0; right: 0; bottom: -0.12em; width: 100%; height: 0.22em; }
+.hero h1 .swash path { stroke: var(--accent); fill: none; stroke-width: 6; stroke-linecap: round; }
+.hero p { margin: 4px 0 0; color: var(--muted); font-size: 17px; max-width: 60ch; }
 .rules-line { display: flex; flex-wrap: wrap; gap: 6px; }
-.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--chip); color: var(--ink); white-space: nowrap; }
-.pill.no { background: var(--bad-bg); color: var(--bad); font-weight: 700; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 11px; border-radius: 999px; background: var(--grape-soft); color: var(--grape); white-space: nowrap; }
+.pill.no { background: var(--bad-bg); color: var(--bad); }
 .pill.yes { background: var(--ok-bg); color: var(--ok); }
-nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 4px; padding-block: 10px; border-bottom: 1px solid var(--line); margin-bottom: 18px; overflow-x: auto; }
+
+/* tabs */
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 6px; padding-block: 10px; margin-bottom: 18px; overflow-x: auto; scrollbar-width: none; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
-nav button { font: 700 15px var(--body); border: 0; background: none; color: var(--muted); padding: 8px 14px; border-radius: 8px; cursor: pointer; white-space: nowrap; }
-nav button[aria-selected="true"] { background: var(--indigo); color: var(--bg); }
-button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
-.filters input, .filters select { font: 15px var(--body); padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
-.filters input { flex: 1 1 220px; min-width: 0; }
-.count { font: 13px var(--mono); color: var(--muted); margin-bottom: 10px; }
-.list { display: grid; gap: 14px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
-.card-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
-.card h2 { font: 800 21px/1.2 var(--display); margin: 0; color: var(--ink); }
-.meta { font-size: 14px; color: var(--muted); }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.ev { font: 500 12px var(--mono); padding: 3px 8px; border-radius: 6px; letter-spacing: .02em; }
-.ev.you_confirmed { background: var(--ok); color: var(--surface); font-weight: 500; }
+nav button { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); padding: 8px 15px; border-radius: 999px; font-weight: 700; font-size: 15px; white-space: nowrap; }
+nav button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+/* ask */
+.asker { background: var(--ink); color: var(--bg); border-radius: 22px; padding: 18px; display: grid; gap: 12px; }
+.asker label { font: 700 13px var(--mono); text-transform: uppercase; letter-spacing: .1em; opacity: .75; }
+.ask-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.ask-row input { flex: 1 1 240px; min-width: 0; border: 0; border-radius: 14px; padding: 13px 15px; font-size: 17px; background: var(--surface); color: var(--ink); }
+.asker .suggest { display: flex; gap: 6px; flex-wrap: wrap; }
+.asker .suggest button { border: 1px solid color-mix(in srgb, var(--bg) 35%, transparent); background: transparent; color: var(--bg); border-radius: 999px; padding: 5px 12px; font-size: 14px; }
+.btn { border: 0; background: var(--accent); color: var(--accent-ink); font-weight: 700; padding: 12px 18px; border-radius: 14px; font-size: 16px; }
+.btn.small { padding: 7px 13px; font-size: 14px; border-radius: 10px; }
+.btn.ghost { background: var(--grape-soft); color: var(--grape); }
+.btn:disabled { opacity: .5; cursor: default; }
+.answer { background: var(--surface); color: var(--ink); border-radius: 16px; padding: 14px 16px; display: grid; gap: 12px; }
+.answer p { margin: 0; }
+.picks { display: grid; gap: 10px; }
+.pick { border-left: 4px solid var(--accent); padding: 4px 0 4px 12px; display: grid; gap: 3px; }
+.pick b { font: 700 18px var(--display); }
+.pick .k { font: 500 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-right: 6px; }
+.linkish { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 700; text-align: left; }
+
+/* filters */
+.filters { display: grid; gap: 10px; margin-block: 20px 14px; }
+.chiprow { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+.chip { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 13px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip small { font: 500 11px var(--mono); opacity: .7; margin-left: 4px; }
+.selects { display: flex; gap: 8px; flex-wrap: wrap; }
+.selects input, .selects select { border: 1.5px solid var(--line); border-radius: 12px; padding: 9px 12px; background: var(--surface); font-size: 15px; }
+.selects input { flex: 1 1 200px; min-width: 0; }
+.count { font: 13px var(--mono); color: var(--muted); }
+.strip-title { font: 800 22px var(--display); margin: 22px 0 8px; letter-spacing: -0.01em; }
+.strip { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.strip button { flex: 0 0 auto; border: 0; border-radius: 14px; padding: 10px 14px; background: var(--ok-bg); color: var(--ok); font-weight: 700; text-align: left; max-width: 220px; }
+.strip button small { display: block; font-weight: 400; color: var(--muted); }
+
+/* cards */
+.list { display: grid; gap: 12px; }
+.card { background: var(--surface); border: 1.5px solid var(--line); border-radius: 18px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; scroll-margin-top: 80px; }
+.card.flash { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.card-top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.card-top > div { min-width: 0; }
+.card h2 { font: 800 22px/1.1 var(--display); margin: 0; letter-spacing: -0.015em; }
+.meta { font-size: 14px; color: var(--muted); margin-top: 3px; }
+.ev { font: 500 11px var(--mono); padding: 4px 9px; border-radius: 8px; letter-spacing: .03em; white-space: nowrap; text-transform: uppercase; }
+.ev.you_confirmed { background: var(--ok); color: var(--surface); }
 .ev.restaurant_marks_gf { background: var(--ok-bg); color: var(--ok); }
-.ev.community_reports { background: var(--chip); color: var(--indigo); }
+.ev.community_reports { background: var(--grape-soft); color: var(--grape); }
 .ev.ask_first { background: var(--ask-bg); color: var(--ask); }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); }
+.tag.good { background: var(--ok-bg); color: var(--ok); }
+.tag.warn { background: var(--bad-bg); color: var(--bad); }
 .summary { margin: 0; }
-.dishes { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.actions a.btn { text-decoration: none; }
+.seg { display: inline-flex; background: var(--bg); border-radius: 12px; padding: 3px; gap: 2px; }
+.seg button { border: 0; background: none; padding: 6px 10px; border-radius: 9px; font-size: 13.5px; font-weight: 600; color: var(--muted); }
+.seg button[aria-pressed="true"].s-to_try { background: var(--grape-soft); color: var(--grape); }
+.seg button[aria-pressed="true"].s-tried_ok { background: var(--ok-bg); color: var(--ok); }
+.seg button[aria-pressed="true"].s-avoid { background: var(--bad-bg); color: var(--bad); }
+details { border-top: 1px dashed var(--line); padding-top: 8px; }
+details summary { cursor: pointer; font-weight: 700; color: var(--grape); list-style: none; }
+details summary::-webkit-details-marker { display: none; }
+details summary::before { content: "+ "; font-family: var(--mono); }
+details[open] summary::before { content: "– "; }
+details > *:not(summary) { margin-top: 8px; }
+.dishes { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .dishes > div { min-width: 0; }
-.dishes h3 { font: 700 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 4px; }
+.dishes h3 { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 4px; }
 .dishes h3.ok { color: var(--ok); } .dishes h3.ask { color: var(--ask); } .dishes h3.bad { color: var(--bad); }
 .dishes ul { margin: 0; padding-left: 18px; }
-.dishes li { margin-bottom: 3px; }
+.dishes li { margin-bottom: 4px; }
 .dishes li small { color: var(--muted); }
-.flag { background: var(--bad-bg); color: var(--bad); padding: 8px 10px; border-radius: 8px; font-size: 14px; }
-details { border-top: 1px dashed var(--line); padding-top: 8px; }
-summary { cursor: pointer; font-weight: 700; color: var(--indigo); }
-.qbox { white-space: pre-wrap; background: var(--chip); padding: 10px 12px; border-radius: 8px; font-size: 14px; margin: 8px 0; }
-.sources a { color: var(--indigo); word-break: break-all; font-size: 13px; }
-.mine { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-.seg button { font: 14px var(--body); border: 0; background: var(--surface); color: var(--ink); padding: 6px 10px; cursor: pointer; }
-.seg button + button { border-left: 1px solid var(--line); }
-.seg button[aria-pressed="true"].s-to_try { background: var(--chip); font-weight: 700; }
-.seg button[aria-pressed="true"].s-tried_ok { background: var(--ok-bg); color: var(--ok); font-weight: 700; }
-.seg button[aria-pressed="true"].s-avoid { background: var(--bad-bg); color: var(--bad); font-weight: 700; }
-textarea, .field { width: 100%; font: 15px var(--body); padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.flag { background: var(--bad-bg); color: var(--bad); padding: 9px 12px; border-radius: 12px; font-size: 14px; }
+.qbox { white-space: pre-wrap; background: var(--bg); padding: 12px; border-radius: 12px; font-size: 14px; }
+.sources a { color: var(--grape); word-break: break-all; font-size: 13px; }
+textarea, .field { width: 100%; border: 1.5px solid var(--line); border-radius: 12px; padding: 10px 12px; background: var(--surface); font-size: 15px; }
 textarea { resize: vertical; }
-.btn { font: 700 15px var(--body); background: var(--accent); color: var(--accent-ink); border: 0; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
-.btn.ghost { background: var(--chip); color: var(--ink); }
-.btn:disabled { opacity: .55; cursor: default; }
+.empty { padding: 24px; border: 1.5px dashed var(--line); border-radius: 18px; color: var(--muted); }
+
+/* panels */
+.panel { background: var(--surface); border: 1.5px solid var(--line); border-radius: 22px; padding: 20px; display: grid; gap: 12px; }
+.panel h2 { font: 800 28px/1.05 var(--display); margin: 0; letter-spacing: -0.02em; }
+.hint { color: var(--muted); font-size: 14.5px; margin: 0; max-width: 65ch; }
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 12px; }
-.panel h2 { font: 800 22px var(--display); margin: 0; color: var(--indigo); }
-.hint { color: var(--muted); font-size: 14px; margin: 0; max-width: 65ch; }
-.empty { text-align: left; padding: 24px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); }
-.verdict { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.verdict { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .verdict:last-child { border-bottom: 0; }
-.vtag { font: 500 12px var(--mono); padding: 2px 8px; border-radius: 6px; height: fit-content; text-transform: uppercase; }
+.vtag { font: 500 11px var(--mono); padding: 3px 8px; border-radius: 6px; height: fit-content; text-transform: uppercase; }
 .vtag.ok { background: var(--ok-bg); color: var(--ok); } .vtag.ask { background: var(--ask-bg); color: var(--ask); } .vtag.avoid { background: var(--bad-bg); color: var(--bad); }
 .verdict .r { grid-column: 2; color: var(--muted); font-size: 14px; }
 .chiplist { display: flex; flex-wrap: wrap; gap: 6px; }
-.chiplist .pill button { border: 0; background: none; color: inherit; cursor: pointer; font-size: 15px; line-height: 1; padding: 0 0 0 2px; }
-.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--indigo); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 20; }
-.legal { font-size: 13px; color: var(--muted); margin-top: 28px; max-width: 65ch; }
-@media (prefers-reduced-motion: no-preference) { .card { transition: border-color .15s; } .card:hover { border-color: var(--muted); } }
+.chiplist .pill button { border: 0; background: none; color: inherit; font-size: 15px; line-height: 1; padding: 0 0 0 2px; }
+
+/* staff card */
+.staff { background: var(--accent); color: var(--accent-ink); border-radius: 26px; padding: clamp(20px, 5vw, 36px); display: grid; gap: 16px; }
+.staff .big { font: 800 clamp(26px, 6vw, 40px)/1.15 var(--display); margin: 0; letter-spacing: -0.01em; }
+.staff .txt { font-size: clamp(18px, 4vw, 22px); line-height: 1.55; margin: 0; }
+.staff[dir="rtl"] .big, .staff[dir="rtl"] .txt { font-family: var(--arabic); letter-spacing: 0; }
+.staff[lang="hi"] .big, .staff[lang="hi"] .txt { font-family: var(--deva); letter-spacing: 0; }
+.staff .langs { display: flex; gap: 6px; flex-wrap: wrap; }
+.staff .langs button { border: 1.5px solid currentColor; background: transparent; color: inherit; border-radius: 999px; padding: 5px 13px; font-weight: 700; font-size: 14px; }
+.staff .langs button[aria-pressed="true"] { background: var(--accent-ink); color: var(--accent); border-color: var(--accent-ink); }
+
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 11px 18px; border-radius: 12px; font-size: 14px; font-weight: 600; z-index: 20; }
+.legal { font-size: 13px; color: var(--muted); margin-top: 32px; max-width: 65ch; }
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: border-color .2s, box-shadow .2s; }
+  .hero h1 .swash path { stroke-dasharray: 400; stroke-dashoffset: 0; animation: draw 0.9s ease-out 0.2s both; }
+  @keyframes draw { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
+}
 </style>
 
 <div class="wrap">
-  <header>
-    <div class="brand"><h1>Gluten-Free Dubai<span class="dot">.</span></h1><span class="tag">celiac · every cuisine</span></div>
+  <header class="hero">
+    <h1>What are we <span class="swash">eating?<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 12 Q 30 2 55 11 T 105 11 T 155 11 T 196 9"/></svg></span></h1>
+    <p id="heroSub">Dubai places checked against your rules.</p>
     <div class="rules-line" id="rulesLine"></div>
   </header>
 
   <nav role="tablist">
-    <button role="tab" id="tab-places" aria-selected="true" data-tab="places">Places</button>
+    <button role="tab" id="tab-find" aria-selected="true" data-tab="find">Find food</button>
     <button role="tab" id="tab-check" aria-selected="false" data-tab="check">Check a menu</button>
+    <button role="tab" id="tab-staff" aria-selected="false" data-tab="staff">Show staff</button>
     <button role="tab" id="tab-rules" aria-selected="false" data-tab="rules">My rules</button>
   </nav>
 
-  <section id="view-places">
-    <div class="filters">
-      <input id="q" type="search" placeholder="Search name, area, dish…" aria-label="Search">
-      <select id="fCuisine" aria-label="Cuisine"><option value="all">All cuisines</option></select>
-      <select id="fLevel" aria-label="Evidence">
-        <option value="all">Any evidence</option>
-        <option value="you_confirmed">You confirmed it</option>
-        <option value="restaurant_marks_gf">Restaurant marks GF</option>
-        <option value="community_reports">Celiacs report it</option>
-        <option value="ask_first">Ask first</option>
-      </select>
-      <select id="fStatus" aria-label="My status">
-        <option value="all">Any status</option>
-        <option value="none">Not tried yet</option>
-        <option value="to_try">Want to try</option>
-        <option value="tried_ok">Tried, was fine</option>
-        <option value="avoid">Avoid</option>
-      </select>
+  <section id="view-find">
+    <form class="asker" id="askForm">
+      <label for="askQ">Ask Claude</label>
+      <div class="ask-row">
+        <input id="askQ" placeholder="Sushi delivery to the Marina tonight" autocomplete="off">
+        <button class="btn" id="askGo" type="submit">Ask</button>
+      </div>
+      <div class="suggest" id="suggest">
+        <button type="button">Sushi I can get delivered</button>
+        <button type="button">Date night, somewhere nice</button>
+        <button type="button">Lebanese near Jumeirah</button>
+        <button type="button">A gluten-free bakery for the weekend</button>
+      </div>
+      <div id="askOut" hidden></div>
+    </form>
+
+    <div id="safeWrap" hidden>
+      <div class="strip-title">My safe places</div>
+      <div class="strip" id="safeStrip"></div>
     </div>
-    <div class="count" id="count"></div>
+
+    <div class="filters">
+      <div class="chiprow" id="modeRow" role="group" aria-label="Delivery or dine in"></div>
+      <div class="chiprow" id="areaRow" role="group" aria-label="Area"></div>
+      <div class="selects">
+        <input id="q" type="search" placeholder="Search name, dish, area…" aria-label="Search">
+        <select id="fCuisine" aria-label="Cuisine"><option value="all">All cuisines</option></select>
+        <select id="fLevel" aria-label="Evidence">
+          <option value="all">Any evidence</option>
+          <option value="you_confirmed">You confirmed it</option>
+          <option value="restaurant_marks_gf">Restaurant marks GF</option>
+          <option value="community_reports">Celiacs report it</option>
+          <option value="ask_first">Ask first</option>
+        </select>
+        <select id="fStatus" aria-label="My status">
+          <option value="all">Any status</option>
+          <option value="none">Not tried yet</option>
+          <option value="to_try">Want to try</option>
+          <option value="tried_ok">Fine for me</option>
+          <option value="avoid">Avoid</option>
+        </select>
+      </div>
+      <div class="count" id="count"></div>
+    </div>
     <div class="list" id="list">
-      <div class="empty">Loading your saved places. Research runs add restaurants here, and you can add one yourself from <b>Check a menu</b>.</div>
+      <div class="empty">Loading your places…</div>
     </div>
   </section>
 
   <section id="view-check" hidden>
     <div class="panel">
       <h2>Check a menu</h2>
-      <p class="hint">Paste a menu, or add screenshots from Talabat, Deliveroo, Careem or the restaurant's site. Claude sorts every dish against your rules and writes the questions to send the restaurant. It reads only what you give it, so a missing ingredient list becomes "ask", never "fine".</p>
+      <p class="hint">Paste a menu, or add screenshots from Talabat, Deliveroo, Careem or a restaurant's site. Claude sorts every dish against your rules and writes the questions to send. Anything it can't confirm comes back as "ask".</p>
       <input class="field" id="cName" placeholder="Restaurant name (optional)" aria-label="Restaurant name">
       <textarea id="cText" rows="8" placeholder="Paste menu text here…" aria-label="Menu text"></textarea>
       <div class="row" id="imgRow" hidden>
-        <label class="btn ghost" for="cImgs">Add screenshots</label>
+        <label class="btn ghost small" for="cImgs">Add screenshots</label>
         <input id="cImgs" type="file" accept="image/*" multiple hidden>
         <span class="hint" id="imgNote"></span>
       </div>
@@ -172,10 +263,20 @@ textarea { resize: vertical; }
     </div>
   </section>
 
+  <section id="view-staff" hidden>
+    <div class="staff" id="staffCard" lang="en" dir="ltr">
+      <div class="langs" id="langs" role="group" aria-label="Language"></div>
+      <p class="big" id="staffBig"></p>
+      <p class="txt" id="staffTxt"></p>
+      <div class="row"><button class="btn ghost small" id="staffCopy">Copy text</button></div>
+    </div>
+    <p class="hint" style="margin-top:12px">Turn your phone towards the waiter. The Arabic, Hindi and Tagalog versions were written by Claude, so ask a native speaker to check them the first time you use them.</p>
+  </section>
+
   <section id="view-rules" hidden>
     <div class="panel">
       <h2>My rules</h2>
-      <p class="hint">The menu checker and every research run use this list. Anything here is treated as a hard no.</p>
+      <p class="hint">The menu checker and Ask Claude both use this list. Everything on it is a hard no.</p>
       <div><b>Never</b></div>
       <div class="chiplist" id="exList"></div>
       <div class="row">
@@ -188,7 +289,7 @@ textarea { resize: vertical; }
     </div>
   </section>
 
-  <p class="legal">Every listing comes from menus, reviews and forums, and any of them can be out of date. "Restaurant marks GF" is the strongest evidence here, and it is still not a guarantee: confirm with the restaurant before you order.</p>
+  <p class="legal">Listings come from menus, reviews and forums, and any of them can be out of date. "Restaurant marks GF" is strong evidence, and still not a guarantee. Confirm with the restaurant before you order.</p>
 </div>
 
 <script>
@@ -197,11 +298,36 @@ const DEFAULT_RULES = {
   allow: ["Made without gluten (no certification needed)", "Shared kitchen / cross-contact"]
 };
 const LEVEL_LABEL = { you_confirmed: "You confirmed it", restaurant_marks_gf: "Restaurant marks GF", community_reports: "Celiacs report it", ask_first: "Ask first" };
-const STATUS = [["to_try", "Want to try"], ["tried_ok", "Fine for me"], ["avoid", "Avoid"]];
 const LEVEL_RANK = { you_confirmed: -1, restaurant_marks_gf: 0, community_reports: 1, ask_first: 2 };
+const STATUS = [["to_try", "Want to try"], ["tried_ok", "Fine for me"], ["avoid", "Avoid"]];
+const AREAS = [
+  ["Marina & JBR", /marina|jbr|the walk|bluewaters|mina seyahi/i],
+  ["JLT & Media City", /jlt|lakes towers|media city|internet city|al sufouh|barsha heights|the greens|onyx/i],
+  ["Palm", /palm|atlantis/i],
+  ["Downtown & DIFC", /downtown|dubai mall|difc|business bay|burj|opera|trade centre|sheikh zayed|za.?abeel|murooj|marasi/i],
+  ["Jumeirah & Umm Suqeim", /jumeirah(?! lakes)|umm suqeim|al wasl|al safa|madinat|city walk|fishing harbour|la mer/i],
+  ["Al Quoz", /al quoz|alserkal/i],
+  ["Al Barsha", /al barsha|mall of the emirates|kempinski/i],
+  ["Dubai Hills & south", /dubai hills|meydan|nad al sheba|motor city|arabian ranches|springs/i],
+  ["Old Dubai & Creek", /deira|bur dubai|oud metha|wafi|garhoud|festival city|creek|umm hurair|burjuman|mirdif|ras al khor/i],
+  ["Online / delivery", /online|delivery/i]
+];
+const STAFF = {
+  en: { label: "English", dir: "ltr", big: "I have celiac disease. I can't eat any gluten.",
+    txt: "Please make sure my food has no wheat, barley, rye, oats or quinoa. That includes regular soy sauce, flour, breadcrumbs, bulgur, couscous, pasta, bread, batter and sauces thickened with flour. Gluten-free soy sauce (tamari) is fine. Thank you!" },
+  ar: { label: "العربية", dir: "rtl", big: "لديّ مرض السيلياك، ولا أستطيع تناول الغلوتين.",
+    txt: "أرجو التأكد من أن طعامي لا يحتوي على القمح أو الشعير أو الجاودار أو الشوفان أو الكينوا. يشمل ذلك صلصة الصويا العادية، والطحين، وفتات الخبز، والبرغل، والكسكس، والمعكرونة، والخبز، وخليط القلي، والصلصات المكثّفة بالطحين. صلصة الصويا الخالية من الغلوتين (تاماري) مناسبة. شكراً لك!" },
+  hi: { label: "हिन्दी", dir: "ltr", big: "मुझे सीलिएक रोग है। ग्लूटेन मेरे लिए हानिकारक है।",
+    txt: "कृपया ध्यान रखें कि मेरे खाने में गेहूं (आटा, मैदा), जौ, राई, ओट्स या क्विनोआ न हो। इसमें सामान्य सोया सॉस, ब्रेडक्रम्ब्स, सूजी, पास्ता, ब्रेड, बैटर और आटे से गाढ़ी की गई ग्रेवी भी शामिल है। हींग में भी अक्सर गेहूं होता है। ग्लूटेन-फ्री सोया सॉस (तामारी) ठीक है। धन्यवाद!" },
+  tl: { label: "Tagalog", dir: "ltr", big: "May celiac disease ako. Hindi ako puwedeng kumain ng gluten.",
+    txt: "Pakisiguro na walang trigo (wheat), barley, rye, oats, o quinoa ang pagkain ko. Kasama rito ang karaniwang toyo, harina, breadcrumbs, pasta, tinapay, batter, at mga sarsang pinalapot ng harina. Puwede ang gluten-free na toyo (tamari). Salamat po!" }
+};
 
-let db = null, places = [], rules = DEFAULT_RULES, canWrite = true;
+let db = null, sample = null, places = [], rules = DEFAULT_RULES, canWrite = true;
+const filt = { mode: "all", area: "all" };
 const $ = (id) => document.getElementById(id);
+const arr = (x) => Array.isArray(x) ? x : [];
+const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? String(u) : null;
 
 function h(tag, attrs, ...kids) {
   const el = document.createElement(tag);
@@ -214,29 +340,29 @@ function h(tag, attrs, ...kids) {
   for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid instanceof Node ? kid : String(kid));
   return el;
 }
-const arr = (x) => Array.isArray(x) ? x : [];
 function toast(msg) { const t = h("div", { class: "toast", role: "status" }, msg); document.body.append(t); setTimeout(() => t.remove(), 2600); }
 async function copy(text) {
   try { await navigator.clipboard.writeText(text); toast("Copied"); }
-  catch { toast("Copy blocked here. Select the text and copy it yourself."); }
+  catch { toast("Copy is blocked here. Select the text and copy it yourself."); }
 }
-const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? String(u) : null;
+const areasOf = (p) => AREAS.filter(([, re]) => re.test(p.area || "")).map(([n]) => n);
+const hasDelivery = (p) => arr(p.delivery).length > 0;
+const mapsUrl = (p) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(`${(p.name || "").split("(")[0].trim()} ${(p.area || "").split(/[;(]/)[0]} Dubai`);
 
 /* ---------- tabs ---------- */
 document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.tab)));
 function showTab(name) {
   document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
-  for (const v of ["places", "check", "rules"]) $("view-" + v).hidden = v !== name;
+  for (const v of ["find", "check", "staff", "rules"]) $("view-" + v).hidden = v !== name;
   try { localStorage.setItem("gfd-tab", name); } catch {}
 }
-try { const t = localStorage.getItem("gfd-tab"); if (t) showTab(t); } catch {}
+try { const t = localStorage.getItem("gfd-tab"); if (t && $("view-" + t)) showTab(t); } catch {}
 
 /* ---------- rules ---------- */
 function renderRules() {
   $("rulesLine").replaceChildren(
     ...arr(rules.exclude).map((r) => h("span", { class: "pill no" }, "No " + r.split(":")[0].toLowerCase())),
-    ...arr(rules.allow).map((r) => h("span", { class: "pill yes" }, "OK: " + r.split("(")[0].trim().toLowerCase()))
-  );
+    ...arr(rules.allow).map((r) => h("span", { class: "pill yes" }, "OK: " + r.split("(")[0].trim().toLowerCase())));
   $("exList").replaceChildren(...arr(rules.exclude).map((r, i) =>
     h("span", { class: "pill no" }, r, h("button", { "aria-label": "Remove " + r, onclick: () => saveRules({ ...rules, exclude: rules.exclude.filter((_, j) => j !== i) }) }, "×"))));
   $("okList").replaceChildren(...arr(rules.allow).map((r) => h("span", { class: "pill yes" }, r)));
@@ -245,7 +371,7 @@ async function saveRules(next) {
   rules = next; renderRules();
   if (!db) return;
   try { await db.doc("config/rules").set({ exclude: next.exclude, allow: next.allow, updated: Date.now() }); toast("Rules saved"); }
-  catch (e) { toast("Couldn't save rules: " + (e.message || e.code)); }
+  catch (e) { toast("Couldn't save your rules. Try again."); }
 }
 $("exAdd").addEventListener("click", () => {
   const v = $("exNew").value.trim(); if (!v) return;
@@ -253,100 +379,214 @@ $("exAdd").addEventListener("click", () => {
 });
 renderRules();
 
+/* ---------- staff card ---------- */
+let staffLang = "en";
+try { staffLang = localStorage.getItem("gfd-lang") || "en"; } catch {}
+function renderStaff() {
+  const s = STAFF[staffLang] || STAFF.en;
+  const card = $("staffCard"); card.lang = staffLang; card.dir = s.dir;
+  $("staffBig").textContent = s.big; $("staffTxt").textContent = s.txt;
+  $("langs").replaceChildren(...Object.entries(STAFF).map(([k, v]) =>
+    h("button", { "aria-pressed": String(k === staffLang), lang: k, onclick: () => { staffLang = k; try { localStorage.setItem("gfd-lang", k); } catch {} renderStaff(); } }, v.label)));
+}
+$("staffCopy").addEventListener("click", () => { const s = STAFF[staffLang]; copy(s.big + "\n\n" + s.txt); });
+renderStaff();
+
 /* ---------- places ---------- */
 ["q", "fCuisine", "fLevel", "fStatus"].forEach((id) => $(id).addEventListener("input", renderPlaces));
 
 function whatsappText(p) {
-  const qs = arr(p.questions);
   const extra = arr(rules.exclude).filter((r) => !/gluten/i.test(r)).map((r) => r.toLowerCase());
   return `Hi! I have celiac disease, so I can't have any gluten.${extra.length ? " I also can't have " + extra.join(" or ") + "." : ""} Before I order from ${p.name}, could you tell me:\n` +
-    qs.map((q, i) => `${i + 1}. ${q}`).join("\n") + `\nThank you!`;
+    arr(p.questions).map((q, i) => `${i + 1}. ${q}`).join("\n") + `\nThank you!`;
+}
+
+async function updatePlace(id, data, okMsg) {
+  if (!db) return;
+  try { await db.doc("places/" + id).update({ ...data, updated: Date.now() }); if (okMsg) toast(okMsg); }
+  catch { toast("Couldn't save. Check your connection and try again."); }
+}
+
+function dishList(items, key) {
+  return h("ul", {}, items.map((d) => h("li", {}, d.dish, d[key] ? h("small", {}, " — " + d[key]) : null)));
 }
 
 function card(p) {
   const status = p.status || null;
-  const setStatus = async (s) => {
-    if (!db) return;
-    try { await db.doc("places/" + p.id).update({ status: status === s ? null : s, updated: Date.now() }); }
-    catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
-  };
   const mine = p.evidence_level === "you_confirmed";
-  const toggleConfirmed = async () => {
-    if (!db) return;
-    const next = mine
-      ? { evidence_level: p.prev_evidence_level || "ask_first", updated: Date.now() }
-      : { evidence_level: "you_confirmed", prev_evidence_level: p.evidence_level || "ask_first", confirmed_on: new Date().toISOString().slice(0, 10), updated: Date.now() };
-    try { await db.doc("places/" + p.id).update(next); toast(mine ? "Back to research evidence" : "Marked as checked by you"); }
-    catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
-  };
-  let noteTimer;
-  const notes = h("textarea", { rows: 2, placeholder: "My notes: what I ordered, how it went…", "aria-label": "Notes for " + p.name, id: "n-" + p.id });
-  notes.value = p.notes || "";
-  notes.addEventListener("input", () => { clearTimeout(noteTimer); noteTimer = setTimeout(async () => {
-    try { await db.doc("places/" + p.id).update({ notes: notes.value, updated: Date.now() }); } catch (e) { toast("Couldn't save note"); }
-  }, 900); });
-
   const safe = arr(p.safe_dishes), ask = arr(p.ask_dishes), avoid = arr(p.avoid_dishes);
   const site = safeUrl(p.website);
-  return h("article", { class: "card" },
+  let noteTimer;
+  const notes = h("textarea", { rows: 2, placeholder: "What I ordered, how it went…", "aria-label": "Notes for " + p.name, id: "n-" + p.id });
+  notes.value = p.notes || "";
+  notes.addEventListener("input", () => { clearTimeout(noteTimer); noteTimer = setTimeout(() => updatePlace(p.id, { notes: notes.value }), 900); });
+
+  const toggleConfirmed = () => updatePlace(p.id, mine
+    ? { evidence_level: p.prev_evidence_level || "ask_first" }
+    : { evidence_level: "you_confirmed", prev_evidence_level: p.evidence_level || "ask_first", confirmed_on: new Date().toISOString().slice(0, 10) },
+    mine ? "Back to the research evidence" : "Marked as checked by you");
+
+  const tags = [];
+  if (p.tamari === "yes") tags.push(h("span", { class: "tag good" }, "GF soy sauce"));
+  else if (p.tamari && p.tamari !== "n/a") tags.push(h("span", { class: "tag" }, "Soy sauce: " + (p.tamari === "ask" ? "ask" : p.tamari)));
+  if (hasDelivery(p)) tags.push(h("span", { class: "tag" }, "Delivery: " + arr(p.delivery).join(", ")));
+  if (arr(p.quinoa_oat_flags).length) tags.push(h("span", { class: "tag warn" }, "Quinoa / oat risk"));
+  if (status) tags.push(h("span", { class: "tag " + (status === "tried_ok" ? "good" : status === "avoid" ? "warn" : "") }, STATUS.find(([k]) => k === status)?.[1] || status));
+
+  return h("article", { class: "card", id: "p-" + p.id },
     h("div", { class: "card-top" },
-      h("div", {}, h("h2", {}, p.name || "Unnamed"), h("div", { class: "meta" }, [p.area, p.cuisine].filter(Boolean).join(" · "))),
-      h("div", { class: "chips" },
-        p.evidence_level && h("span", { class: "ev " + p.evidence_level }, LEVEL_LABEL[p.evidence_level] || p.evidence_level),
-        p.tamari && p.tamari !== "n/a" && h("span", { class: "ev " + (p.tamari === "yes" ? "restaurant_marks_gf" : "ask_first") }, "Tamari: " + p.tamari))),
+      h("div", {}, h("h2", {}, p.name || "Unnamed"), h("div", { class: "meta" }, [p.cuisine, p.area].filter(Boolean).join(" · "))),
+      p.evidence_level && h("span", { class: "ev " + p.evidence_level }, LEVEL_LABEL[p.evidence_level] || p.evidence_level)),
+    tags.length > 0 && h("div", { class: "tags" }, tags),
     p.summary && h("p", { class: "summary" }, p.summary),
-    arr(p.quinoa_oat_flags).length > 0 && h("div", { class: "flag" }, h("b", {}, "Quinoa / oats: "), arr(p.quinoa_oat_flags).join("; ")),
-    (safe.length || ask.length || avoid.length) ? h("div", { class: "dishes" },
-      safe.length > 0 && h("div", {}, h("h3", { class: "ok" }, "Likely fine"), h("ul", {}, safe.map((d) => h("li", {}, d.dish, d.note ? h("small", {}, " — " + d.note) : null)))),
-      ask.length > 0 && h("div", {}, h("h3", { class: "ask" }, "Ask first"), h("ul", {}, ask.map((d) => h("li", {}, d.dish, d.note ? h("small", {}, " — " + d.note) : null)))),
-      avoid.length > 0 && h("div", {}, h("h3", { class: "bad" }, "Avoid"), h("ul", {}, avoid.map((d) => h("li", {}, d.dish, d.reason ? h("small", {}, " — " + d.reason) : null))))
-    ) : null,
-    h("div", { class: "meta" }, "Delivery: " + (arr(p.delivery).length ? arr(p.delivery).join(", ") : "unknown"), site ? " · " : "", site && h("a", { href: site, target: "_blank", rel: "noopener" }, "website")),
+    h("div", { class: "actions" },
+      h("a", { class: "btn small ghost", href: mapsUrl(p), target: "_blank", rel: "noopener" }, "Map"),
+      site && h("a", { class: "btn small ghost", href: site, target: "_blank", rel: "noopener" }, "Website"),
+      arr(p.questions).length > 0 && h("button", { class: "btn small ghost", onclick: () => copy(whatsappText(p)) }, "Copy WhatsApp message")),
+    (safe.length || ask.length || avoid.length || arr(p.quinoa_oat_flags).length) ? h("details", {},
+      h("summary", {}, "What to order"),
+      arr(p.quinoa_oat_flags).length > 0 && h("div", { class: "flag" }, h("b", {}, "Quinoa / oats: "), arr(p.quinoa_oat_flags).join("; ")),
+      h("div", { class: "dishes" },
+        safe.length > 0 && h("div", {}, h("h3", { class: "ok" }, "Likely fine"), dishList(safe, "note")),
+        ask.length > 0 && h("div", {}, h("h3", { class: "ask" }, "Ask first"), dishList(ask, "note")),
+        avoid.length > 0 && h("div", {}, h("h3", { class: "bad" }, "Avoid"), dishList(avoid, "reason")))) : null,
     arr(p.questions).length > 0 && h("details", {},
-      h("summary", {}, "Message to send them"),
-      h("div", { class: "qbox" }, whatsappText(p)),
-      h("button", { class: "btn ghost", onclick: () => copy(whatsappText(p)) }, "Copy message")),
+      h("summary", {}, "Questions to ask them"),
+      h("div", { class: "qbox" }, whatsappText(p))),
     arr(p.sources).length > 0 && h("details", { class: "sources" },
       h("summary", {}, "Sources (" + arr(p.sources).length + ")" + (p.researched ? " · checked " + p.researched : "")),
       h("ul", {}, arr(p.sources).map((s) => { const u = safeUrl(s); return h("li", {}, u ? h("a", { href: u, target: "_blank", rel: "noopener" }, u) : String(s)); }))),
-    db && canWrite && h("div", { class: "mine" },
-      h("div", { class: "seg", role: "group", "aria-label": "My status" },
-        STATUS.map(([k, label]) => h("button", { class: "s-" + k, "aria-pressed": String(status === k), onclick: () => setStatus(k) }, label))),
-      h("button", { class: "btn ghost", onclick: toggleConfirmed }, mine ? "Undo: I checked it" : "I checked this myself")),
-    db && canWrite && notes
+    db && canWrite && h("details", {},
+      h("summary", {}, "Mine: status and notes"),
+      h("div", { class: "actions" },
+        h("div", { class: "seg", role: "group", "aria-label": "My status" },
+          STATUS.map(([k, label]) => h("button", { class: "s-" + k, "aria-pressed": String(status === k), onclick: () => updatePlace(p.id, { status: status === k ? null : k }) }, label))),
+        h("button", { class: "btn small ghost", onclick: toggleConfirmed }, mine ? "Undo: I checked it" : "I checked this myself")),
+      notes)
   );
 }
 
-function renderPlaces() {
+function matches(p, opts = {}) {
   const q = $("q").value.trim().toLowerCase(), c = $("fCuisine").value, lv = $("fLevel").value, st = $("fStatus").value;
+  if (filt.mode === "delivery" && !hasDelivery(p)) return false;
+  if (filt.mode === "dine" && /online|delivery only/i.test(p.area || "")) return false;
+  if (!opts.ignoreArea && filt.area !== "all" && !areasOf(p).includes(filt.area)) return false;
+  if (c !== "all" && p.cuisine !== c) return false;
+  if (lv !== "all" && p.evidence_level !== lv) return false;
+  if (st === "none" ? p.status : st !== "all" && p.status !== st) return false;
+  if (q) {
+    const hay = [p.name, p.area, p.cuisine, p.summary, ...arr(p.safe_dishes).map((d) => d.dish), ...arr(p.ask_dishes).map((d) => d.dish)].join(" ").toLowerCase();
+    if (!hay.includes(q)) return false;
+  }
+  return true;
+}
+const byRank = (a, b) =>
+  (a.status === "avoid") - (b.status === "avoid") ||
+  (b.status === "tried_ok") - (a.status === "tried_ok") ||
+  (LEVEL_RANK[a.evidence_level] ?? 3) - (LEVEL_RANK[b.evidence_level] ?? 3) ||
+  String(a.name).localeCompare(String(b.name));
+
+function renderChips() {
+  const modes = [["all", "Everything"], ["delivery", "Delivery"], ["dine", "Dine in"]];
+  $("modeRow").replaceChildren(...modes.map(([k, label]) => h("button", { class: "chip", "aria-pressed": String(filt.mode === k), onclick: () => { filt.mode = k; renderPlaces(); } }, label)));
+  const base = places.filter((p) => matches(p, { ignoreArea: true }));
+  const counts = Object.fromEntries(AREAS.map(([n]) => [n, base.filter((p) => areasOf(p).includes(n)).length]));
+  $("areaRow").replaceChildren(
+    h("button", { class: "chip", "aria-pressed": String(filt.area === "all"), onclick: () => { filt.area = "all"; renderPlaces(); } }, "All areas", h("small", {}, base.length)),
+    ...AREAS.filter(([n]) => counts[n] > 0 || filt.area === n).map(([n]) =>
+      h("button", { class: "chip", "aria-pressed": String(filt.area === n), onclick: () => { filt.area = filt.area === n ? "all" : n; renderPlaces(); } }, n, h("small", {}, counts[n]))));
+}
+
+function renderSafe() {
+  const safe = places.filter((p) => p.status === "tried_ok" || p.evidence_level === "you_confirmed").sort(byRank);
+  $("safeWrap").hidden = safe.length === 0;
+  $("safeStrip").replaceChildren(...safe.map((p) => h("button", { onclick: () => jumpTo(p.id) }, p.name, h("small", {}, [p.cuisine, (p.area || "").split(/[,(;]/)[0]].filter(Boolean).join(" · ")))));
+}
+
+function renderPlaces() {
   const cuisines = [...new Set(places.map((p) => p.cuisine).filter(Boolean))].sort();
   const sel = $("fCuisine"), cur = sel.value;
   sel.replaceChildren(h("option", { value: "all" }, "All cuisines"), ...cuisines.map((x) => h("option", { value: x }, x)));
   sel.value = cuisines.includes(cur) ? cur : "all";
-
-  const shown = places.filter((p) => {
-    if (c !== "all" && p.cuisine !== c) return false;
-    if (lv !== "all" && p.evidence_level !== lv) return false;
-    if (st === "none" ? p.status : st !== "all" && p.status !== st) return false;
-    if (q) {
-      const hay = [p.name, p.area, p.cuisine, p.summary, ...arr(p.safe_dishes).map((d) => d.dish), ...arr(p.ask_dishes).map((d) => d.dish)].join(" ").toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  }).sort((a, b) =>
-    (a.status === "avoid") - (b.status === "avoid") ||
-    (b.status === "tried_ok") - (a.status === "tried_ok") ||
-    (LEVEL_RANK[a.evidence_level] ?? 3) - (LEVEL_RANK[b.evidence_level] ?? 3) ||
-    String(a.name).localeCompare(String(b.name)));
-
+  renderChips(); renderSafe();
+  const shown = places.filter((p) => matches(p)).sort(byRank);
   $("count").textContent = places.length ? `${shown.length} of ${places.length} places` : "";
+  $("heroSub").textContent = places.length ? `${places.length} Dubai places, checked against your rules.` : "Dubai places, checked against your rules.";
   $("list").replaceChildren(...(shown.length ? shown.map(card) : [h("div", { class: "empty" },
-    places.length ? "Nothing matches these filters." : "No places saved yet. Research runs add restaurants here, and you can add one yourself from Check a menu.")]));
+    places.length ? "Nothing matches these filters. Try another area or clear the search." : "No places saved yet. Add one from Check a menu.")]));
 }
 
-/* ---------- menu checker ---------- */
-let sample = null, ctl = null, checkerOff = false;
+function jumpTo(id) {
+  showTab("find");
+  let el = $("p-" + id);
+  if (!el) {
+    filt.mode = "all"; filt.area = "all";
+    $("q").value = ""; $("fCuisine").value = "all"; $("fLevel").value = "all"; $("fStatus").value = "all";
+    renderPlaces(); el = $("p-" + id);
+  }
+  if (!el) return;
+  el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 2200);
+}
 
+/* ---------- ask claude ---------- */
+let askCtl = null;
+const SAMPLE_ERR = {
+  not_granted: "Claude isn't allowed on this page yet. Allow it from the page's permissions to use Ask and the menu checker.",
+  rate_limited: "Too many questions right now. Try again in a few minutes.",
+  invalid_json: "The answer came back garbled. Ask again.",
+  prompt_too_large: "That's too much text. Paste one section at a time.",
+  image_rejected: "One screenshot couldn't be read. Try a JPEG or PNG.",
+  session_expired: "Sign in to Claude again, then retry."
+};
+const FATAL = ["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"];
+
+function placeLine(p) {
+  const status = { to_try: "want to try", tried_ok: "FINE FOR ME", avoid: "AVOID" }[p.status] || "-";
+  const dishes = arr(p.safe_dishes).slice(0, 3).map((d) => d.dish).join("; ");
+  return [p.id, p.name, (p.area || "").slice(0, 70), p.cuisine, LEVEL_LABEL[p.evidence_level] || "?", "GF soy:" + (p.tamari || "?"),
+    "delivery:" + (arr(p.delivery).join("/") || "-"), "my status:" + status, "likely fine:" + (dishes || "-"),
+    arr(p.quinoa_oat_flags).length ? "QUINOA/OAT RISK" : ""].join(" | ");
+}
+
+async function ask(question) {
+  if (!sample || !question.trim()) return;
+  askCtl?.abort(); askCtl = new AbortController();
+  const out = $("askOut"); out.hidden = false;
+  out.replaceChildren(h("div", { class: "answer" }, h("p", {}, "Thinking… (this can take up to a minute)")));
+  $("askGo").disabled = true;
+  const prompt = `You help a person with celiac disease in Dubai pick where to eat or order from.
+Their rules: NEVER ${arr(rules.exclude).join("; ")}. Fine: ${arr(rules.allow).join("; ")}.
+Recommend ONLY places from the list below, by id. Prefer, in this order: places marked "You confirmed it" or "FINE FOR ME", then "Restaurant marks GF", then "Celiacs report it". Use "Ask first" places only when nothing better fits, and say so. Never recommend a place marked AVOID. Mention a quinoa/oat risk when a pick has one. Be honest when the evidence is weak. If the request needs delivery, only pick places with a delivery app listed, or say none are confirmed.
+
+Their request: ${question}
+
+Places (id | name | area | cuisine | evidence | GF soy | delivery | my status | likely-fine dishes | flags):
+${places.filter((p) => p.status !== "avoid").map(placeLine).join("\n")}
+
+Reply with ONLY JSON: {"answer": string (2-3 friendly, plain sentences), "picks": [{"id": string, "why": string (one sentence), "order": string (what to order), "ask": string (the one thing to confirm)}] (1-5 picks, best first)}`;
+  try {
+    const r = await sample.json(prompt, { signal: askCtl.signal });
+    const picks = arr(r?.picks).map((k) => ({ ...k, place: places.find((p) => p.id === String(k.id)) })).filter((k) => k.place);
+    out.replaceChildren(h("div", { class: "answer" },
+      h("p", {}, String(r?.answer || "")),
+      picks.length > 0 && h("div", { class: "picks" }, picks.map((k) => h("div", { class: "pick" },
+        h("b", {}, k.place.name),
+        h("span", {}, String(k.why || "")),
+        k.order && h("span", {}, h("span", { class: "k" }, "Order"), String(k.order)),
+        k.ask && h("span", {}, h("span", { class: "k" }, "Ask"), String(k.ask)),
+        h("button", { class: "linkish", type: "button", onclick: () => jumpTo(k.place.id) }, "Show place →"))))));
+  } catch (e) {
+    if (e?.code === "cancelled") return;
+    out.replaceChildren(h("div", { class: "answer" }, h("p", {}, SAMPLE_ERR[e?.code] || "Something went wrong. Ask again.")));
+    if (FATAL.includes(e?.code)) $("askForm").hidden = true;
+  } finally { $("askGo").disabled = false; }
+}
+$("askForm").addEventListener("submit", (e) => { e.preventDefault(); ask($("askQ").value); });
+$("suggest").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; $("askQ").value = b.textContent; ask(b.textContent); });
+
+/* ---------- menu checker ---------- */
+let ctl = null, checkerOff = false;
 function checkerPrompt(name, text, nImages) {
   return `You are helping a person with celiac disease in Dubai decide what they can order.
 Their rules:
@@ -380,38 +620,34 @@ function renderResult(r) {
   const n = (v) => items.filter((i) => i.verdict === v).length;
   $("cOut").replaceChildren(
     h("p", {}, h("b", {}, r.restaurant || "This menu"), ": " + (r.summary || "")),
-    h("div", { class: "chips" }, h("span", { class: "vtag ok" }, n("ok") + " fine"), h("span", { class: "vtag ask" }, n("ask") + " ask"), h("span", { class: "vtag avoid" }, n("avoid") + " avoid")),
+    h("div", { class: "tags" }, h("span", { class: "vtag ok" }, n("ok") + " fine"), h("span", { class: "vtag ask" }, n("ask") + " ask"), h("span", { class: "vtag avoid" }, n("avoid") + " avoid")),
     h("div", {}, items.map((i) => h("div", { class: "verdict" },
       h("span", { class: "vtag " + (order[i.verdict] != null ? i.verdict : "ask") }, i.verdict || "ask"),
       h("b", {}, i.dish || ""), h("span", { class: "r" }, i.reason || "")))),
     arr(r.questions).length > 0 && h("details", { open: true },
       h("summary", {}, "Questions to send"),
       h("div", { class: "qbox" }, arr(r.questions).map((q, k) => `${k + 1}. ${q}`).join("\n")),
-      h("button", { class: "btn ghost", onclick: () => copy(whatsappText({ name: r.restaurant || "you", questions: r.questions })) }, "Copy as message")),
-    db && canWrite && h("div", { class: "row" }, h("button", { class: "btn", id: "cSave", onclick: () => savePlaceFromResult(r) }, "Save to my places"))
-  );
+      h("button", { class: "btn ghost small", onclick: () => copy(whatsappText({ name: r.restaurant || "you", questions: r.questions })) }, "Copy as WhatsApp message")),
+    db && canWrite && h("div", { class: "row" }, h("button", { class: "btn", onclick: () => savePlaceFromResult(r) }, "Save to my places")));
 }
 
 async function savePlaceFromResult(r) {
   const name = (r.restaurant && r.restaurant !== "unknown" ? r.restaurant : $("cName").value.trim()) || "Unnamed place";
   const id = name.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60) || "place-" + Date.now();
-  const items = arr(r.items);
-  const pick = (v) => items.filter((i) => i.verdict === v);
-  const existing = places.find((p) => p.id === id);
+  const items = arr(r.items), pick = (v) => items.filter((i) => i.verdict === v);
+  const ex = places.find((p) => p.id === id);
   const body = {
-    name, area: existing?.area || "", cuisine: existing?.cuisine || "", website: existing?.website || "",
-    evidence_level: existing?.evidence_level || "ask_first", tamari: existing?.tamari || "unknown",
-    summary: r.summary || "",
+    name, area: ex?.area || "", cuisine: ex?.cuisine || "", website: ex?.website || "",
+    evidence_level: ex?.evidence_level || "ask_first", tamari: ex?.tamari || "unknown", summary: r.summary || "",
     safe_dishes: pick("ok").map((i) => ({ dish: i.dish, note: i.reason })),
     ask_dishes: pick("ask").map((i) => ({ dish: i.dish, note: i.reason })),
     avoid_dishes: pick("avoid").map((i) => ({ dish: i.dish, reason: i.reason })),
-    quinoa_oat_flags: existing?.quinoa_oat_flags || [],
-    delivery: existing?.delivery || [], sources: existing?.sources || [],
-    questions: arr(r.questions), status: existing?.status || null, notes: existing?.notes || "",
+    quinoa_oat_flags: ex?.quinoa_oat_flags || [], delivery: ex?.delivery || [], sources: ex?.sources || [],
+    questions: arr(r.questions), status: ex?.status || null, notes: ex?.notes || "",
     researched: new Date().toISOString().slice(0, 10) + " (menu check)", updated: Date.now()
   };
-  try { await db.doc("places/" + id).set(body); toast("Saved " + name); showTab("places"); }
-  catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
+  try { await db.doc("places/" + id).set(body); toast("Saved " + name); jumpTo(id); }
+  catch { toast("Couldn't save. Try again."); }
 }
 
 $("cGo").addEventListener("click", async () => {
@@ -423,45 +659,38 @@ $("cGo").addEventListener("click", async () => {
   try {
     const opts = { signal: ctl.signal };
     if (files && files.length) opts.images = files;
-    const r = await sample.json(checkerPrompt($("cName").value.trim(), text, files ? files.length : 0), opts);
-    renderResult(r); $("cStatus").textContent = "";
+    renderResult(await sample.json(checkerPrompt($("cName").value.trim(), text, files ? files.length : 0), opts));
+    $("cStatus").textContent = "";
   } catch (e) {
-    const msg = {
-      cancelled: "", not_granted: "Claude isn't allowed on this page. Allow it from the page's permissions to use the checker.",
-      rate_limited: "Too many checks right now. Try again in a few minutes.", invalid_json: "The answer came back garbled. Press Check dishes again.",
-      prompt_too_large: "That menu is too long. Paste one section at a time.", image_rejected: "One screenshot couldn't be read. Try a JPEG or PNG.",
-      session_expired: "Sign in to Claude again, then retry."
-    }[e.code];
-    $("cStatus").textContent = msg ?? "Something went wrong. Try again.";
-    if (["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"].includes(e.code)) checkerOff = true;
-  } finally {
-    $("cGo").disabled = checkerOff;
-    $("cStop").hidden = true;
-  }
+    $("cStatus").textContent = e.code === "cancelled" ? "" : (SAMPLE_ERR[e.code] ?? "Something went wrong. Try again.");
+    if (FATAL.includes(e.code)) checkerOff = true;
+  } finally { $("cGo").disabled = checkerOff; $("cStop").hidden = true; }
 });
 $("cStop").addEventListener("click", () => ctl?.abort());
 $("cImgs").addEventListener("change", () => { const n = $("cImgs").files.length; $("imgNote").textContent = n ? n + " screenshot" + (n > 1 ? "s" : "") + " added" : ""; });
 
 /* ---------- boot ---------- */
+renderChips();
 (async () => {
   if (!window.claude?.use) {
-    $("list").replaceChildren(h("div", { class: "empty" }, "Open this page in Claude to see your saved places."));
-    $("cGo").disabled = true; $("cStatus").textContent = "The checker works when the page is opened in Claude.";
+    $("list").replaceChildren(h("div", { class: "empty" }, "Open this page in Claude to see your places."));
+    $("askForm").hidden = true; checkerOff = true; $("cGo").disabled = true;
+    $("cStatus").textContent = "The checker works when the page is opened in Claude.";
     return;
   }
   const [dbNs, sampleNs, userNs] = await Promise.all([claude.use("db"), claude.use("sample"), claude.use("user")]);
   db = dbNs; sample = sampleNs;
   if (userNs) { const w = await userNs.can("data.write"); canWrite = w !== false; }
-
-  if (!sample) { checkerOff = true; $("cGo").disabled = true; $("cStatus").textContent = "The menu checker isn't available in this view."; }
-  else {
+  if (!sample) {
+    $("askForm").hidden = true; checkerOff = true; $("cGo").disabled = true;
+    $("cStatus").textContent = "The menu checker isn't available in this view.";
+  } else {
     const lim = await sample.limits().catch(() => null);
     if (lim?.images) { $("imgRow").hidden = false; $("cImgs").accept = lim.images.mediaTypes.join(","); }
   }
-
-  if (!db) { $("list").replaceChildren(h("div", { class: "empty" }, "Sign in to Claude to see your saved places.")); return; }
+  if (!db) { $("list").replaceChildren(h("div", { class: "empty" }, "Sign in to Claude to see your places.")); return; }
   db.collection("places").onSnapshot((s) => { places = s.docs.map((d) => ({ id: d.id, ...d.data() })); renderPlaces(); },
     () => $("list").replaceChildren(h("div", { class: "empty" }, "Your places couldn't load. Reload the page to try again.")));
-  db.doc("config/rules").onSnapshot((s) => { if (s.exists) { const d = s.data(); rules = { exclude: arr(d.exclude), allow: arr(d.allow).length ? d.allow : DEFAULT_RULES.allow }; renderRules(); } }, () => {});
+  db.doc("config/rules").onSnapshot((s) => { if (s.exists) { const d = s.data(); rules = { exclude: arr(d.exclude), allow: arr(d.allow).length ? d.allow : DEFAULT_RULES.allow }; renderRules(); renderPlaces(); } }, () => {});
 })();
 </script>
