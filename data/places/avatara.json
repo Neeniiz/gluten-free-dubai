@@ -1,0 +1,41 @@
+{
+  "area": "Dubai Hills",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Breads, dumplings and courses with wheat wrappers",
+      "reason": "Need GF substitution"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Avatara",
+  "notes": "",
+  "questions": [
+    "Can the full menu be made GF? Book with notice.",
+    "Is asafoetida (hing) in the dishes? It is often cut with wheat flour.",
+    "Do any courses contain quinoa or oats?"
+  ],
+  "quinoa_oat_flags": [
+    "Modern Indian tasting menus sometimes use millets, quinoa or oats. Ask in advance."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Tasting menu adapted to GF",
+      "note": "OpenTable says GF diets are catered for on request"
+    }
+  ],
+  "sources": [
+    "https://opentable.com/features/best-gluten-free-restaurants-dubai-dubailand",
+    "https://www.factmagazines.com/uae/dubai/avatara-unveils-its-17-course-culinary-journey-at-a-special-limited-time-price"
+  ],
+  "status": null,
+  "summary": "A special-occasion vegetarian Indian tasting menu that adapts to GF on request. Give advance notice and ask about hing.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

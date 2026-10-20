@@ -1,0 +1,34 @@
+{
+  "area": "Silver Tower, Marasi Drive, Business Bay",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Breads, samosa",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Roobaru",
+  "notes": "",
+  "questions": [
+    "Which dishes can be made gluten-free?",
+    "Is the hing wheat-free?",
+    "Are pakoras made with gram flour only?",
+    "Are gravies flour-free?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Roobaru1.md"
+  ],
+  "status": null,
+  "summary": "An Atly listing marked 'Unverified' (undated) says the food is customizable for gluten-free needs; no celiac reviews were found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

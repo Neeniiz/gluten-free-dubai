@@ -1,0 +1,44 @@
+{
+  "area": "Jumeirah (Four Seasons Resort Dubai at Jumeirah Beach)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dim sum",
+      "reason": "Usually wheat wrappers"
+    },
+    {
+      "dish": "Anything tagged (G)",
+      "reason": "Contains gluten"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Pan-Asian seafood / sushi",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Sea Fu",
+  "notes": "",
+  "questions": [
+    "Do you have tamari for sushi and sashimi?",
+    "Are sashimi and nigiri served without pre-brushed soy or nikiri?",
+    "Which wok and grilled dishes are not tagged (G)?",
+    "Do the sushi rolls contain crab sticks or tempura?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Items without a (G) tag on the current à la carte menu",
+      "note": "The search didn't show item-level tags. Check the menu."
+    }
+  ],
+  "sources": [
+    "https://www.fourseasons.com/dubaijb/dining/restaurants/sea_fu/al-la-carte-menu/",
+    "https://press.fourseasons.com/dubai/hotel-news/2026/sea-fu-new-menu"
+  ],
+  "status": null,
+  "summary": "The official menu has an allergen key that includes gluten, and a 2026 press release confirms a new menu with sushi, but I couldn't see which dishes are tagged (G).",
+  "tamari": "unknown",
+  "tamari_source": "Not stated. The à la carte menu uses allergen codes including (G) Gluten and (S) Soybean.",
+  "updated": 0,
+  "website": "https://www.fourseasons.com/dubaijb/dining/restaurants/sea-fu/"
+}

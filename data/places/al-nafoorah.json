@@ -1,0 +1,56 @@
+{
+  "area": "Jumeirah Al Qasr (Madinat Jumeirah); second branch at Jumeirah Zabeel Saray (Palm)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tabbouleh, kibbeh",
+      "reason": "bulgur"
+    },
+    {
+      "dish": "Fattoush",
+      "reason": "pita croutons"
+    },
+    {
+      "dish": "Rice with vermicelli",
+      "reason": "wheat vermicelli"
+    },
+    {
+      "dish": "Kunafa/baklava",
+      "reason": "wheat pastry"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Lebanese",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Al Nafoorah",
+  "notes": "",
+  "questions": [
+    "Which dishes on today's menu carry the GF mark?",
+    "Is the shish tawook/shawarma marinade free of flour, soy or Maggi?",
+    "Does the toum (garlic sauce) contain starch or flour?",
+    "Is the falafel bound with flour, and is it fried with bread or kibbeh?",
+    "Is the rice plain or cooked with vermicelli?"
+  ],
+  "quinoa_oat_flags": [
+    "None seen; Lebanese kitchens sometimes swap in quinoa tabbouleh as the 'GF' version, so check"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Grilled meats/mezze flagged GF on menu",
+      "note": "OpenTable menu shows a 'GF / G-Gluten Free' legend, but the snippet showed no individual items with the tag; ask staff to point them out"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/al-nafoorah-dubai",
+    "https://www.opentable.com/r/al-nafoorah-jumeirah-zabeel-saray-dubai",
+    "https://wanderlog.com/place/details/2214268/al-nafoorah-jumeirah-al-qasr"
+  ],
+  "status": null,
+  "summary": "The restaurant's own menu (via OpenTable, undated) uses a gluten-free legend, and Wanderlog reviewers say it accommodates gluten-free and dairy-free needs; no celiac-specific review was found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

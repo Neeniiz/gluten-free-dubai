@@ -1,0 +1,48 @@
+{
+  "area": "Al Quoz, Sheikh Zayed Rd, Motor City, Ibn Battuta kiosk",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Unlabelled items",
+      "reason": "This is a mixed bakery; an Atly reviewer said GF items were hard to find or poorly marked"
+    }
+  ],
+  "batch": "bakery",
+  "cuisine": "Café",
+  "delivery": [
+    "Deliveroo"
+  ],
+  "evidence_level": "ask_first",
+  "name": "The Lime Tree Cafe & Kitchen (GF bakery range)",
+  "notes": "",
+  "questions": [
+    "Is the GF bakery range still made at every branch?",
+    "Which GF items contain oats or quinoa?",
+    "Which items are GF on Deliveroo?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask whether the GF breads, crackers or muffins contain oats or quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "GF cakes, slices, muffins, cookies, crackers, breads",
+      "note": "GF line launched in 2018 (the owner has coeliac disease)"
+    },
+    {
+      "dish": "GF pancakes, GF brownie",
+      "note": "Labelled GF on Deliveroo"
+    }
+  ],
+  "sources": [
+    "https://gulfnews.com/going-out/lime-tree-cafe-goes-gluten-free-1.1833835",
+    "https://deliveroo.ae/menu/dubai/motor-city/lime-tree-motor-city",
+    "https://www.atly.com/gluten-free/location/The-Lime-Tree-Caf%C3%A9-Kitchen"
+  ],
+  "status": null,
+  "summary": "Gulf News reported a full gluten-free bakery line in 2018 and Deliveroo still labels GF items, but this is a mixed kitchen and recent reviews say the GF items are hard to identify.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

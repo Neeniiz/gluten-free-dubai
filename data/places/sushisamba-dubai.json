@@ -1,0 +1,42 @@
+{
+  "area": "Palm Jumeirah (The St. Regis Dubai The Palm, 51st floor)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura, crispy rolls, teriyaki, moqueca if thickened, sauces with regular soy",
+      "reason": "Wheat / soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "SUSHISAMBA Dubai",
+  "notes": "",
+  "questions": [
+    "Do you have a Dubai gluten matrix?",
+    "Is tamari available?",
+    "Which dishes contain quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "Peruvian-style menus sometimes use quinoa, so check salads and ceviches"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "GF-marked items (ask for the Dubai gluten matrix)",
+      "note": "The group makes these for other sites"
+    }
+  ],
+  "sources": [
+    "https://bbcgoodfoodme.com/news/sushisamba-dubai-adds-new-dishes-to-its-award-winning-menu",
+    "https://www.sushisamba.com/propeller/uploads/2019/09/SS-LON-Gluten-Sept-2019-Matrix-1.pdf",
+    "https://www.thedailymeal.com/sushi-samba-launches-gluten-free-menu"
+  ],
+  "status": null,
+  "summary": "The group has gluten matrices and uses tamari elsewhere, but Dubai is unconfirmed.",
+  "tamari": "unknown",
+  "tamari_source": "The group publishes gluten matrices for London and Covent Garden, and the US GF menu uses tamari. Dubai coverage only says the menu has GF options. The group says it is 'not a gluten-free establishment'.",
+  "updated": 0,
+  "website": "https://www.sushisamba.com/"
+}

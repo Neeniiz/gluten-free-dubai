@@ -1,0 +1,38 @@
+{
+  "area": "Dubai Hills Mall",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura, crunchy, kanikama, eel, teriyaki rolls",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Sushi Library (Dubai Hills Mall)",
+  "notes": "",
+  "questions": [
+    "Do you have GF soy sauce or tamari?",
+    "Do you have allergen info per roll?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sashimi / nigiri / simple maki",
+      "note": "Only if GF soy sauce is confirmed"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://www.apparelgroup.com/en/sushi-library/"
+  ],
+  "status": null,
+  "summary": "Listed on FMGF as offering GF soy sauce in Dubai. I found no further detail.",
+  "tamari": "unknown",
+  "tamari_source": "Appears on FindMeGlutenFree's Dubai 'gluten-free soy sauce' list. I couldn't read the review text.",
+  "updated": 0,
+  "website": "https://www.apparelgroup.com/en/sushi-library/"
+}

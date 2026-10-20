@@ -1,0 +1,42 @@
+{
+  "area": "Dubai (branch locations not confirmed in this search)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Anything not marked GF/GFA",
+      "reason": "The brand says the kitchen layout means dishes can't be guaranteed allergen-free"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Lebanese",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Comptoir Libanais",
+  "notes": "",
+  "questions": [
+    "Does the Dubai branch use the GF/GFA codes and have the allergen matrix?",
+    "Is the Dubai menu the same as the UK one?",
+    "Which 'GFA' dishes need bread removed versus a recipe change?",
+    "Is the falafel fried in a shared fryer?"
+  ],
+  "quinoa_oat_flags": [
+    "The UK menus may include quinoa salads; check the Dubai menu"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Orange blossom mouhalabia",
+      "note": "Marked GF on an older UK franchise menu, not the Dubai menu"
+    }
+  ],
+  "sources": [
+    "https://www.comptoirlibanais.com/menus/",
+    "https://mcarthurglen.com/globalassets/cl_mainmenu_standarda3_winter2024.pdf"
+  ],
+  "status": null,
+  "summary": "The UK menus (2022-2024) use GF and GFA codes plus a full allergen table, but I could not confirm that current Dubai branches exist or that they use the same menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.comptoirlibanais.com/menus/"
+}

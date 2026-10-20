@@ -1,0 +1,48 @@
+{
+  "area": "JLT",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Seafood gumbo",
+      "reason": "Traditionally thickened with a flour roux."
+    },
+    {
+      "dish": "Fried chicken, po'boys, fried shrimp",
+      "reason": "Breaded or on wheat bread, and the fryer is probably shared."
+    },
+    {
+      "dish": "Cajun gravies and étouffée",
+      "reason": "Roux-based."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "American (New Orleans)",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Nola Eatery & Social House",
+  "notes": "",
+  "questions": [
+    "Which dishes are gluten-free, and is the gumbo made with a flour roux?",
+    "Do the Cajun spice blends contain wheat?",
+    "Do you have a gluten-free bun or bread?",
+    "Are the fries in a fryer shared with breaded items?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Steak or grilled seafood without sauce",
+      "note": "Bayut says there are gluten-free options, but the dishes are not specified."
+    }
+  ],
+  "sources": [
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai",
+    "https://wanderlog.com/place/details/739486/nola-eatery--social-house"
+  ],
+  "status": null,
+  "summary": "An undated Bayut roundup mentions gluten-free options without naming dishes; New Orleans cooking is heavy on roux, so this is ask-first only.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

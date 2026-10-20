@@ -1,0 +1,52 @@
+{
+  "area": "Jumeirah Lakes Towers (JLT)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bulgogi / galbi",
+      "reason": "Marinated in regular soy sauce"
+    },
+    {
+      "dish": "Gochujang or doenjang dishes and ssamjang dip",
+      "reason": "These pastes often contain wheat or barley"
+    },
+    {
+      "dish": "Japchae, jajangmyeon, pajeon, tteokbokki",
+      "reason": "Soy sauce, wheat noodles, flour batter, or gochujang"
+    },
+    {
+      "dish": "Barley tea (boricha)",
+      "reason": "Barley"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Korean",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Hyu Korean Restaurant",
+  "notes": "",
+  "questions": [
+    "Can you grill unmarinated meat on a clean grill or with fresh paper?",
+    "Is your gochujang or ssamjang wheat- and barley-free, or do you have GF soy sauce?",
+    "Which banchan contain soy sauce, gochujang or flour?",
+    "Is the tea barley tea?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Unmarinated grilled meat (salt and pepper) with plain rice",
+      "note": "Not confirmed. This is the standard lower-risk Korean order, and you'd need to ask."
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g295424-d3919393-Reviews-Hyu_Korean_Restaurant-Dubai_Emirate_of_Dubai.html",
+    "https://intravel.net/dubai/restaurants-cafes/hyu-korean-restaurant"
+  ],
+  "status": null,
+  "summary": "This was the only Korean place I found with any GF signal: Tripadvisor and Intravel tag it 'gluten free options', with no detail. I found no Korean restaurant in Dubai with celiac reviews.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

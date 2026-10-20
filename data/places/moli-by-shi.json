@@ -1,0 +1,34 @@
+{
+  "area": "Dubai Hills Business Park",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dumplings / bao",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Contemporary Chinese",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "MOLI by SHI",
+  "notes": "",
+  "questions": [
+    "Do you have GF soy sauce or tamari?",
+    "Which duck, seafood or mushroom dishes can be made without regular soy, oyster or hoisin sauce?",
+    "Is a separate wok used for GF orders?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/chinese",
+    "https://joinpearl.co/restaurants/dubai/moli-by-shi"
+  ],
+  "status": null,
+  "summary": "FMGF lists it, but the only GF detail is an unconfirmed comment mentioning soy sauce. Phone +971 4 276 3338 to confirm (evidence undated).",
+  "tamari": "unknown",
+  "tamari_source": "FMGF says soy sauce is 'mentioned in comments' only. Not confirmed.",
+  "updated": 0,
+  "website": ""
+}

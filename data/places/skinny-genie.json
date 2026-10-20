@@ -1,0 +1,44 @@
+{
+  "area": "Al Sufouh / Dubai Internet City (167 Abdullah Omran Taryam St)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Bakery",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "community_reports",
+  "name": "Skinny Genie (cafe and bakery)",
+  "notes": "",
+  "questions": [
+    "Do any products contain oats or quinoa?",
+    "Is the Al Sufouh cafe still open, or is it wholesale and delivery only now?",
+    "Which apps deliver your products?"
+  ],
+  "quinoa_oat_flags": [
+    "Health-focused bakery and no ingredient lists found. Check muffins and breakfast items for oats, oat flour or quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Chocolate raspberry muffins",
+      "note": "Named in an Atly review"
+    },
+    {
+      "dish": "Muffins, biscuits, cakes",
+      "note": "Described as gluten-free and largely organic (The National, 2018)"
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/delivery-united-arab-emirates-dubai-dubai",
+    "https://connections.inflavourexpo.com/event/inflavour/exhibitor/RXhoaWJpdG9yXzE0NjQ0Mzk=",
+    "https://coeliac.org.uk/document-library/5669-dubai/dubai.pdf",
+    "https://www.thenational.ae/lifestyle/what-we-re-loving-muffins-camera-bags-day-cation-and-lip-balm-1.264025"
+  ],
+  "status": null,
+  "summary": "Atly lists the cafe as 100% dedicated gluten-free, and the brand says it is gluten-free and HACCP-certified (no certifying body named); one blog's claim that it holds Coeliac UK certification is unverified, and the evidence ranges from 2018 to about 2025.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://skinny-genie.com/"
+}

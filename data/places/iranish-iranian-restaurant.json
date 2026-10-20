@@ -1,0 +1,48 @@
+{
+  "area": "Al Wasl Road, Jumeirah 1",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Soup (e.g. ash/jo)",
+      "reason": "A reviewer says the soup contains gluten (ash often has noodles or barley)"
+    },
+    {
+      "dish": "Bread",
+      "reason": "Wheat; bought in from a supplier"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Persian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Iranish Iranian Restaurant",
+  "notes": "",
+  "questions": [
+    "Is the koobideh mince bound with breadcrumbs or flour?",
+    "Are any kebab marinades made with soy or Maggi?",
+    "Is the rice tahdig cooked with bread or lavash on the bottom?",
+    "Which stews and soups contain noodles, barley or flour?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Kebabs (e.g. koobideh/joojeh)",
+      "note": "A celiac reviewer said the chef confirmed no gluten"
+    },
+    {
+      "dish": "Iranian rice (chelow)",
+      "note": "Praised by the same celiac reviewer"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/iranish/4959343614754816",
+    "https://www.atly.com/gluten-free/location/IranishIranianRestaurant"
+  ],
+  "status": null,
+  "summary": "FMGF and Atly reviews (2025 or earlier) praise the kebab and rice for celiacs, but one listing warns it is not dedicated and there is no GF info on the menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

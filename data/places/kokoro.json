@@ -1,0 +1,46 @@
+{
+  "area": "Alserkal Avenue, Al Quoz (a branch inside The District, Dubai Mall, is reported as coming)",
+  "ask_dishes": [
+    {
+      "dish": "Rolls with sauces, glazes or spicy mayo",
+      "note": "Ask whether each sauce is GF"
+    }
+  ],
+  "avoid_dishes": [
+    {
+      "dish": "Anything with tempura, crunchy bits or crab sticks",
+      "reason": "Wheat batter / wheat starch"
+    }
+  ],
+  "confirmed_on": "2026-10-18",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "you_confirmed",
+  "name": "Kokoro",
+  "notes": "",
+  "prev_evidence_level": "ask_first",
+  "questions": [
+    "Can I have the gluten-free soy sauce, please?",
+    "Which hand rolls have sauces or glazes, and are they gluten-free?",
+    "Is the crab real crab or crab sticks?",
+    "Is anything topped with tempura flakes?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Hand rolls with raw fish or vegetables, with GF soy",
+      "note": "Ask for the GF soy sauce every time"
+    }
+  ],
+  "sources": [
+    "https://rumemagazine.com/dining/kokoro-alserkal-avenue/",
+    "https://www.theworlds50best.com/restaurants/best-in-middle-east-and-north-africa/the-list/Kokoro.html"
+  ],
+  "status": "tried_ok",
+  "summary": "A hand-roll bar from Texas chefs Patrick Pham and Daniel Lee. You confirmed it has gluten-free soy sauce. The roll fillings and sauces still need checking.",
+  "tamari": "yes",
+  "tamari_source": "You confirmed they have gluten-free soy sauce. No public source I found mentions it.",
+  "updated": 0,
+  "website": ""
+}

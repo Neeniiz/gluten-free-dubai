@@ -1,0 +1,41 @@
+{
+  "area": "Dubai Creek Harbour (Ras Al Khor)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Soulgreen",
+  "notes": "",
+  "questions": [
+    "Is the whole menu gluten-free?",
+    "What flours are in the focaccia and burger bun?",
+    "Which dishes contain quinoa or oats?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask what flour the focaccia is made with",
+    "Healthy-bowl menus often include quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "GF focaccia",
+      "note": "Highlighted on Atly"
+    },
+    {
+      "dish": "Vegan GF burger",
+      "note": "Highlighted on Atly"
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/delivery-united-arab-emirates-dubai-dubai",
+    "https://atly.com/best/gluten-free/brunch-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "Atly lists it as celiac-friendly, with a menu described as gluten- and dairy-free and a delivery tag, but I found no official menu (listing undated, roughly 2024-2025).",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

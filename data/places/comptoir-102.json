@@ -1,0 +1,45 @@
+{
+  "area": "102 Jumeirah Beach Road, Jumeirah 1",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Comptoir 102",
+  "notes": "",
+  "questions": [
+    "Are the buckwheat pancakes 100% buckwheat?",
+    "Which bowls contain quinoa or oats?",
+    "Is the GF pizza base free of oats?"
+  ],
+  "quinoa_oat_flags": [
+    "Health café: protein bowls, granola and porridge may contain quinoa or oats. Ask about each dish."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Buckwheat pancakes",
+      "note": "A blogger called them their favourite GF pancakes in Dubai. Buckwheat is wheat-free, but confirm no wheat flour is mixed in."
+    },
+    {
+      "dish": "Shakshouka (without bread)",
+      "note": "Ask for GF bread or none"
+    },
+    {
+      "dish": "GF pizza",
+      "note": "Mentioned in one review"
+    }
+  ],
+  "sources": [
+    "https://wanderlog.com/place/details/443479/comptoir-102-healthy-restaurant-and-concept-store-dubai",
+    "https://www.cheapoair.com/things-to-do/dubai/best-breakfast-spots",
+    "https://indagare.com/restaurant/comptoir-102-concept-store-and-healthy-cafe"
+  ],
+  "status": null,
+  "summary": "A Jumeirah health café praised for GF buckwheat pancakes, but likely to use quinoa and oats elsewhere on the menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

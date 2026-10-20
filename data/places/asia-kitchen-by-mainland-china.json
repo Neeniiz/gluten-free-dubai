@@ -1,0 +1,59 @@
+{
+  "area": "Mall of the Emirates (FMGF listing); also BurJuman, Bur Dubai (its ordering site)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dim sum / dumplings",
+      "reason": "Wheat wrappers"
+    },
+    {
+      "dish": "Wheat noodle dishes (hakka, chow mein, ramen)",
+      "reason": "Wheat noodles"
+    },
+    {
+      "dish": "Korean or Japanese dishes with gochujang or teriyaki",
+      "reason": "These sauces often contain wheat or barley"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Pan-Asian / Chinese",
+  "delivery": [
+    "Own online ordering (limetray)"
+  ],
+  "evidence_level": "community_reports",
+  "name": "Asia Kitchen by Mainland China",
+  "notes": "",
+  "questions": [
+    "Which branch keeps GF soy sauce: Mall of the Emirates or BurJuman?",
+    "Are the rice noodles 100% rice, and is the stir-fry sauce made with GF soy?",
+    "Do your soups use oyster sauce or a wheat-based stock?",
+    "Does the sushi contain imitation crab or tempura crunch?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free soups",
+      "note": "A reviewer said they offer GF soups"
+    },
+    {
+      "dish": "Dishes with gluten-free rice noodles",
+      "note": "A reviewer said they have GF rice noodles. Confirm the sauce used."
+    },
+    {
+      "dish": "Sushi",
+      "note": "FMGF lists sushi as a GF item. Ask about imitation crab (kanikama) and tempura bits."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/chinese",
+    "https://www.findmeglutenfree.com/ae/dubai/sushi",
+    "https://asiakitchenae.limetray.com"
+  ],
+  "status": null,
+  "summary": "FMGF reviewers report GF soy sauce, GF soups and GF rice noodles here, but the reviews are undated and I couldn't confirm which branch they refer to.",
+  "tamari": "yes",
+  "tamari_source": "FMGF lists soy sauce among its GF items (crowd-sourced, undated)",
+  "updated": 0,
+  "website": "https://asiakitchenae.limetray.com"
+}

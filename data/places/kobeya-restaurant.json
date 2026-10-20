@@ -1,0 +1,61 @@
+{
+  "area": "Dubai Marina (Marina Gate 1). The older Wasl Vita Mall branch on Al Wasl Rd is listed as permanently closed.",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Any salad, bowl, porridge or granola that may contain quinoa or oats",
+      "reason": "GF kitchens often use quinoa or GF oats. Nothing I found confirms either way, so check every bowl and breakfast item."
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [
+    "Deliveroo",
+    "Talabat (as 'KOBEYa Kitchen')",
+    "Careem (per glutenfree.qa guide)"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "KOBEYa Restaurant (Marina Gate 1)",
+  "notes": "",
+  "questions": [
+    "Is everything on the premises still 100% gluten-free, including sauces, mirin, miso and rice vinegar?",
+    "Which soy sauce or tamari brand do you use?",
+    "Which dishes contain quinoa or oats?",
+    "What are your current hours? The site lists both 9am-11pm and 8am-6pm.",
+    "Is the Marina Gate branch the only one open?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Dedicated-GF cafes commonly use quinoa and GF oats, so check bowls, salads, breakfast and baked goods."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Smoked Salmon Sushi Rolls",
+      "note": "A top seller on Talabat. The whole menu is described as gluten-free."
+    },
+    {
+      "dish": "Vegan Sushi Roll / KOBEYa Beef Sushi Roll",
+      "note": "Listed on the KOBEYa site. Covered by its claim of a fully gluten-free kitchen."
+    },
+    {
+      "dish": "Ramen, donburi, rice dishes",
+      "note": "Reported to be GF versions (glutenfree.qa 2026 guide, Arab News). Ask what the noodles are made of."
+    }
+  ],
+  "sources": [
+    "https://www.kobeya.ae/",
+    "https://www.kobeya.ae/kobeya-best-gluten-free-japanese-food-dubai",
+    "https://deliveroo.ae/en/menu/dubai/marina/kobeya-dm",
+    "https://www.talabat.com/uae/kobeya-kitchen",
+    "https://www.findmeglutenfree.com/biz/kobeya-restaurant/4981399952687104",
+    "https://www.findmeglutenfree.com/biz/gluten-free-dubai-kobeya/5813602463383552",
+    "https://www.tripadvisor.com/Restaurant_Review-g295424-d24863171-Reviews-Kobeya_Restaurant-Dubai_Emirate_of_Dubai.html",
+    "https://glutenfree.qa/dubai-restaurants/"
+  ],
+  "status": null,
+  "summary": "The strongest option: a Japanese cafe that says its kitchen is fully gluten-free, with sushi rolls, ramen and donburi, and celiac reviewers report no reactions.",
+  "tamari": "unknown",
+  "tamari_source": "The restaurant says its whole kitchen uses no wheat or gluten ingredients (kobeya.ae), so any soy sauce should be GF. No source names the exact sauce. Ask which brand they use.",
+  "updated": 0,
+  "website": "https://www.kobeya.ae/"
+}

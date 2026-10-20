@@ -1,0 +1,37 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Meal plan",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "ask_first",
+  "name": "Basiligo",
+  "notes": "",
+  "questions": [
+    "Can you build a fully gluten-free plan with no quinoa or oats?",
+    "Do you use GF soy sauce?",
+    "How do you label allergens?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask them to remove quinoa and oats from every meal"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Custom plan after a nutritionist consult",
+      "note": "You can swap out dishes"
+    }
+  ],
+  "sources": [
+    "https://whatson.ae/2022/01/tried-and-tested-dubais-best-homegrown-meal-plan-concepts/"
+  ],
+  "status": null,
+  "summary": "A 2022 What's On review says the plan is built with an in-house nutritionist and dishes can be swapped; nothing I found mentions gluten, so this is ask-first only.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

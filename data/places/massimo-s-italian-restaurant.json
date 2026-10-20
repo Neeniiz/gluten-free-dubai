@@ -1,0 +1,51 @@
+{
+  "area": "City Walk (45 Al Safa St); a Dubai Marina branch is also mentioned",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Anything fried or breaded",
+      "reason": "Probably a shared fryer (OK for you, but note it)."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Italian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Massimo's Italian Restaurant",
+  "notes": "",
+  "questions": [
+    "What flours are in the GF pizza dough? Is there any oat flour?",
+    "What brand of GF pasta do you use?",
+    "Is the GF pizza baked on a tray or screen, or directly on the shared oven floor?",
+    "Do the GF bread and the pasta sauces contain any flour or roux?"
+  ],
+  "quinoa_oat_flags": [
+    "The ingredients of the GF pizza base are unknown. Ask whether it contains oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free pizza (e.g. turkey ham and rocket)",
+      "note": "Reviewers call the GF dough crunchy yet soft, and one called it 'the best in Dubai'."
+    },
+    {
+      "dish": "Gluten-free pasta",
+      "note": "Listed, but reviewers rate it below the pizza. The brand is unknown."
+    },
+    {
+      "dish": "Gluten-free bread",
+      "note": "Mentioned on a listing."
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/italian-united-arab-emirates",
+    "https://www.atly.com/best/gluten-free/italian-united-arab-emirates-dubai",
+    "https://atly.com/best/gluten-free/open-late-united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "Only user reviews on Atly support this place, and they consistently praise the GF pizza at City Walk; the reviews are undated and I found no official menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

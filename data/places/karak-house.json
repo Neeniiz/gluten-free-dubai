@@ -1,0 +1,46 @@
+{
+  "area": "Downtown (Burj Khalifa view); other branches unknown",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Luqaimat",
+      "reason": "wheat flour dumplings"
+    },
+    {
+      "dish": "Harees",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Chebab/regag bread, karak with biscuits",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Machboos",
+      "reason": "check for vermicelli or Maggi stock"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Emirati",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Karak House",
+  "notes": "",
+  "questions": [
+    "Is the machboos made with Maggi or stock cubes containing wheat?",
+    "Are eggs or balaleet made with wheat vermicelli?",
+    "Is there anything gluten-free besides drinks?",
+    "Is anything fried alongside luqaimat?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://wanderlog.com/list/geoCategory/1584925/best-emirati-restaurants-in-dubai"
+  ],
+  "status": null,
+  "summary": "One undated Wanderlog review says the menu suits gluten-free and dairy-free diners; Emirati staples carry many wheat traps, so this is weak evidence.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

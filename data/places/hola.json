@@ -1,0 +1,38 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Desserts",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "community_reports",
+  "name": "hOLa (Hola Keto)",
+  "notes": "",
+  "questions": [
+    "Is everything gluten-free?",
+    "Do you use oat fibre or oat flour?",
+    "Is there a website or Instagram for ordering?"
+  ],
+  "quinoa_oat_flags": [
+    "No ingredient info found. Ask about oat fibre"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Keto desserts",
+      "note": "Described as low-carb, gluten-free and sugar-free"
+    }
+  ],
+  "sources": [
+    "https://focus.hidubai.com/satisy-your-sweet-cravings-at-home/",
+    "https://www.findmeglutenfree.com/ae/dubai/bakeries"
+  ],
+  "status": null,
+  "summary": "FMGF search snippets list it as a dedicated gluten-free bakery, and a Hi Dubai post describes keto, gluten-free desserts delivered across the UAE; I found no address or official site, and the evidence is undated.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

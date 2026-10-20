@@ -1,0 +1,42 @@
+{
+  "area": "unknown (confirm location)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tabbouleh, kibbeh",
+      "reason": "bulgur"
+    },
+    {
+      "dish": "Fattoush",
+      "reason": "pita croutons"
+    },
+    {
+      "dish": "Sha'iriyah rice",
+      "reason": "vermicelli"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Lebanese",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Ayamna",
+  "notes": "",
+  "questions": [
+    "Which mezze and grills are made without gluten?",
+    "Is the falafel flour-bound or fried with bread?",
+    "Do marinades or toum contain flour or starch?",
+    "Is gluten-free bread available?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://wanderlog.com/list/geoCategory/1584925/best-emirati-restaurants-in-dubai"
+  ],
+  "status": null,
+  "summary": "A single undated Wanderlog review says its gluten-free options were 'excellent'; no menu or celiac detail was found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

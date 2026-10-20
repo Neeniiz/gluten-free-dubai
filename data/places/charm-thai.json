@@ -1,0 +1,45 @@
+{
+  "area": "Dubai Marina (Crowne Plaza Dubai Marina)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Pad thai / stir-fries",
+      "reason": "Often seasoned with oyster or soy sauce. Ask."
+    },
+    {
+      "dish": "Spring rolls",
+      "reason": "Wheat wrappers"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Thai",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Charm Thai",
+  "notes": "",
+  "questions": [
+    "Is the curry paste and fish sauce free of wheat, and is any soy or oyster sauce added?",
+    "Can pad thai be made with tamari and no oyster sauce?",
+    "Is the satay marinade made with regular soy sauce?",
+    "Do fried items share a fryer with battered food?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Thai curry made GF on request",
+      "note": "An FMGF reviewer had a curry made GF. Ask about shrimp paste and soy or oyster sauce."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/thai",
+    "https://www.findmeglutenfree.com/ae/dubai/curry",
+    "https://www.khaleejtimes.com/lifestyle/restaurant-reviews/restaurant-review-charm-thai"
+  ],
+  "status": null,
+  "summary": "There's no GF menu, but an undated FMGF review reports a curry adapted to GF, and a hotel directory tags it gluten-free. It's worth a phone call.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": "https://www.tablecheck.com/de/crowneplaza-dubaimarina-charmthai/reserve"
+}

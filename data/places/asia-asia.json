@@ -1,0 +1,40 @@
+{
+  "area": "Dubai Marina (Pier 7)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "AKA miso salmon",
+      "reason": "Miso is sometimes barley-based. Ask."
+    },
+    {
+      "dish": "Peking duck",
+      "reason": "Wheat pancakes and hoisin"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Pan-Asian / sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Asia Asia",
+  "notes": "",
+  "questions": [
+    "Does the refurbished menu mark GF dishes?",
+    "Do you have tamari for sushi?",
+    "Is the miso rice-based or barley-based?",
+    "Which sushi rolls avoid tempura, crab sticks and teriyaki or eel sauce?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://theglutenfreetravelbliss.com/gluten-free-in-dubai/",
+    "https://www.therooftopguide.com/rooftop-bars-in-dubai/asia-asia-at-pier-7.html",
+    "https://api.factmagazines.com/?p=80088"
+  ],
+  "status": null,
+  "summary": "A 2025 blog says it has GF options and staff trained on gluten sensitivity, but there's no dish detail and the menu changed after a refurbishment.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

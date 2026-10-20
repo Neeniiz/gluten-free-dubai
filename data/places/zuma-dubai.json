@@ -1,0 +1,43 @@
+{
+  "area": "DIFC (Gate Village 06)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Miso-marinated black cod",
+      "reason": "Miso and marinade may contain barley or wheat unless it's on the GF menu"
+    },
+    {
+      "dish": "Tempura, gyoza, teriyaki, ponzu-dressed dishes",
+      "reason": "Wheat / regular soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Zuma Dubai",
+  "notes": "",
+  "questions": [
+    "Is the gluten-free menu still available? Can I see it?",
+    "Do you serve tamari or GF soy at the table?",
+    "Are the robata glazes and ponzu GF?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Items on the GF menu (ask for it)",
+      "note": "Grilled meats, sushi and seafood reportedly included"
+    }
+  ],
+  "sources": [
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai",
+    "https://whatson.ae/2019/06/best-gluten-free-restaurants-in-dubai/"
+  ],
+  "status": null,
+  "summary": "Guides report a dedicated GF menu, but the sources are older and nothing mentions tamari. Ask for the GF menu when booking.",
+  "tamari": "unknown",
+  "tamari_source": "A Bayut guide says Zuma offers a 'special gluten-free Japanese menu' covering grilled meats, sushi and seafood. A 2019 What's On guide says the same. No Dubai source mentions tamari, though a Zuma Istanbul reviewer reports GF soy sauce and a GF menu on request.",
+  "updated": 0,
+  "website": "https://www.zumarestaurant.com/"
+}

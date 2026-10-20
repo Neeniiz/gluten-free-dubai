@@ -1,0 +1,41 @@
+{
+  "area": "Mall of the Emirates; The Beach (JBR); other branches",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dumplings, dim sum, lo mein",
+      "reason": "Wheat"
+    },
+    {
+      "dish": "Anything with hoisin, oyster or regular soy sauce",
+      "reason": "These contain wheat"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Chinese (American-style)",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "P.F. Chang's",
+  "notes": "",
+  "questions": [
+    "Do Dubai branches have the GF menu that US branches have?",
+    "Do you use a GF soy sauce in GF dishes?",
+    "Can a manager take the order using your allergy procedure, with separate pans and cutlery?",
+    "Are the GF sauces (for example on the Mongolian beef or chicken) made without hoisin or oyster sauce?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/chinese",
+    "https://findmeglutenfree.com/biz/pf-changs/5077043474726912",
+    "https://findmeglutenfree.com/biz/pf-changs/5682788373757952",
+    "https://gulfnews.com/amp/story/going-out%2Fpf-changs-co-founder-marks-new-branch-opening-in-abu-dhabi-1.1279806"
+  ],
+  "status": null,
+  "summary": "FMGF reviewers praise the allergy process here: at Mall of the Emirates the manager 'applies a safety procedure', and at The Beach they report separate cutlery and pans. But no source shows a Dubai GF menu or GF soy sauce, and the reviews are undated.",
+  "tamari": "unknown",
+  "tamari_source": "No Dubai source mentions GF soy sauce. The US chain has a GF menu, but an older Gulf News article said GF dishes were still being 'introduced to the region'.",
+  "updated": 0,
+  "website": ""
+}

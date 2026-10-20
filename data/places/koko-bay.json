@@ -1,0 +1,47 @@
+{
+  "area": "Palm Jumeirah (West Beach)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura soft-shell crab maki",
+      "reason": "Tempura batter"
+    },
+    {
+      "dish": "Vegan poke bowl",
+      "reason": "GF status unknown. Probably soy-dressed."
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Bali-inspired Asian / sushi / poke",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "KOKO BAY",
+  "notes": "",
+  "questions": [
+    "Which dishes on your GF list are current?",
+    "Do you have tamari for sushi and poke?",
+    "What is the poke bowl base (rice or quinoa)?",
+    "Which maki don't contain tempura, crab sticks or crunchy toppings?"
+  ],
+  "quinoa_oat_flags": [
+    "The poke bowl base is unknown. Ask about quinoa."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Hawaiian pineapple carpaccio (dessert)",
+      "note": "A diner reported it as GF and DF"
+    }
+  ],
+  "sources": [
+    "https://www.theprochefme.com/koko-bay/amp",
+    "https://www.bbcgoodfoodme.com/news/one-year-anniversary-koko-bay-palm-west-beach-dubai",
+    "https://www.findmeglutenfree.com/ae/dubai/poke"
+  ],
+  "status": null,
+  "summary": "The Pro Chef says the menu includes GF dishes, and poke appears only in FMGF user comments. The articles are older (anniversary-era), so check the current menu.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": "https://kokobay.co"
+}

@@ -1,0 +1,50 @@
+{
+  "area": "Downtown (Dubai Mall), JBR and others",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Gyoza, katsu, tempura, standard ramen/udon",
+      "reason": "Wheat"
+    },
+    {
+      "dish": "Teriyaki / standard sauces",
+      "reason": "Regular soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Pan-Asian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "wagamama (Dubai branches, e.g. Dubai Mall, JBR)",
+  "notes": "",
+  "questions": [
+    "Do you have the gluten-free menu in UAE branches?",
+    "Do you have a GF soy or tamari sachet?",
+    "Are the rice noodles cooked in separate water?"
+  ],
+  "quinoa_oat_flags": [
+    "Check salads and bowls for quinoa (unknown)"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Items on the GF / 'non-gluten' menu",
+      "note": "Ask for it and order via a manager, as FMGF reviewers advise"
+    },
+    {
+      "dish": "GF vegetarian donburi",
+      "note": "Reported at the Abu Dhabi Mall branch, so it may also be in Dubai"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://www.findmeglutenfree.com/chains/wagamama",
+    "https://atly.com/best/gluten-free/delivery-united-arab-emirates-abu-dhabi-abu-dhabi"
+  ],
+  "status": null,
+  "summary": "A chain with a GF menu tradition and FMGF GF-soy listing in Dubai. It's not sushi, but useful.",
+  "tamari": "unknown",
+  "tamari_source": "FMGF lists wagamama on its Dubai GF soy sauce page. UAE Abu Dhabi branches are reported to have a GF menu and staff who accommodate. The UK chain has a 'non-gluten' menu. I found no UAE allergen document.",
+  "updated": 0,
+  "website": "https://www.wagamama.ae/"
+}

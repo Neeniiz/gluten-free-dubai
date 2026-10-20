@@ -1,0 +1,38 @@
+{
+  "area": "Business Bay (The Opus)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Glazed robata items (teriyaki/miso), tempura, gyoza",
+      "reason": "Wheat / soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "ROKA Dubai",
+  "notes": "",
+  "questions": [
+    "Do you have tamari?",
+    "Which robata items can be grilled without soy-based glazes?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sashimi; plain robata items (salt, oil)",
+      "note": "If confirmed"
+    }
+  ],
+  "sources": [
+    "https://intravel.net/dubai/restaurants-cafes/roka",
+    "https://findmeglutenfree.com/biz/roka-akor/44044650"
+  ],
+  "status": null,
+  "summary": "Accommodating according to London reports, with GF options listed in Dubai. Unconfirmed.",
+  "tamari": "unknown",
+  "tamari_source": "An Intravel listing says the Dubai menu has GF options. London FMGF reviewers say there's no GF menu but trained staff adapt dishes. I found no tamari mention.",
+  "updated": 0,
+  "website": "https://www.rokarestaurant.com/"
+}

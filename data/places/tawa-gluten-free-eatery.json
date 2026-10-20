@@ -1,0 +1,44 @@
+{
+  "area": "DIFC Mall, South Market, Gate Avenue Zone D",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Pizza & burgers",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Tawa Gluten-Free Eatery",
+  "notes": "",
+  "questions": [
+    "Is the DIFC branch still open? (An Abu Dhabi branch also exists.)",
+    "Which flours are in your bread, bagel and pizza bases? Any oat or quinoa?",
+    "Are you on Deliveroo, Talabat or Careem?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Ask about oat or quinoa flour in the GF bread, bagel or waffle mixes."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Pizzas",
+      "note": "Listed as 100% dedicated GF. Reviewers praise the crispy GF pizza."
+    },
+    {
+      "dish": "Double-decker burgers and fries",
+      "note": "Listing reports a dedicated GF fryer"
+    },
+    {
+      "dish": "Bagels, breads, waffles, crêpes, desserts",
+      "note": "Per directory listing"
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/pizza-united-arab-emirates",
+    "https://www.atly.com/best/gluten-free/100%25-gf-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "Reported as a 100% gluten-free eatery in DIFC for pizza and burgers. The only evidence is directory listings, so confirm it is open.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

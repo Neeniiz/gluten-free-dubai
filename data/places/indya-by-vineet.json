@@ -1,0 +1,57 @@
+{
+  "area": "Le Royal Meridien Beach Resort, Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Naan, roti, paratha",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Samosa",
+      "reason": "wheat pastry"
+    },
+    {
+      "dish": "Pakora",
+      "reason": "Gluten-free only if made with gram flour alone"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Indya by Vineet",
+  "notes": "",
+  "questions": [
+    "Is the hing used in dals and curries wheat-free?",
+    "Is the dosa cooked on a tawa also used for paratha?",
+    "Are kebab marinades free of atta or wheat flour?",
+    "Are gravies thickened with flour?",
+    "Is the papad gluten-free and fried in clean oil?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Kebabs (tandoor)",
+      "note": "Listed as GF on FindMeGlutenFree"
+    },
+    {
+      "dish": "Dosa",
+      "note": "Rice-lentil batter; listed as GF"
+    },
+    {
+      "dish": "Butter chicken",
+      "note": "Listed as GF; confirm no flour thickener"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/takeout",
+    "https://restaurantsforkings.com/city/dubai/gluten-free-fine-dining/"
+  ],
+  "status": null,
+  "summary": "A FindMeGlutenFree review (2025 page) says the head chef took a coeliac's order personally, and the listing names kebabs, dosa and butter chicken as GF.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

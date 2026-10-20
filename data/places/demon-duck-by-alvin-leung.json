@@ -1,0 +1,36 @@
+{
+  "area": "Bluewaters (Caesars Palace Dubai)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Peking duck with pancakes and hoisin",
+      "reason": "Wheat pancakes and hoisin"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Chinese / Cantonese-Malaysian-Korean fusion",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Demon Duck by Alvin Leung",
+  "notes": "",
+  "questions": [
+    "Can the duck be served without the pancakes, with a GF dipping sauce?",
+    "Do you stock tamari?",
+    "Which mains don't use soy, oyster or hoisin sauce?",
+    "Is there a GF menu, or only a GF dessert?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/asian",
+    "https://bbcgoodfoodme.com/news/demon-duck-caesars-palace-dubai",
+    "https://www.khaleejtimes.com/lifestyle/restaurant-reviews/demon-duck?amp=1"
+  ],
+  "status": null,
+  "summary": "FMGF lists only a GF dessert here. There's no evidence of GF savoury dishes, so call before relying on it (listing undated).",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

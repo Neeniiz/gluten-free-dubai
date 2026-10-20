@@ -1,0 +1,45 @@
+{
+  "area": "Manazel Nad Al Sheba, Meydan",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Desserts",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "The Honestry",
+  "notes": "",
+  "questions": [
+    "Is anything made with oats or quinoa?",
+    "Is everything still gluten-free?",
+    "What lead time do custom cakes need (the listing says 24h)?"
+  ],
+  "quinoa_oat_flags": [
+    "Ingredients not checked. Paleo items are usually grain-free, but confirm there are no oats"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Linzer cookie",
+      "note": "Labelled GF, about AED 35"
+    },
+    {
+      "dish": "'No-reo' cookie",
+      "note": "GF, vegan and paleo, about AED 70"
+    },
+    {
+      "dish": "Hazelnut choco spread",
+      "note": "Labelled GF"
+    }
+  ],
+  "sources": [
+    "https://order.chatfood.io/honest-kitchen/delivery/the-honestry"
+  ],
+  "status": null,
+  "summary": "The brand's own ordering page says all products are gluten-free, refined-sugar-free and seed-oil-free, with about one-hour delivery in Dubai; the page date is unknown and there is no independent review.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://order.chatfood.io/honest-kitchen/delivery/the-honestry"
+}

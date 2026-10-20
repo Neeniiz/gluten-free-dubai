@@ -1,0 +1,37 @@
+{
+  "area": "Jumeirah Beach Road, 27B Street, Villa 5/1B, Jumeirah 1",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Café",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "SEVA Table",
+  "notes": "",
+  "questions": [
+    "Which dishes contain quinoa or oats? (Include oat milk in drinks.)",
+    "What are your current hours?",
+    "Do you deliver?"
+  ],
+  "quinoa_oat_flags": [
+    "High risk. Plant-based health cafés very often use quinoa bowls, overnight oats, granola and oat milk. Ask about every dish."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Breakfast and brunch menu",
+      "note": "The whole menu is gluten-free (billed as the Middle East's first fully GF plant-based café)"
+    }
+  ],
+  "sources": [
+    "https://khaleejtimes.com/entertainment/best-vegan-restaurants-in-dubai",
+    "https://sothebysrealty.ae/the-journal/gluten-free-restaurant-downtown",
+    "https://www.sayidaty.net/node/1830741"
+  ],
+  "status": null,
+  "summary": "A long-running fully gluten-free plant-based café in Jumeirah. Quinoa and oats are a likely problem here.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://sevaexperience.com/cafe"
+}

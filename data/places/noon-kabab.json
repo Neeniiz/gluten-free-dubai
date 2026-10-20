@@ -1,0 +1,44 @@
+{
+  "area": "Dubai Mall food court; also Al Quoz",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bread (noon)",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Ash/soups",
+      "reason": "often noodles or barley"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Persian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Noon & Kabab",
+  "notes": "",
+  "questions": [
+    "Is the kebab mince bound with breadcrumbs?",
+    "Is any marinade made with soy or Maggi?",
+    "Is the rice cooked plain, with no vermicelli or bread tahdig?",
+    "Is the bread served on the same tray as the rice?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Kebab with rice",
+      "note": "One unverified review claims 'everything on the menu is gf'; don't rely on it"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Noon-Kabab",
+    "https://magicpin.com/uae/Dubai/Al-Quoz/Restaurant/Noon-and-Kabab/store/10cb3a/menu"
+  ],
+  "status": null,
+  "summary": "Atly lists it as unverified, with one undated review claiming the menu is gluten-free and no menu marking; treat it as ask-first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,44 @@
+{
+  "area": "Business Bay / Sheikh Zayed Rd (JW Marriott Marquis)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Teppanyaki",
+      "reason": "A reviewer was told it couldn't be guaranteed GF (shared sauces and griddle)"
+    },
+    {
+      "dish": "All-you-can-eat sushi items with tempura, crunchy, kanikama or eel",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Izakaya (JW Marriott Marquis)",
+  "notes": "",
+  "questions": [
+    "Is GF soy sauce available, including during the all-you-can-eat sushi deal?",
+    "Which AYCE items are GF?",
+    "Can the teppanyaki be cooked on a cleaned griddle with salt and oil only?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sushi and sashimi with GF soy sauce",
+      "note": "A reviewer ate mostly sushi"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Izakaya3.md",
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://www.findmeglutenfree.com/ae/dubai/sushi"
+  ],
+  "status": null,
+  "summary": "Two directories report GF soy sauce and GF sushi. Stick to sushi, because teppanyaki wasn't guaranteed GF.",
+  "tamari": "yes",
+  "tamari_source": "Atly listing: 'Japanese restaurant with gluten-free sushi and gluten-free soy sauce' (unverified). FMGF Dubai soy-sauce page also lists it. A reviewer couldn't get guaranteed-GF teppanyaki, so they ate sushi.",
+  "updated": 0,
+  "website": ""
+}

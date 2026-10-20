@@ -1,0 +1,46 @@
+{
+  "area": "594 Jumeirah Beach Road, Umm Suqeim / Jumeirah 3",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "western",
+  "cuisine": "Brunch café (dedicated GF)",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Lapa Eatery",
+  "notes": "",
+  "questions": [
+    "What flours are the pizza base, burger buns and pancakes made with? Any oat?",
+    "Which dishes contain quinoa, oats or granola?",
+    "Are you still 100% gluten-free?"
+  ],
+  "quinoa_oat_flags": [
+    "As a 'clean eating' café it probably uses oats or quinoa in bowls, granola and bakes. Ask item by item.",
+    "The flour used for the pizza base, burger buns and pancakes is unknown. Check for oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Butternut squash hummus with coconut flatbread",
+      "note": "Named on an Atly listing."
+    },
+    {
+      "dish": "Zucchini pasta",
+      "note": "Named on an Atly listing."
+    },
+    {
+      "dish": "Pancakes, pizza, burgers",
+      "note": "Atly lists all three on its 100% GF menu."
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/brunch-united-arab-emirates-dubai-dubai",
+    "https://yourstory.com/ys-gulf/dubai-lapa-eatery-clean-food-concept-jumeirah",
+    "https://opentable.com/features/best-gluten-free-restaurants-dubai-dubailand"
+  ],
+  "status": null,
+  "summary": "A 2022 YourStory article and current Atly and OpenTable listings describe it as gluten, dairy and sugar free; the menu specifics are from aggregators.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

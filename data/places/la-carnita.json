@@ -1,0 +1,44 @@
+{
+  "area": "InterContinental, Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Fried or battered fillings (e.g. fish tacos)",
+      "reason": "Possible flour or beer batter, and the fryer is probably shared."
+    },
+    {
+      "dish": "Flour tortilla dishes",
+      "reason": "Wheat."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Mexican",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "La Carnita",
+  "notes": "",
+  "questions": [
+    "Are you still open at the InterContinental Marina?",
+    "Are the tortillas 100% corn with no wheat blended in?",
+    "Which fillings need adapting for gluten-free, and how?",
+    "Is the batter for fried items made with beer or wheat?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Tacos on corn tortillas",
+      "note": "What's On says the corn-based tortillas and fillings can be adapted to be fully GF."
+    }
+  ],
+  "sources": [
+    "https://whatson.ae/?p=119444",
+    "https://whatson.ae/2018/10/review-la-carnita/"
+  ],
+  "status": null,
+  "summary": "The GF claim comes from an undated What's On roundup, and the venue review is from 2018, so check that it is still open and still serves corn tortillas.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

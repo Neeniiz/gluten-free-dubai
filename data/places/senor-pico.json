@@ -1,0 +1,48 @@
+{
+  "area": "Palm West Beach, Palm Jumeirah",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Baja-style crispy fish tacos",
+      "reason": "Usually batter or flour coated (possibly beer batter), and the fryer is probably shared."
+    },
+    {
+      "dish": "Any flour tortilla items (burritos, quesadillas)",
+      "reason": "Flour tortillas."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Mexican",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Señor Pico",
+  "notes": "",
+  "questions": [
+    "Are your taco tortillas 100% corn, and are they heated on the same plancha as flour tortillas?",
+    "Is the crispy fish battered with beer or wheat flour?",
+    "Are the tortilla chips fried in a shared fryer?",
+    "Which sauces or moles contain flour?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes labelled gluten-free on the menu",
+      "note": "An Atly reviewer said 'everything was labeled' and two GF diners ate safely."
+    },
+    {
+      "dish": "Gluten-free flan",
+      "note": "Atly says the chef makes special GF and dairy-free dishes."
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/mexican-united-arab-emirates-dubai-dubai",
+    "https://www.morecravings.com/venues/senor-pico"
+  ],
+  "status": null,
+  "summary": "Atly reviews, undated but on a currently listed venue, say GF items are labelled and that celiac diners ate safely.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

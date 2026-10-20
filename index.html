@@ -1,0 +1,467 @@
+<title>Gluten-Free Dubai</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column of restaurant "tickets"; header carries the rules, tabs switch between saved places, the menu checker and the rules. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --ink: #1b2233;
+  --muted: #5d6578;
+  --line: #dde1ea;
+  --accent: #e0644a;      /* salmon, as in sake */
+  --accent-ink: #ffffff;
+  --indigo: #27325a;      /* soy-ink */
+  --ok: #1f7a4d;   --ok-bg: #e3f3ea;
+  --ask: #8a5a00;  --ask-bg: #fbefd6;
+  --bad: #b3261e;  --bad-bg: #fbe4e2;
+  --chip: #eef0f5;
+  --display: "Shippori Mincho", "Hiragino Mincho ProN", Georgia, serif;
+  --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151d; --surface: #1a1f2b; --ink: #e9ecf3; --muted: #a2a9ba; --line: #2c3344;
+    --accent: #f08a72; --accent-ink: #1a1f2b; --indigo: #c3cbec;
+    --ok: #7fd3a6; --ok-bg: #173327; --ask: #f0c470; --ask-bg: #3a2e14; --bad: #f29a93; --bad-bg: #3d1c1a;
+    --chip: #252b3a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12151d; --surface: #1a1f2b; --ink: #e9ecf3; --muted: #a2a9ba; --line: #2c3344;
+  --accent: #f08a72; --accent-ink: #1a1f2b; --indigo: #c3cbec;
+  --ok: #7fd3a6; --ok-bg: #173327; --ask: #f0c470; --ask-bg: #3a2e14; --bad: #f29a93; --bad-bg: #3d1c1a;
+  --chip: #252b3a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+.wrap { max-width: 860px; margin: 0 auto; }
+header { padding-block: 28px 8px; display: grid; gap: 10px; }
+.brand { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 { font: 800 clamp(30px, 6vw, 44px)/1.05 var(--display); margin: 0; color: var(--indigo); letter-spacing: -0.01em; text-wrap: balance; }
+h1 .dot { color: var(--accent); }
+.tag { font: 500 12px var(--mono); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.rules-line { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--chip); color: var(--ink); white-space: nowrap; }
+.pill.no { background: var(--bad-bg); color: var(--bad); font-weight: 700; }
+.pill.yes { background: var(--ok-bg); color: var(--ok); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 4px; padding-block: 10px; border-bottom: 1px solid var(--line); margin-bottom: 18px; overflow-x: auto; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav button { font: 700 15px var(--body); border: 0; background: none; color: var(--muted); padding: 8px 14px; border-radius: 8px; cursor: pointer; white-space: nowrap; }
+nav button[aria-selected="true"] { background: var(--indigo); color: var(--bg); }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.filters input, .filters select { font: 15px var(--body); padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.filters input { flex: 1 1 220px; min-width: 0; }
+.count { font: 13px var(--mono); color: var(--muted); margin-bottom: 10px; }
+.list { display: grid; gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
+.card-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
+.card h2 { font: 800 21px/1.2 var(--display); margin: 0; color: var(--ink); }
+.meta { font-size: 14px; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ev { font: 500 12px var(--mono); padding: 3px 8px; border-radius: 6px; letter-spacing: .02em; }
+.ev.you_confirmed { background: var(--ok); color: var(--surface); font-weight: 500; }
+.ev.restaurant_marks_gf { background: var(--ok-bg); color: var(--ok); }
+.ev.community_reports { background: var(--chip); color: var(--indigo); }
+.ev.ask_first { background: var(--ask-bg); color: var(--ask); }
+.summary { margin: 0; }
+.dishes { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.dishes > div { min-width: 0; }
+.dishes h3 { font: 700 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 4px; }
+.dishes h3.ok { color: var(--ok); } .dishes h3.ask { color: var(--ask); } .dishes h3.bad { color: var(--bad); }
+.dishes ul { margin: 0; padding-left: 18px; }
+.dishes li { margin-bottom: 3px; }
+.dishes li small { color: var(--muted); }
+.flag { background: var(--bad-bg); color: var(--bad); padding: 8px 10px; border-radius: 8px; font-size: 14px; }
+details { border-top: 1px dashed var(--line); padding-top: 8px; }
+summary { cursor: pointer; font-weight: 700; color: var(--indigo); }
+.qbox { white-space: pre-wrap; background: var(--chip); padding: 10px 12px; border-radius: 8px; font-size: 14px; margin: 8px 0; }
+.sources a { color: var(--indigo); word-break: break-all; font-size: 13px; }
+.mine { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { font: 14px var(--body); border: 0; background: var(--surface); color: var(--ink); padding: 6px 10px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"].s-to_try { background: var(--chip); font-weight: 700; }
+.seg button[aria-pressed="true"].s-tried_ok { background: var(--ok-bg); color: var(--ok); font-weight: 700; }
+.seg button[aria-pressed="true"].s-avoid { background: var(--bad-bg); color: var(--bad); font-weight: 700; }
+textarea, .field { width: 100%; font: 15px var(--body); padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+textarea { resize: vertical; }
+.btn { font: 700 15px var(--body); background: var(--accent); color: var(--accent-ink); border: 0; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
+.btn.ghost { background: var(--chip); color: var(--ink); }
+.btn:disabled { opacity: .55; cursor: default; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 12px; }
+.panel h2 { font: 800 22px var(--display); margin: 0; color: var(--indigo); }
+.hint { color: var(--muted); font-size: 14px; margin: 0; max-width: 65ch; }
+.empty { text-align: left; padding: 24px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); }
+.verdict { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.verdict:last-child { border-bottom: 0; }
+.vtag { font: 500 12px var(--mono); padding: 2px 8px; border-radius: 6px; height: fit-content; text-transform: uppercase; }
+.vtag.ok { background: var(--ok-bg); color: var(--ok); } .vtag.ask { background: var(--ask-bg); color: var(--ask); } .vtag.avoid { background: var(--bad-bg); color: var(--bad); }
+.verdict .r { grid-column: 2; color: var(--muted); font-size: 14px; }
+.chiplist { display: flex; flex-wrap: wrap; gap: 6px; }
+.chiplist .pill button { border: 0; background: none; color: inherit; cursor: pointer; font-size: 15px; line-height: 1; padding: 0 0 0 2px; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--indigo); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 20; }
+.legal { font-size: 13px; color: var(--muted); margin-top: 28px; max-width: 65ch; }
+@media (prefers-reduced-motion: no-preference) { .card { transition: border-color .15s; } .card:hover { border-color: var(--muted); } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>Gluten-Free Dubai<span class="dot">.</span></h1><span class="tag">celiac · every cuisine</span></div>
+    <div class="rules-line" id="rulesLine"></div>
+  </header>
+
+  <nav role="tablist">
+    <button role="tab" id="tab-places" aria-selected="true" data-tab="places">Places</button>
+    <button role="tab" id="tab-check" aria-selected="false" data-tab="check">Check a menu</button>
+    <button role="tab" id="tab-rules" aria-selected="false" data-tab="rules">My rules</button>
+  </nav>
+
+  <section id="view-places">
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search name, area, dish…" aria-label="Search">
+      <select id="fCuisine" aria-label="Cuisine"><option value="all">All cuisines</option></select>
+      <select id="fLevel" aria-label="Evidence">
+        <option value="all">Any evidence</option>
+        <option value="you_confirmed">You confirmed it</option>
+        <option value="restaurant_marks_gf">Restaurant marks GF</option>
+        <option value="community_reports">Celiacs report it</option>
+        <option value="ask_first">Ask first</option>
+      </select>
+      <select id="fStatus" aria-label="My status">
+        <option value="all">Any status</option>
+        <option value="none">Not tried yet</option>
+        <option value="to_try">Want to try</option>
+        <option value="tried_ok">Tried, was fine</option>
+        <option value="avoid">Avoid</option>
+      </select>
+    </div>
+    <div class="count" id="count"></div>
+    <div class="list" id="list">
+      <div class="empty">Loading your saved places. Research runs add restaurants here, and you can add one yourself from <b>Check a menu</b>.</div>
+    </div>
+  </section>
+
+  <section id="view-check" hidden>
+    <div class="panel">
+      <h2>Check a menu</h2>
+      <p class="hint">Paste a menu, or add screenshots from Talabat, Deliveroo, Careem or the restaurant's site. Claude sorts every dish against your rules and writes the questions to send the restaurant. It reads only what you give it, so a missing ingredient list becomes "ask", never "fine".</p>
+      <input class="field" id="cName" placeholder="Restaurant name (optional)" aria-label="Restaurant name">
+      <textarea id="cText" rows="8" placeholder="Paste menu text here…" aria-label="Menu text"></textarea>
+      <div class="row" id="imgRow" hidden>
+        <label class="btn ghost" for="cImgs">Add screenshots</label>
+        <input id="cImgs" type="file" accept="image/*" multiple hidden>
+        <span class="hint" id="imgNote"></span>
+      </div>
+      <div class="row">
+        <button class="btn" id="cGo">Check dishes</button>
+        <button class="btn ghost" id="cStop" hidden>Stop</button>
+        <span class="hint" id="cStatus"></span>
+      </div>
+      <div id="cOut"></div>
+    </div>
+  </section>
+
+  <section id="view-rules" hidden>
+    <div class="panel">
+      <h2>My rules</h2>
+      <p class="hint">The menu checker and every research run use this list. Anything here is treated as a hard no.</p>
+      <div><b>Never</b></div>
+      <div class="chiplist" id="exList"></div>
+      <div class="row">
+        <input class="field" id="exNew" placeholder="Add an ingredient to avoid" aria-label="Add an ingredient to avoid" style="flex:1 1 220px; width:auto">
+        <button class="btn ghost" id="exAdd">Add</button>
+      </div>
+      <div><b>Fine for me</b></div>
+      <div class="chiplist" id="okList"></div>
+      <p class="hint">Traps the checker always looks for. Japanese and Asian: regular soy sauce, oyster and hoisin sauce, gochujang, kanikama, tempura and "crunchy" bits, teriyaki, eel sauce, ponzu, wheat noodles. Arabic and Levantine: bulgur in tabbouleh and kibbeh, freekeh, pita croutons, vermicelli rice, shawarma marinades, falafel binders. Indian: hing (asafoetida, often cut with wheat), naan, samosa, batter. Western: roux sauces, gravy, flour tortillas, beer batter, malt vinegar. Plus quinoa and oats everywhere, including granola, porridge and "ancient grain" bowls.</p>
+    </div>
+  </section>
+
+  <p class="legal">Every listing comes from menus, reviews and forums, and any of them can be out of date. "Restaurant marks GF" is the strongest evidence here, and it is still not a guarantee: confirm with the restaurant before you order.</p>
+</div>
+
+<script>
+const DEFAULT_RULES = {
+  exclude: ["Gluten: wheat, barley, rye, malt, spelt", "Quinoa", "Oats"],
+  allow: ["Made without gluten (no certification needed)", "Shared kitchen / cross-contact"]
+};
+const LEVEL_LABEL = { you_confirmed: "You confirmed it", restaurant_marks_gf: "Restaurant marks GF", community_reports: "Celiacs report it", ask_first: "Ask first" };
+const STATUS = [["to_try", "Want to try"], ["tried_ok", "Fine for me"], ["avoid", "Avoid"]];
+const LEVEL_RANK = { you_confirmed: -1, restaurant_marks_gf: 0, community_reports: 1, ask_first: 2 };
+
+let db = null, places = [], rules = DEFAULT_RULES, canWrite = true;
+const $ = (id) => document.getElementById(id);
+
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid instanceof Node ? kid : String(kid));
+  return el;
+}
+const arr = (x) => Array.isArray(x) ? x : [];
+function toast(msg) { const t = h("div", { class: "toast", role: "status" }, msg); document.body.append(t); setTimeout(() => t.remove(), 2600); }
+async function copy(text) {
+  try { await navigator.clipboard.writeText(text); toast("Copied"); }
+  catch { toast("Copy blocked here. Select the text and copy it yourself."); }
+}
+const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? String(u) : null;
+
+/* ---------- tabs ---------- */
+document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.tab)));
+function showTab(name) {
+  document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+  for (const v of ["places", "check", "rules"]) $("view-" + v).hidden = v !== name;
+  try { localStorage.setItem("gfd-tab", name); } catch {}
+}
+try { const t = localStorage.getItem("gfd-tab"); if (t) showTab(t); } catch {}
+
+/* ---------- rules ---------- */
+function renderRules() {
+  $("rulesLine").replaceChildren(
+    ...arr(rules.exclude).map((r) => h("span", { class: "pill no" }, "No " + r.split(":")[0].toLowerCase())),
+    ...arr(rules.allow).map((r) => h("span", { class: "pill yes" }, "OK: " + r.split("(")[0].trim().toLowerCase()))
+  );
+  $("exList").replaceChildren(...arr(rules.exclude).map((r, i) =>
+    h("span", { class: "pill no" }, r, h("button", { "aria-label": "Remove " + r, onclick: () => saveRules({ ...rules, exclude: rules.exclude.filter((_, j) => j !== i) }) }, "×"))));
+  $("okList").replaceChildren(...arr(rules.allow).map((r) => h("span", { class: "pill yes" }, r)));
+}
+async function saveRules(next) {
+  rules = next; renderRules();
+  if (!db) return;
+  try { await db.doc("config/rules").set({ exclude: next.exclude, allow: next.allow, updated: Date.now() }); toast("Rules saved"); }
+  catch (e) { toast("Couldn't save rules: " + (e.message || e.code)); }
+}
+$("exAdd").addEventListener("click", () => {
+  const v = $("exNew").value.trim(); if (!v) return;
+  $("exNew").value = ""; saveRules({ ...rules, exclude: [...arr(rules.exclude), v] });
+});
+renderRules();
+
+/* ---------- places ---------- */
+["q", "fCuisine", "fLevel", "fStatus"].forEach((id) => $(id).addEventListener("input", renderPlaces));
+
+function whatsappText(p) {
+  const qs = arr(p.questions);
+  const extra = arr(rules.exclude).filter((r) => !/gluten/i.test(r)).map((r) => r.toLowerCase());
+  return `Hi! I have celiac disease, so I can't have any gluten.${extra.length ? " I also can't have " + extra.join(" or ") + "." : ""} Before I order from ${p.name}, could you tell me:\n` +
+    qs.map((q, i) => `${i + 1}. ${q}`).join("\n") + `\nThank you!`;
+}
+
+function card(p) {
+  const status = p.status || null;
+  const setStatus = async (s) => {
+    if (!db) return;
+    try { await db.doc("places/" + p.id).update({ status: status === s ? null : s, updated: Date.now() }); }
+    catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
+  };
+  const mine = p.evidence_level === "you_confirmed";
+  const toggleConfirmed = async () => {
+    if (!db) return;
+    const next = mine
+      ? { evidence_level: p.prev_evidence_level || "ask_first", updated: Date.now() }
+      : { evidence_level: "you_confirmed", prev_evidence_level: p.evidence_level || "ask_first", confirmed_on: new Date().toISOString().slice(0, 10), updated: Date.now() };
+    try { await db.doc("places/" + p.id).update(next); toast(mine ? "Back to research evidence" : "Marked as checked by you"); }
+    catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
+  };
+  let noteTimer;
+  const notes = h("textarea", { rows: 2, placeholder: "My notes: what I ordered, how it went…", "aria-label": "Notes for " + p.name, id: "n-" + p.id });
+  notes.value = p.notes || "";
+  notes.addEventListener("input", () => { clearTimeout(noteTimer); noteTimer = setTimeout(async () => {
+    try { await db.doc("places/" + p.id).update({ notes: notes.value, updated: Date.now() }); } catch (e) { toast("Couldn't save note"); }
+  }, 900); });
+
+  const safe = arr(p.safe_dishes), ask = arr(p.ask_dishes), avoid = arr(p.avoid_dishes);
+  const site = safeUrl(p.website);
+  return h("article", { class: "card" },
+    h("div", { class: "card-top" },
+      h("div", {}, h("h2", {}, p.name || "Unnamed"), h("div", { class: "meta" }, [p.area, p.cuisine].filter(Boolean).join(" · "))),
+      h("div", { class: "chips" },
+        p.evidence_level && h("span", { class: "ev " + p.evidence_level }, LEVEL_LABEL[p.evidence_level] || p.evidence_level),
+        p.tamari && p.tamari !== "n/a" && h("span", { class: "ev " + (p.tamari === "yes" ? "restaurant_marks_gf" : "ask_first") }, "Tamari: " + p.tamari))),
+    p.summary && h("p", { class: "summary" }, p.summary),
+    arr(p.quinoa_oat_flags).length > 0 && h("div", { class: "flag" }, h("b", {}, "Quinoa / oats: "), arr(p.quinoa_oat_flags).join("; ")),
+    (safe.length || ask.length || avoid.length) ? h("div", { class: "dishes" },
+      safe.length > 0 && h("div", {}, h("h3", { class: "ok" }, "Likely fine"), h("ul", {}, safe.map((d) => h("li", {}, d.dish, d.note ? h("small", {}, " — " + d.note) : null)))),
+      ask.length > 0 && h("div", {}, h("h3", { class: "ask" }, "Ask first"), h("ul", {}, ask.map((d) => h("li", {}, d.dish, d.note ? h("small", {}, " — " + d.note) : null)))),
+      avoid.length > 0 && h("div", {}, h("h3", { class: "bad" }, "Avoid"), h("ul", {}, avoid.map((d) => h("li", {}, d.dish, d.reason ? h("small", {}, " — " + d.reason) : null))))
+    ) : null,
+    h("div", { class: "meta" }, "Delivery: " + (arr(p.delivery).length ? arr(p.delivery).join(", ") : "unknown"), site ? " · " : "", site && h("a", { href: site, target: "_blank", rel: "noopener" }, "website")),
+    arr(p.questions).length > 0 && h("details", {},
+      h("summary", {}, "Message to send them"),
+      h("div", { class: "qbox" }, whatsappText(p)),
+      h("button", { class: "btn ghost", onclick: () => copy(whatsappText(p)) }, "Copy message")),
+    arr(p.sources).length > 0 && h("details", { class: "sources" },
+      h("summary", {}, "Sources (" + arr(p.sources).length + ")" + (p.researched ? " · checked " + p.researched : "")),
+      h("ul", {}, arr(p.sources).map((s) => { const u = safeUrl(s); return h("li", {}, u ? h("a", { href: u, target: "_blank", rel: "noopener" }, u) : String(s)); }))),
+    db && canWrite && h("div", { class: "mine" },
+      h("div", { class: "seg", role: "group", "aria-label": "My status" },
+        STATUS.map(([k, label]) => h("button", { class: "s-" + k, "aria-pressed": String(status === k), onclick: () => setStatus(k) }, label))),
+      h("button", { class: "btn ghost", onclick: toggleConfirmed }, mine ? "Undo: I checked it" : "I checked this myself")),
+    db && canWrite && notes
+  );
+}
+
+function renderPlaces() {
+  const q = $("q").value.trim().toLowerCase(), c = $("fCuisine").value, lv = $("fLevel").value, st = $("fStatus").value;
+  const cuisines = [...new Set(places.map((p) => p.cuisine).filter(Boolean))].sort();
+  const sel = $("fCuisine"), cur = sel.value;
+  sel.replaceChildren(h("option", { value: "all" }, "All cuisines"), ...cuisines.map((x) => h("option", { value: x }, x)));
+  sel.value = cuisines.includes(cur) ? cur : "all";
+
+  const shown = places.filter((p) => {
+    if (c !== "all" && p.cuisine !== c) return false;
+    if (lv !== "all" && p.evidence_level !== lv) return false;
+    if (st === "none" ? p.status : st !== "all" && p.status !== st) return false;
+    if (q) {
+      const hay = [p.name, p.area, p.cuisine, p.summary, ...arr(p.safe_dishes).map((d) => d.dish), ...arr(p.ask_dishes).map((d) => d.dish)].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a, b) =>
+    (a.status === "avoid") - (b.status === "avoid") ||
+    (b.status === "tried_ok") - (a.status === "tried_ok") ||
+    (LEVEL_RANK[a.evidence_level] ?? 3) - (LEVEL_RANK[b.evidence_level] ?? 3) ||
+    String(a.name).localeCompare(String(b.name)));
+
+  $("count").textContent = places.length ? `${shown.length} of ${places.length} places` : "";
+  $("list").replaceChildren(...(shown.length ? shown.map(card) : [h("div", { class: "empty" },
+    places.length ? "Nothing matches these filters." : "No places saved yet. Research runs add restaurants here, and you can add one yourself from Check a menu.")]));
+}
+
+/* ---------- menu checker ---------- */
+let sample = null, ctl = null, checkerOff = false;
+
+function checkerPrompt(name, text, nImages) {
+  return `You are helping a person with celiac disease in Dubai decide what they can order.
+Their rules:
+- NEVER: ${arr(rules.exclude).join("; ")}.
+- Fine: ${arr(rules.allow).join("; ")}.
+Hidden-gluten traps to check every dish for, whatever the cuisine:
+- Japanese/Asian: regular soy sauce/shoyu (contains wheat; tamari or GF soy is fine), teriyaki, eel/unagi sauce, ponzu, hoisin, oyster sauce, gochujang/doenjang (often wheat or barley), kecap manis, miso of unknown type (barley miso), kanikama/imitation crab/surimi (wheat starch), tempura, "crunchy" flakes, panko, katsu, gyoza/dumpling wrappers, ramen/udon/soba (soba is usually part wheat), furikake, tamago, some spicy mayo.
+- Arabic/Levantine/Turkish/Persian: bulgur (tabbouleh, kibbeh), freekeh, fattoush or pita croutons, vermicelli in rice, shawarma marinades and garlic-sauce thickeners, falafel bound with flour, harees, couscous, kunafa, baklava, luqaimat, manakish.
+- Indian/Pakistani: hing/asafoetida (often cut with wheat), naan, roti, paratha, samosa, batters (only pure gram flour is fine), kofta binders.
+- Western: roux-thickened sauces, gravy, jus, flour tortillas, breadcrumbs, beer batter, malt vinegar, seitan, semolina, croutons, regular pasta and pizza bases, GF buns or breads of unknown recipe (may use oat flour).
+Quinoa and oats are hard NOs for this person even when labelled gluten-free (quinoa bowls, quinoa salads, overnight oats, granola, porridge, oat milk, "ancient grains").
+
+Classify EVERY dish you can see${nImages ? ` in the ${nImages} attached screenshot(s) and` : ""} in the menu text below.
+- "ok": the restaurant itself marks it gluten-free / made without gluten AND nothing in it breaks the rules, OR it is plainly naturally free of gluten with nothing sauced or coated (e.g. plain sashimi — note "use tamari, not soy").
+- "ask": could be fine but depends on something unstated (sauce, marinade, crab type, rice seasoning, fryer).
+- "avoid": contains gluten, quinoa or oats, or a listed trap.
+Never mark "ok" just because a filter or tag says "gluten-free" without dish-level detail. Be conservative.
+
+Reply with ONLY JSON in this shape:
+{"restaurant": string, "items":[{"dish": string, "verdict": "ok"|"ask"|"avoid", "reason": string}], "questions": [string] (3-6 specific questions to send the restaurant), "summary": string (one sentence)}
+
+Restaurant: ${name || "unknown"}
+Menu text:
+${text.slice(0, 60000) || "(none — use the screenshots)"}`;
+}
+
+function renderResult(r) {
+  const items = arr(r.items);
+  const order = { ok: 0, ask: 1, avoid: 2 };
+  items.sort((a, b) => (order[a.verdict] ?? 1) - (order[b.verdict] ?? 1));
+  const n = (v) => items.filter((i) => i.verdict === v).length;
+  $("cOut").replaceChildren(
+    h("p", {}, h("b", {}, r.restaurant || "This menu"), ": " + (r.summary || "")),
+    h("div", { class: "chips" }, h("span", { class: "vtag ok" }, n("ok") + " fine"), h("span", { class: "vtag ask" }, n("ask") + " ask"), h("span", { class: "vtag avoid" }, n("avoid") + " avoid")),
+    h("div", {}, items.map((i) => h("div", { class: "verdict" },
+      h("span", { class: "vtag " + (order[i.verdict] != null ? i.verdict : "ask") }, i.verdict || "ask"),
+      h("b", {}, i.dish || ""), h("span", { class: "r" }, i.reason || "")))),
+    arr(r.questions).length > 0 && h("details", { open: true },
+      h("summary", {}, "Questions to send"),
+      h("div", { class: "qbox" }, arr(r.questions).map((q, k) => `${k + 1}. ${q}`).join("\n")),
+      h("button", { class: "btn ghost", onclick: () => copy(whatsappText({ name: r.restaurant || "you", questions: r.questions })) }, "Copy as message")),
+    db && canWrite && h("div", { class: "row" }, h("button", { class: "btn", id: "cSave", onclick: () => savePlaceFromResult(r) }, "Save to my places"))
+  );
+}
+
+async function savePlaceFromResult(r) {
+  const name = (r.restaurant && r.restaurant !== "unknown" ? r.restaurant : $("cName").value.trim()) || "Unnamed place";
+  const id = name.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60) || "place-" + Date.now();
+  const items = arr(r.items);
+  const pick = (v) => items.filter((i) => i.verdict === v);
+  const existing = places.find((p) => p.id === id);
+  const body = {
+    name, area: existing?.area || "", cuisine: existing?.cuisine || "", website: existing?.website || "",
+    evidence_level: existing?.evidence_level || "ask_first", tamari: existing?.tamari || "unknown",
+    summary: r.summary || "",
+    safe_dishes: pick("ok").map((i) => ({ dish: i.dish, note: i.reason })),
+    ask_dishes: pick("ask").map((i) => ({ dish: i.dish, note: i.reason })),
+    avoid_dishes: pick("avoid").map((i) => ({ dish: i.dish, reason: i.reason })),
+    quinoa_oat_flags: existing?.quinoa_oat_flags || [],
+    delivery: existing?.delivery || [], sources: existing?.sources || [],
+    questions: arr(r.questions), status: existing?.status || null, notes: existing?.notes || "",
+    researched: new Date().toISOString().slice(0, 10) + " (menu check)", updated: Date.now()
+  };
+  try { await db.doc("places/" + id).set(body); toast("Saved " + name); showTab("places"); }
+  catch (e) { toast("Couldn't save: " + (e.message || e.code)); }
+}
+
+$("cGo").addEventListener("click", async () => {
+  if (!sample) return;
+  const text = $("cText").value.trim(), files = $("cImgs").files;
+  if (!text && !(files && files.length)) { $("cStatus").textContent = "Paste a menu or add a screenshot first."; return; }
+  ctl = new AbortController();
+  $("cGo").disabled = true; $("cStop").hidden = false; $("cStatus").textContent = "Thinking… (this can take up to a minute)";
+  try {
+    const opts = { signal: ctl.signal };
+    if (files && files.length) opts.images = files;
+    const r = await sample.json(checkerPrompt($("cName").value.trim(), text, files ? files.length : 0), opts);
+    renderResult(r); $("cStatus").textContent = "";
+  } catch (e) {
+    const msg = {
+      cancelled: "", not_granted: "Claude isn't allowed on this page. Allow it from the page's permissions to use the checker.",
+      rate_limited: "Too many checks right now. Try again in a few minutes.", invalid_json: "The answer came back garbled. Press Check dishes again.",
+      prompt_too_large: "That menu is too long. Paste one section at a time.", image_rejected: "One screenshot couldn't be read. Try a JPEG or PNG.",
+      session_expired: "Sign in to Claude again, then retry."
+    }[e.code];
+    $("cStatus").textContent = msg ?? "Something went wrong. Try again.";
+    if (["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"].includes(e.code)) checkerOff = true;
+  } finally {
+    $("cGo").disabled = checkerOff;
+    $("cStop").hidden = true;
+  }
+});
+$("cStop").addEventListener("click", () => ctl?.abort());
+$("cImgs").addEventListener("change", () => { const n = $("cImgs").files.length; $("imgNote").textContent = n ? n + " screenshot" + (n > 1 ? "s" : "") + " added" : ""; });
+
+/* ---------- boot ---------- */
+(async () => {
+  if (!window.claude?.use) {
+    $("list").replaceChildren(h("div", { class: "empty" }, "Open this page in Claude to see your saved places."));
+    $("cGo").disabled = true; $("cStatus").textContent = "The checker works when the page is opened in Claude.";
+    return;
+  }
+  const [dbNs, sampleNs, userNs] = await Promise.all([claude.use("db"), claude.use("sample"), claude.use("user")]);
+  db = dbNs; sample = sampleNs;
+  if (userNs) { const w = await userNs.can("data.write"); canWrite = w !== false; }
+
+  if (!sample) { checkerOff = true; $("cGo").disabled = true; $("cStatus").textContent = "The menu checker isn't available in this view."; }
+  else {
+    const lim = await sample.limits().catch(() => null);
+    if (lim?.images) { $("imgRow").hidden = false; $("cImgs").accept = lim.images.mediaTypes.join(","); }
+  }
+
+  if (!db) { $("list").replaceChildren(h("div", { class: "empty" }, "Sign in to Claude to see your saved places.")); return; }
+  db.collection("places").onSnapshot((s) => { places = s.docs.map((d) => ({ id: d.id, ...d.data() })); renderPlaces(); },
+    () => $("list").replaceChildren(h("div", { class: "empty" }, "Your places couldn't load. Reload the page to try again.")));
+  db.doc("config/rules").onSnapshot((s) => { if (s.exists) { const d = s.data(); rules = { exclude: arr(d.exclude), allow: arr(d.allow).length ? d.allow : DEFAULT_RULES.allow }; renderRules(); } }, () => {});
+})();
+</script>

@@ -1,0 +1,46 @@
+{
+  "area": "Rixos Premium, JBR",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Fried starters (e.g. frittatine, fried calamari)",
+      "reason": "Breaded, and the fryer is probably shared."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Italian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Luigia",
+  "notes": "",
+  "questions": [
+    "Is the gluten-free pizza still on the menu at the JBR branch?",
+    "What is the GF base made from? Any oat flour?",
+    "Which brand of GF pasta do you use?",
+    "Is the GF pizza baked separately from wheat pizzas?"
+  ],
+  "quinoa_oat_flags": [
+    "The ingredients of the GF pizza base are unknown. Ask about oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free pizza",
+      "note": "A French-language Le Petit Journal guide says the GF version is popular."
+    },
+    {
+      "dish": "Gluten-free pasta",
+      "note": "From an Atly listing, which also notes some cross-contamination risk. The brand is unknown."
+    }
+  ],
+  "sources": [
+    "https://lepetitjournal.com/dubai/meilleure-pizza-dubai-298093",
+    "https://www.atly.com/gluten-free/location/LuigiaStreetFood"
+  ],
+  "status": null,
+  "summary": "The GF pizza and pasta are mentioned in a French-language guide and an Atly listing, neither clearly dated; please confirm they are still offered.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

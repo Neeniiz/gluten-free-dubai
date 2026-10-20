@@ -1,0 +1,37 @@
+{
+  "area": "Dubai-wide meal-plan delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Meal plan",
+  "delivery": [
+    "Own subscription delivery",
+    "Single meals on delivery apps (apps not named in source)"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Colour My Plate",
+  "notes": "",
+  "questions": [
+    "Can I exclude quinoa and oats from the GF plan?",
+    "Which delivery apps carry single meals?"
+  ],
+  "quinoa_oat_flags": [
+    "Healthy meal plans frequently use quinoa and overnight oats. Ask whether you can exclude them."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten & Dairy-free plan",
+      "note": "Listed as a plan option. Made in a shared kitchen (acceptable for the user)."
+    }
+  ],
+  "sources": [
+    "https://payit.ae/?p=19029"
+  ],
+  "status": null,
+  "summary": "A meal-plan service with a named gluten- and dairy-free plan, useful for everyday eating if quinoa and oats can be excluded.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

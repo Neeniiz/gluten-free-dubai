@@ -1,0 +1,56 @@
+{
+  "area": "Multiple Dubai branches (about 8 in 2025), including Burj Vista Downtown, Nakheel Mall Palm Jumeirah, Dubai Hills Mall and Creek Harbour",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Banh mi",
+      "reason": "Wheat baguette"
+    },
+    {
+      "dish": "Anything with hoisin, regular soy sauce or oyster sauce",
+      "reason": "Usually contain wheat"
+    },
+    {
+      "dish": "Fried items",
+      "reason": "Ask about batter and shared fryers"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Vietnamese",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Vietnamese Foodies",
+  "notes": "",
+  "questions": [
+    "Which dishes are marked gluten-free?",
+    "Is the pho broth seasoned with soy, hoisin or fish sauce containing wheat?",
+    "Do you have tamari or GF soy sauce?",
+    "Do you have a GF dipping sauce for the rolls?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Ask whether any 'healthy' bowls or salads use quinoa."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Pho (beef brisket with 14-hour bone broth, or vegan pho)",
+      "note": "Rice noodles. Confirm the broth and any sauces added."
+    },
+    {
+      "dish": "Rice paper rolls",
+      "note": "Confirm the dipping sauce. Hoisin and soy-based sauces usually contain wheat."
+    }
+  ],
+  "sources": [
+    "https://nakheelmall.ae/en/blog-details/vietnamese-cuisine-in-dubai-vietnamese-foodies",
+    "https://www.khaleejtimes.com/lifestyle/food/must-try-vietnamese-restaurants-in-dubai?amp=1",
+    "https://bbcgoodfoodme.com/news/vietnamese-foodies-restaurant-dubai-hills-mall",
+    "https://www.factmagazines.com/uae/dubai/vietnamese-foodies-to-open-seventh-dubai-branch-at-creek-harbour"
+  ],
+  "status": null,
+  "summary": "A popular Vietnamese chain that advertises gluten-free dishes. No dish-level GF list was found, so ask at ordering. Pho and rolls are the likely safe picks.",
+  "tamari": "ask",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

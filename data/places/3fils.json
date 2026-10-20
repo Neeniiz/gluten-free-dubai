@@ -1,0 +1,42 @@
+{
+  "area": "Jumeirah Fishing Harbour",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Shrimp tempura sushi roll",
+      "reason": "Tempura batter"
+    },
+    {
+      "dish": "Many sushi/sashimi items",
+      "reason": "The menu lists gluten among allergens"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Asian fusion",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "3Fils",
+  "notes": "",
+  "questions": [
+    "Which sushi items are free of gluten per your allergen list?",
+    "Is the 'tamari dressing' actually wheat-free tamari?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes whose menu allergen info doesn't list gluten",
+      "note": "The menu shows allergens, so use it and confirm"
+    }
+  ],
+  "sources": [
+    "https://www.3fils.com/menu",
+    "https://www.khaleejtimes.com/entertainment/dubai-food-review-our-2-cents-on-3fils"
+  ],
+  "status": null,
+  "summary": "The menu shows allergens, and many sushi items contain gluten. Possible, but limited.",
+  "tamari": "no",
+  "tamari_source": "Reviews (Khaleej Times 2021, Foursquare 2022) say 3Fils doesn't serve soy sauce at the table. Its menu reportedly uses a 'Tamari dressing' and lists gluten among allergens for many sushi items.",
+  "updated": 0,
+  "website": "https://www.3fils.com/menu"
+}

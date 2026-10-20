@@ -1,0 +1,35 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "McGrocer UAE",
+  "notes": "",
+  "questions": [
+    "What do delivery to Dubai and lead time cost?",
+    "Is it in stock?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Kikkoman Tamari Gluten Free Soy Sauce 250ml",
+      "note": "Labelled GF and halal; about GBP 5.25 (priced in sterling)"
+    }
+  ],
+  "sources": [
+    "https://mcgrocer.ae/products/kikkoman-tamari-gluten-free-soy-sauce-250ml",
+    "https://www.waitrose.com/ecom/products/kikkoman-tamari-gluten-free-soy-sauce/834610-450743-450744"
+  ],
+  "status": null,
+  "summary": "The only UAE-facing listing for GF tamari I found (current product page, date unknown); it ships UK groceries, so expect higher prices and longer delivery.",
+  "tamari": "yes",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://mcgrocer.ae/products/kikkoman-tamari-gluten-free-soy-sauce-250ml"
+}

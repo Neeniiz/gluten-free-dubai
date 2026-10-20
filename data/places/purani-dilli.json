@@ -1,0 +1,47 @@
+{
+  "area": "Sheikh Zayed Road, Trade Centre",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Naan, roti, paratha, kulcha",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Samosa",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Malai kofta",
+      "reason": "binders may include flour or breadcrumbs"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Purani Dilli",
+  "notes": "",
+  "questions": [
+    "Is the hing wheat-free?",
+    "Are tikka and kebab marinades made with besan only?",
+    "Are gravies thickened with flour?",
+    "Is the biryani rice cooked separately from bread?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Chef-suggested dishes",
+      "note": "A celiac reviewer said the chef made suggestions in advance after being told at booking"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/takeout"
+  ],
+  "status": null,
+  "summary": "FMGF (2025 page) lists it with no GF menu, but one celiac reviewer had the chef plan safe dishes when told at booking.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,50 @@
+{
+  "area": "JW Marriott Marquis, Business Bay",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Jus, gravy, peppercorn or mushroom sauce",
+      "reason": "Often thickened with roux or flour."
+    },
+    {
+      "dish": "Fries, onion rings, tempura sides",
+      "reason": "Onion rings are battered, and the fries are probably from a shared fryer (OK for you, but note it)."
+    },
+    {
+      "dish": "Marinated or rubbed meats",
+      "reason": "The rubs may contain wheat or soy sauce."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Steakhouse",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Prime68 Steakhouse",
+  "notes": "",
+  "questions": [
+    "Is the steak seasoned with only salt, pepper and butter, with no marinade or rub?",
+    "Which sauces are not thickened with flour?",
+    "Are the fries cooked in a fryer shared with battered items like onion rings?",
+    "Do you have any gluten-free bread?"
+  ],
+  "quinoa_oat_flags": [
+    "Steakhouse salads and sides sometimes contain quinoa. Check."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Plain grilled steak, no sauce",
+      "note": "A directory (Intravel) says gluten-free options are catered for. Not verified for celiac."
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Prime68Steakhouse",
+    "https://intravel.net/dubai/restaurants-cafes/prime68-steakhouse"
+  ],
+  "status": null,
+  "summary": "Atly marks it 'Unverified' and the only GF mention is a general directory tag; it is the only steakhouse lead I found, so call first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

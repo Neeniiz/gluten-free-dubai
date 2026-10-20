@@ -1,0 +1,54 @@
+{
+  "area": "The Dubai Mall (Fashion Avenue); Jumeirah Al Naseem",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Crazy shakes with cake, cookies or pretzel toppings",
+      "reason": "Contain wheat"
+    },
+    {
+      "dish": "Onion rings or battered items",
+      "reason": "Likely wheat batter"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Pizza & burgers",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Black Tap Craft Burgers & Shakes",
+  "notes": "",
+  "questions": [
+    "Is the fryer still dedicated to GF items at this branch?",
+    "Does the GF bun contain oats or quinoa?",
+    "Does the veggie patty contain oats or quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "Any veggie or vegan patty may contain quinoa or oats. Ask before ordering it."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Any burger on a GF bun",
+      "note": "What's On says all burgers can come on a GF bun. Reviewers praise the bun."
+    },
+    {
+      "dish": "Fries",
+      "note": "Atly lists a dedicated GF fryer at the Dubai Mall branch"
+    },
+    {
+      "dish": "Tacos in lettuce wrap",
+      "note": "Per What's On"
+    }
+  ],
+  "sources": [
+    "https://whatson.ae/?p=119444",
+    "https://atly.com/best/gluten-free/dedicated-gf-fryer-united-arab-emirates-dubai",
+    "https://atly.com/best/gluten-free/brunch-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "An everyday burger option with GF buns and a reported dedicated fryer at the Dubai Mall branch.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

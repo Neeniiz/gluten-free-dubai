@@ -1,0 +1,46 @@
+{
+  "area": "Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Shoyu, teriyaki and ponzu sauces",
+      "reason": "Usually regular soy sauce"
+    },
+    {
+      "dish": "Crispy onions, tempura flakes, crab sticks",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Poke",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Poke Zone",
+  "notes": "",
+  "questions": [
+    "Do you have a GF soy sauce or tamari dressing?",
+    "Which sauces and toppings contain wheat (crispy onion, tempura bits, surimi)?",
+    "Is there a quinoa base, and is it served with separate utensils from the rice?",
+    "Can the person making my bowl change gloves?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask whether quinoa is a base option and whether it shares scoops or utensils with the rice"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Build-your-own poke on a rice base",
+      "note": "FMGF lists poke and rice bowls as GF items. Choose a rice base and confirm the sauce."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/poke-zone/5885966861074432",
+    "https://www.findmeglutenfree.com/ae/dubai/poke"
+  ],
+  "status": null,
+  "summary": "FMGF reports GF poke and rice bowls but warns it's not a dedicated GF facility. The FMGF poke page is dated 2024, and nothing confirms GF soy sauce.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported for the Dubai branch",
+  "updated": 0,
+  "website": ""
+}

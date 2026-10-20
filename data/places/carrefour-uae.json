@@ -1,0 +1,55 @@
+{
+  "area": "Online / delivery (plus stores citywide)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Carrefour Gluten Free Penne 500g",
+      "reason": "Contains quinoa flour"
+    }
+  ],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Own website",
+    "Talabat"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Carrefour UAE",
+  "notes": "",
+  "questions": [
+    "Is Kikkoman tamari or another GF soy sauce in stock? (Not found on the UAE site; it is listed in Qatar)",
+    "Which branch keeps Schär in stock?"
+  ],
+  "quinoa_oat_flags": [
+    "Carrefour GF penne contains quinoa flour",
+    "Schär Meisterbäckers Vital 350g is a multigrain loaf; check the label for quinoa or oats",
+    "The 'keto & gluten-free' category also lists quinoa, millet and amaranth"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Schär Pan Blanco sliced bread 250g",
+      "note": "About AED 16.29"
+    },
+    {
+      "dish": "Schär GF Ciabatta rolls 200g",
+      "note": "About AED 24.79"
+    },
+    {
+      "dish": "Bakemart GF plain croissant",
+      "note": "About AED 26.75"
+    }
+  ],
+  "sources": [
+    "https://www.carrefouruae.com/mafuae/en/diet-protein-bread/schar-pan-blanco-250g/p/1543244",
+    "https://www.carrefouruae.com/mafuae/en/diet-protein-bread/schar-meisterbackers-vital-300g/p/1284794",
+    "https://www.carrefouruae.com/mafuae/en/diet-protein-bread/schar-gf-ciabattine-200g/p/956030",
+    "https://www.carrefouruae.com/mafuae/en/keto-gluten-free/crf-gluten-free-penne-pasta-500g/p/1234804"
+  ],
+  "status": null,
+  "summary": "Product pages on Carrefour UAE (cached snapshots, likely 2025-2026) show Schär GF breads and Bakemart GF croissants, but the own-brand GF penne contains quinoa and I could not confirm tamari.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.carrefouruae.com"
+}

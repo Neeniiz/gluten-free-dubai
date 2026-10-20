@@ -1,0 +1,39 @@
+{
+  "area": "Jumeirah Al Qasr, Madinat Jumeirah",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dishes with soy sauce, oyster sauce or batter",
+      "reason": "Usually contain wheat unless swapped"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Thai",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Pai Thai",
+  "notes": "",
+  "questions": [
+    "Can I see the current gluten-free menu?",
+    "Is tamari used in place of soy sauce in GF dishes?",
+    "Are the curry pastes and fish sauce gluten-free?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes on the GF menu",
+      "note": "Atly reports a dedicated GF menu and knowledgeable staff. Specific dishes not confirmed."
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/PaiThai.md",
+    "https://www.jumeirah.com/en/stay/dubai/jumeirah-al-qasr/dining/al-qasr-pai-thai"
+  ],
+  "status": null,
+  "summary": "A Thai restaurant reported to have a dedicated gluten-free menu. One reviewer liked the menu but was unsure about safety. Booking is recommended.",
+  "tamari": "ask",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-al-qasr/dining/al-qasr-pai-thai"
+}

@@ -1,0 +1,36 @@
+{
+  "area": "DIFC (Gate Village rooftop)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Wagyu & foie gras gyoza",
+      "reason": "Wheat wrapper"
+    },
+    {
+      "dish": "Tempura / glazed robata",
+      "reason": "Wheat / soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Clap",
+  "notes": "",
+  "questions": [
+    "Is tamari available?",
+    "Do you have an allergen matrix for the sushi?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://gulfnews.com/going-out/first-look-new-japanese-fusion-restaurant-clap-launches-in-difc-1.1609839475614"
+  ],
+  "status": null,
+  "summary": "No GF evidence found. Ask first.",
+  "tamari": "unknown",
+  "tamari_source": "No GF information found. The menu is vegan- and vegetarian-friendly, with 141 dishes.",
+  "updated": 0,
+  "website": ""
+}

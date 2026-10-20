@@ -1,0 +1,36 @@
+{
+  "area": "The Dubai Mall (first floor, next to the Ice Rink) and other branches",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Healthy / international",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Krave",
+  "notes": "",
+  "questions": [
+    "Which dishes are gluten-free?",
+    "Is the curry paste GF?",
+    "Which sides or bowls contain quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "Healthy-menu restaurant; quinoa sides and bowls are likely. Ask."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Thai green curry, chicken tikka masala, risottos",
+      "note": "Recommended in a GF-themed blog, and the brand advertises GF options. Not confirmed GF per dish."
+    }
+  ],
+  "sources": [
+    "https://gulfnews.com/business/corporate-news/krave-set-to-open-its-fourth-location-at-the-dubai-mall-this-october-1.1634216258382",
+    "https://sothebysrealty.ae/the-journal/gluten-free-restaurant-downtown"
+  ],
+  "status": null,
+  "summary": "A mall-friendly healthy chain that advertises GF options. No marked GF list was found, so ask.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

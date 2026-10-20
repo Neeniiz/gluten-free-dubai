@@ -1,0 +1,39 @@
+{
+  "area": "Oud Metha (Grand Hyatt Dubai)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura",
+      "reason": "Wheat batter"
+    },
+    {
+      "dish": "Udon",
+      "reason": "Wheat noodles"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Japanese / sushi",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Sushi (Grand Hyatt Dubai)",
+  "notes": "",
+  "questions": [
+    "Which dishes on the allergen-tagged menu are free of gluten?",
+    "Do you have tamari or GF soy sauce?",
+    "Is sashimi brushed with soy before serving?",
+    "Are yakimono marinades soy-based?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.hyattrestaurants.com/en/dubai/restaurant/sushi/menu",
+    "https://www.opentable.ie/r/sushi-grand-hyatt-dubai"
+  ],
+  "status": null,
+  "summary": "The online menu tags allergens per dish, so you can check gluten ahead of time, but the search didn't show which dishes are free of it (menu date unknown).",
+  "tamari": "unknown",
+  "tamari_source": "The online menu lists allergens (gluten, soy) per dish but doesn't mention tamari",
+  "updated": 0,
+  "website": "https://www.hyattrestaurants.com/en/dubai/restaurant/sushi/menu"
+}

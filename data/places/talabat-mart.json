@@ -1,0 +1,51 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Talabat"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Talabat Mart (Bakemart GF range)",
+  "notes": "",
+  "questions": [
+    "Which branch near you has stock? (Snapshots showed zero stock)",
+    "Do the brown or multiseed loaves contain oats or quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "Bakemart GF brown multiseed loaf: ingredients not seen, so check for quinoa or oats",
+    "Check the brown loaf and brown Arabic bread labels too"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Bakemart GF white loaf 350g",
+      "note": "About AED 24.30"
+    },
+    {
+      "dish": "Bakemart GF brown loaf 350g",
+      "note": "About AED 29.75"
+    },
+    {
+      "dish": "Bakemart GF plain croissant 3x75g and chocolate croissant",
+      "note": "About AED 26-32"
+    },
+    {
+      "dish": "Bakemart GF brown Arabic bread 5x45g",
+      "note": "About AED 18.75"
+    }
+  ],
+  "sources": [
+    "https://www.talabat.com/uae/grocery/798285/emirates-hills/bakery/gluten-free?aid=1282",
+    "https://www.talabat.com/ar/uae/grocery/44692/dubai-motor-city/bakery/gluten-free?aid=1276",
+    "https://www.talabat.com/ar/uae/grocery/759380/rigga-al-buteen/bakery/gluten-free?aid=1340"
+  ],
+  "status": null,
+  "summary": "Talabat Mart has a 'Gluten Free' bakery category listing Bakemart GF loaves and croissants, but the snapshots (undated) showed zero stock, so availability is uncertain.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.talabat.com/uae"
+}

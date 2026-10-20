@@ -1,0 +1,39 @@
+{
+  "area": "Taj Dubai, Business Bay",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Breads",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Samosa, pakora unless gram-flour only",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Bombay Brasserie",
+  "notes": "",
+  "questions": [
+    "Does the Dubai menu mark gluten (the Cape Town branch uses a G code)?",
+    "Is the hing wheat-free?",
+    "Are marinades and gravies flour-free?",
+    "Can they plate items before naan touches the tandoor?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://traveltodubai.ae/food-and-drink/restaurants/indian-restaurants-in-dubai",
+    "https://www.eazydiner.com/dubai/bombay-brasserie-taj-dubai-business-bay-623075"
+  ],
+  "status": null,
+  "summary": "An old guide (about 4 years) says it offers gluten-free options and a sister Taj branch marks gluten on its menu; nothing current for Dubai was found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

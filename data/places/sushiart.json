@@ -1,0 +1,49 @@
+{
+  "area": "Downtown (Dubai Mall), DIFC, Dubai Hills Mall and others",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Crispy/tempura rolls, rolls with kanikama, eel sauce or teriyaki",
+      "reason": "Wheat"
+    },
+    {
+      "dish": "Spicy or truffle mayo toppings",
+      "reason": "Check the mayo and sauce ingredients"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "SushiArt (Dubai Mall, DIFC Marble Walk and other branches)",
+  "notes": "",
+  "questions": [
+    "Is GF soy sauce available at every branch and in delivery orders?",
+    "Is the truffle topping or sauce on the tuna GF?",
+    "Which rolls have tempura flakes or crab sticks?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Some sushi chains offer quinoa rolls or bowls, so check."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Tuna with white truffle",
+      "note": "Named by a GF reviewer as a good GF choice"
+    },
+    {
+      "dish": "Sashimi, nigiri, simple maki",
+      "note": "With the GF soy sauce"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://www.atly.com/gluten-free/location/SushiArt---%D8%B3%D9%88%D8%B4%D9%8A-%D8%A7%D8%B1%D8%AA---DIFC"
+  ],
+  "status": null,
+  "summary": "Celiac diners report GF soy sauce at the Dubai Mall branch and good GF sushi choices. It's a convenient chain option to confirm per branch.",
+  "tamari": "yes",
+  "tamari_source": "A FindMeGlutenFree reviewer at the Dubai Mall branch said it's a chain and they offer GF soy sauce. Another praised 'excellent choices for GF sushi such as tuna with white truffle'. On Atly (DIFC), a reviewer said staff helped with their gluten allergy.",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,51 @@
+{
+  "area": "Barsha Heights",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Hoisin dipping sauce served with pho",
+      "reason": "Usually contains wheat"
+    },
+    {
+      "dish": "Fried spring rolls (if not rice paper)",
+      "reason": "May use wheat wrappers or a shared fryer"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Vietnamese",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Vietnamese Bistro",
+  "notes": "",
+  "questions": [
+    "Are your noodles 100% rice?",
+    "Is the pho broth seasoned with soy sauce or oyster sauce?",
+    "Are the spring rolls rice paper, and is the peanut or dipping sauce GF?",
+    "Do you have GF hoisin?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Pho",
+      "note": "FMGF lists it as a GF item. Rice noodles are usually GF; ask about the broth and the hoisin served on the side."
+    },
+    {
+      "dish": "Rice noodle dishes",
+      "note": "FMGF lists noodles as a GF item"
+    },
+    {
+      "dish": "Spring rolls",
+      "note": "FMGF lists them as GF. Fresh rice-paper rolls only, and check the dipping sauce."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/asian"
+  ],
+  "status": null,
+  "summary": "FMGF lists GF pho, noodles and spring rolls, but I couldn't see any review text or date, and I couldn't confirm the branch is still open.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

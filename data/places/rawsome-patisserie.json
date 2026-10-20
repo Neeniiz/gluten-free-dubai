@@ -1,0 +1,37 @@
+{
+  "area": "Online, with same-day delivery across Dubai",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Desserts",
+  "delivery": [
+    "Own website (same-day)"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Rawsome Patisserie",
+  "notes": "",
+  "questions": [
+    "Which 'ancient grains' do you use? Do any products contain quinoa or oats?",
+    "Can you give ingredient lists for the bases?"
+  ],
+  "quinoa_oat_flags": [
+    "The company blog mentions 'ancient grains' in its GF cakes, which could mean quinoa or oats. Check each product's ingredients. Raw cheesecake and pie bases are often oat-based."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Mini cakes, cheesecakes, cupcakes",
+      "note": "The site says all desserts are made without gluten and refined sugar"
+    }
+  ],
+  "sources": [
+    "https://rawsomepatisserie.com/collections/same-day-gluten-free-desserts-dubai",
+    "https://rawsomepatisserie.com/blogs/news/the-rise-of-gluten-free-baking-trends-and-techniques-in-gourmet-patisserie"
+  ],
+  "status": null,
+  "summary": "A delivery-only patisserie whose whole range is made without gluten. Check every product for oats or quinoa because of the 'ancient grains' wording.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://rawsomepatisserie.com"
+}

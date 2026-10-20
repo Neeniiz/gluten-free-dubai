@@ -1,0 +1,33 @@
+{
+  "area": "Stores citywide (e.g. Festival Plaza)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Talabat"
+  ],
+  "evidence_level": "ask_first",
+  "name": "Lulu Hypermarket",
+  "notes": "",
+  "questions": [
+    "Which GF breads, pastas and flours does your Dubai branch carry?",
+    "Do you stock GF tamari?"
+  ],
+  "quinoa_oat_flags": [
+    "No products found. Check labels"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.zawya.com/en/press-release/first-of-its-kind-lulu-hypermarket-opens-at-festival-plaza-c68uwijq",
+    "https://www.talabat.com/ar/uae/grocery/800953/lulu-hypermarket-al-khalidiyah/bakery/gluten-free?aid=6485",
+    "https://coeliac.org.uk/document-library/5669-dubai/dubai.pdf"
+  ],
+  "status": null,
+  "summary": "A 2020 press release and Talabat 'gluten free' category pages show Lulu carries a GF range, but I found no specific products or tamari.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

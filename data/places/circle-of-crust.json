@@ -1,0 +1,43 @@
+{
+  "area": "Dubai Mall / Downtown Dubai",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Beetroot and spinach bases",
+      "reason": "These are different bases from the GF one. Don't assume they are gluten-free."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Italian (pizza)",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Circle of Crust",
+  "notes": "",
+  "questions": [
+    "What is the gluten-free crust made of? Any oat flour?",
+    "Is the GF crust made in-house or bought in?",
+    "Is it baked on a separate tray?",
+    "Are any toppings or sauces made with flour?"
+  ],
+  "quinoa_oat_flags": [
+    "The ingredients of the GF crust are unknown. Ask whether it contains oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Any pizza on the gluten-free crust (e.g. Cajun Chicken, Super Meat Deluxe)",
+      "note": "The Sotheby's guide says every one of its 26 pizzas can be made on a GF crust."
+    }
+  ],
+  "sources": [
+    "https://sothebysrealty.ae/the-journal/gluten-free-restaurant-downtown",
+    "https://www.khaleejtimes.com/lifestyle/slice-of-goodness?amp=1",
+    "https://atly.com/best/gluten-free/pizza-united-arab-emirates"
+  ],
+  "status": null,
+  "summary": "A 2021 Khaleej Times piece, a Sotheby's guide and an Atly listing all say a GF crust is available for any pizza; I found nothing confirming it is still offered in 2026.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

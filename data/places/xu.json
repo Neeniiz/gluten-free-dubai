@@ -1,0 +1,40 @@
+{
+  "area": "Al Barsha (Kempinski Hotel Mall of the Emirates, 2nd floor)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Crispy lemongrass chicken / buttermilk prawn",
+      "reason": "Likely battered. Check the coating."
+    },
+    {
+      "dish": "Dim sum",
+      "reason": "Wheat wrappers"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Cantonese / Southeast Asian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "XU",
+  "notes": "",
+  "questions": [
+    "Can I see the gluten-free menu, and is it current?",
+    "Do you stock tamari or GF soy sauce?",
+    "Which GF dishes are battered or fried, and is the fryer shared?",
+    "Are the sauces on GF dishes free of oyster and hoisin sauce?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/xu/6059181690191872",
+    "https://www.findmeglutenfree.com/ae/dubai/asian",
+    "https://www.factmagazines.com/?p=86045"
+  ],
+  "status": null,
+  "summary": "FMGF reports a gluten-free menu here but notes the kitchen isn't dedicated GF. I found no dish-level detail, and the listing date is unknown.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,51 @@
+{
+  "area": "unknown",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Kottu/koththu roti",
+      "reason": "wheat roti"
+    },
+    {
+      "dish": "Pol roti",
+      "reason": "usually wheat flour"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Sri Lankan",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Cinnamon Tree",
+  "notes": "",
+  "questions": [
+    "Are the hoppers and string hoppers 100% rice flour, with no wheat added?",
+    "Are curries thickened with flour or made with stock cubes?",
+    "Is the curry powder or Maggi seasoning wheat-free?",
+    "Is anything fried in oil shared with roti or rolls?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "String hoppers / egg hoppers",
+      "note": "Traditionally rice flour; confirm no wheat flour"
+    },
+    {
+      "dish": "Kiribath (milk rice)",
+      "note": "Naturally rice-based; confirm"
+    },
+    {
+      "dish": "Pol sambol",
+      "note": "Typically GF"
+    }
+  ],
+  "sources": [
+    "https://curlytales.com/middle-east/food/this-restaurant-in-dubai-offers-authentic-sri-lankan-dishes-that-will-leave-you-coming-back/"
+  ],
+  "status": null,
+  "summary": "A curlytales review (undated) lists hoppers, string hoppers and kiribath, but gives no gluten-free information; the dishes are naturally rice-based but unconfirmed here.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

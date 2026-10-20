@@ -1,0 +1,47 @@
+{
+  "area": "Several Dubai branches, including Downtown Dubai, Dubai Mall and Bluewaters; What's On also mentions JBR Beach and Kite Beach",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Café",
+  "delivery": [
+    "Careem",
+    "Deliveroo"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Angel Cakes",
+  "notes": "",
+  "questions": [
+    "Which items contain oats or oat flour, and which contain quinoa?",
+    "Is every item gluten-free, or are a few not?"
+  ],
+  "quinoa_oat_flags": [
+    "Health cafés like this often serve granola, porridge or oat-based cakes. Ask about oats and quinoa in breakfast bowls and cake bases."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Tiramisu Crêpes Cake (AED 55)",
+      "note": "Named by What's On in January 2026. The café is dedicated to GF and refined-sugar-free food."
+    },
+    {
+      "dish": "Carrot with Caramel Cake (AED 55)",
+      "note": "What's On, January 2026"
+    },
+    {
+      "dish": "Breakfast dishes",
+      "note": "Harper's Bazaar Arabia describes GF breakfasts. Reviewers say staff ask carefully about allergies."
+    }
+  ],
+  "sources": [
+    "https://whatson.ae/2026/01/dubais-guilt-free-desserts-that-wont-ruin-your-january-reset/",
+    "https://www.harpersbazaararabia.com/culture/dining/dessert-cafes-in-the-uae",
+    "https://atly.com/best/gluten-free/delivery-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "The best-verified dedicated gluten-free café and cake option. It was still operating and delivering via Careem and Deliveroo as of January 2026.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

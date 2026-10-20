@@ -1,0 +1,34 @@
+{
+  "area": "JW Marriott Marquis, Business Bay",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Naan/roti",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Rang Mahal",
+  "notes": "",
+  "questions": [
+    "Is the restaurant still open?",
+    "Is the hing wheat-free?",
+    "Are marinades and gravies flour-free?",
+    "Are any dishes marked GF?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://theglutenfreetravelbliss.com/gluten-free-in-dubai/"
+  ],
+  "status": null,
+  "summary": "It was only described as 'gluten friendly' in a source about 9 years old, so the evidence is very stale.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

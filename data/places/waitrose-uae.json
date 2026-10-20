@@ -1,0 +1,39 @@
+{
+  "area": "Online / delivery (plus stores)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Waitrose UAE",
+  "notes": "",
+  "questions": [
+    "Is the FreeFrom gluten-free range, including bread and pasta, on waitrose.ae?",
+    "Do you stock Kikkoman GF tamari?"
+  ],
+  "quinoa_oat_flags": [
+    "UK FreeFrom ranges include oat-based items. Check labels"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Kikkoman Gluten Free Soy Sauce 250ml",
+      "note": "Product page on waitrose.ae (found in the sushi research)"
+    }
+  ],
+  "sources": [
+    "https://www.waitrose.ae/en/products/kikkoman-gluten-free-soy-sauce-250ml_13648/",
+    "https://www.retailgazette.co.uk/blog/2020/10/waitrose-launches-first-dedicated-overseas-ecommerce-offer",
+    "https://apps.apple.com/app/id1544206466",
+    "https://coeliac.org.uk/document-library/5669-dubai/dubai.pdf"
+  ],
+  "status": null,
+  "summary": "Waitrose UAE's own site lists Kikkoman gluten-free soy sauce, the easiest way to carry your own soy sauce to sushi places. Other GF ranges are unconfirmed.",
+  "tamari": "yes",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.waitrose.ae"
+}

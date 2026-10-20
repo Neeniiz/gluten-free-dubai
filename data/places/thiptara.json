@@ -1,0 +1,44 @@
+{
+  "area": "Downtown (Palace Downtown, Sheikh Mohammed bin Rashid Blvd)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Citrus milk chocolate cake with lemongrass",
+      "reason": "Tagged (G) on the menu"
+    },
+    {
+      "dish": "Any dish tagged (G)",
+      "reason": "Contains gluten"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Thai",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Thiptara",
+  "notes": "",
+  "questions": [
+    "Is the December 2022 allergen-coded menu still current?",
+    "Are untagged dishes free of soy, oyster and fish sauce made with wheat?",
+    "Can stir-fried dishes be made with tamari?",
+    "How do you prevent cross-contact in the wok?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes without a (G) tag on the current menu",
+      "note": "The official menu PDF tags gluten with (G). An untagged dish isn't explicitly called GF, so confirm."
+    }
+  ],
+  "sources": [
+    "https://cdn.addresshotels.com/wp-content/uploads/2022/12/Thiptara-Combined-Menu-A4.pdf",
+    "https://intravel.net/dubai/restaurants-cafes/thiptara"
+  ],
+  "status": null,
+  "summary": "The official menu PDF has an allergen key with a gluten code, which helps you pick dishes, but the PDF was uploaded in December 2022 and may be out of date.",
+  "tamari": "unknown",
+  "tamari_source": "Not stated. The menu uses allergen codes, including (G) for gluten.",
+  "updated": 0,
+  "website": ""
+}

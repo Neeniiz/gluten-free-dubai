@@ -1,0 +1,37 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "ask_first",
+  "name": "GlutenFree-Supermarket.ae",
+  "notes": "",
+  "questions": [
+    "Is the site still trading?",
+    "Do you sell GF tamari and flour blends?"
+  ],
+  "quinoa_oat_flags": [
+    "Check the cereals and breads for oats or quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "GF bread, pasta, baked goods, cereal, snacks, baking goods, condiments",
+      "note": "Older review says everything sold is 100% GF"
+    }
+  ],
+  "sources": [
+    "https://thenationalnews.com/lifestyle/food/online-gluten-free-supermarket-1.392608",
+    "https://gulfnews.com/amp/story/going-out%2Frestaurants%2Fgoing-hunting-1.1207380"
+  ],
+  "status": null,
+  "summary": "Older National and Gulf News articles (roughly 2014-2016) describe a dedicated online GF shop delivering UAE-wide within 48h, but I found nothing showing it still operates.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

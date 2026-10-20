@@ -1,0 +1,41 @@
+{
+  "area": "Al Safa 1 (Wasl Square, Al Wasl Rd); FMGF also lists a Mirdif branch",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Bakery",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Better Bakes Gluten-Free Bakery & Cafe",
+  "notes": "",
+  "questions": [
+    "Is the Mirdif branch still open, and which delivery apps carry you?",
+    "Do any breads or bakes contain oat flour, quinoa flour or 'ancient grain' blends?",
+    "Do you sell granola or porridge?"
+  ],
+  "quinoa_oat_flags": [
+    "No ingredient lists found. Ask whether any breads, granola or porridge use oat or quinoa flour"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Croissants",
+      "note": "A Mirdif reviewer on Find Me Gluten Free praised them"
+    },
+    {
+      "dish": "Whole menu",
+      "note": "Atly lists it as 100% dedicated gluten-free, with a separate oven and a dedicated GF kitchen"
+    }
+  ],
+  "sources": [
+    "https://web.atly.com/t/AzhBEzcU3PK",
+    "https://atly.com/best/gluten-free/bakery-united-arab-emirates",
+    "https://www.findmeglutenfree.com/ae/dubai/bakeries"
+  ],
+  "status": null,
+  "summary": "Atly and Find Me Gluten Free both list it as a dedicated gluten-free bakery-café (listings from roughly 2024-2025), but I couldn't open any page to check the current menu, hours or ingredients.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

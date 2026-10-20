@@ -1,0 +1,45 @@
+{
+  "area": "Za'abeel (One&Only One Za'abeel; reportedly moved to the 24th floor)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Anything glazed with kecap manis (for example satay, bakar dishes)",
+      "reason": "Kecap manis usually contains wheat"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Indonesian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Andaliman",
+  "notes": "",
+  "questions": [
+    "Which dishes and sambals are made without kecap manis or soy sauce?",
+    "Do you have a GF kecap manis or tamari?",
+    "Are the krupuk or crackers and fried items wheat-free, with a dedicated fryer?",
+    "Is the rendang spice paste or stock free of wheat?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Beef rendang",
+      "note": "Not confirmed GF. Rendang is often GF, but ask about kecap manis or soy."
+    },
+    {
+      "dish": "Grilled fish with sambal",
+      "note": "Not confirmed GF. Ask which sambals use kecap manis or shrimp paste with additives."
+    }
+  ],
+  "sources": [
+    "https://www.opentable.co.uk/r/andaliman-dubai",
+    "https://whatson.ae/2024/02/why-you-need-to-try-oneonly-one-zaabeels-new-indonesian-restaurant/",
+    "https://www.rli.uk.com/andaliman-at-one-zabaeel-in-dubai-relocates/"
+  ],
+  "status": null,
+  "summary": "OpenTable tags it 'gluten-free options', but that's only a platform tag with no dish detail. The 2024 What's On review covers the menu, and it may have relocated since.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

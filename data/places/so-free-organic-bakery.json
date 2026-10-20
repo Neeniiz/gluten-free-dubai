@@ -1,0 +1,42 @@
+{
+  "area": "Icon Tower 1, Cluster M, Jumeirah Lake Towers (JLT)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Bakery",
+  "delivery": [
+    "Listing says delivery is available (apps unknown)"
+  ],
+  "evidence_level": "community_reports",
+  "name": "So Free Organic Bakery",
+  "notes": "",
+  "questions": [
+    "Are you still open?",
+    "Which flours do you use? Any oats or quinoa?",
+    "Which delivery apps do you use?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Organic GF bakeries often use oat or quinoa flour, so ask about each item."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Brownies",
+      "note": "Praised by reviewers. Listed as 100% dedicated GF."
+    },
+    {
+      "dish": "GF cakes",
+      "note": "Per directory listing"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/best/gluten-free/bakery-united-arab-emirates",
+    "https://atly.com/best/gluten-free/desserts-united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "A directory-listed dedicated gluten-free organic bakery in JLT. No official website or recent confirmation was found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

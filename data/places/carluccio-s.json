@@ -1,0 +1,49 @@
+{
+  "area": "Dubai Mall (other branches listed: Dubai Marina Mall, Ibn Battuta Mall, The Springs Souk, Arabian Ranches, Mirdif)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Rigatoni Pistachio (the regular version)",
+      "reason": "Reviewers praise it, but it is not stated to be on the GF menu. Order the GF-menu version only."
+    },
+    {
+      "dish": "Fried starters (e.g. arancini, calamari)",
+      "reason": "Breaded. The fryer is probably shared (OK for you, but note it)."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Italian",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Carluccio's",
+  "notes": "",
+  "questions": [
+    "Does this branch carry the separate gluten-free menu today?",
+    "What brand of gluten-free pasta do you use, and is it cooked in fresh water rather than the shared pasta water?",
+    "What is the GF pizza base made of? Does it contain oat flour?",
+    "Is the sauce on my GF pasta thickened with flour?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free pasta (from the separate GF menu)",
+      "note": "Listings describe a dedicated gluten-free menu with pasta and pizza. The GF pasta brand is unknown."
+    },
+    {
+      "dish": "Gluten-free pizza",
+      "note": "Listed on the GF menu at the Dubai Mall branch. I could not confirm which other branches carry it."
+    }
+  ],
+  "sources": [
+    "https://atly.com/best/gluten-free/italian-united-arab-emirates",
+    "https://whatson.ae/?p=119444",
+    "https://www.thenationalnews.com/lifestyle/a-new-food-dawn-1.337925"
+  ],
+  "status": null,
+  "summary": "Several guides, including undated What's On and older National pieces plus current Atly listings, say Carluccio's has a separate gluten-free menu with pasta and pizza; I could not see the current official menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

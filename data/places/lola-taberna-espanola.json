@@ -1,0 +1,51 @@
+{
+  "area": "",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Croquetas",
+      "reason": "Béchamel and breadcrumbs."
+    },
+    {
+      "dish": "Calamares fritos, chorizo frito, other fried tapas",
+      "reason": "Flour-dredged, and the fryer is probably shared."
+    },
+    {
+      "dish": "Bread (pan con tomate)",
+      "reason": "Wheat, unless they have GF bread."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Spanish",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Lola Taberna Española",
+  "notes": "",
+  "questions": [
+    "Which location am I booking, and do you still handle gluten allergies?",
+    "Does the paella stock or seasoning contain wheat?",
+    "Are the patatas bravas fried in the same oil as croquetas or calamari?",
+    "Do you have gluten-free bread?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Paella",
+      "note": "The Fora travel gluten-free guide recommends telling the server about your allergy. Confirm there is no stock cube, flour or shared pan."
+    },
+    {
+      "dish": "Gazpacho, jamón, tortilla española",
+      "note": "Often naturally GF. Confirm."
+    }
+  ],
+  "sources": [
+    "https://www.foratravel.com/guides/HLZLG9/gluten-free-dining-in-dubai-alicia-anderson"
+  ],
+  "status": null,
+  "summary": "The only Spanish lead I found is a single undated Fora travel-guide entry saying the staff handle gluten allergies; I could not confirm its location or current menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

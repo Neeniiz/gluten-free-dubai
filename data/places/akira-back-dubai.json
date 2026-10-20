@@ -1,0 +1,47 @@
+{
+  "area": "Palm Jumeirah (W Dubai - The Palm)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "AB Tacos",
+      "reason": "Bulgogi marinade and tomato ponzu, both soy-based"
+    },
+    {
+      "dish": "AB Tuna Pizza",
+      "reason": "Tortilla/crust base and umami aioli are likely to contain gluten"
+    },
+    {
+      "dish": "Tempura, gochujang-glazed items",
+      "reason": "Wheat; gochujang often contains wheat or barley"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Akira Back Dubai",
+  "notes": "",
+  "questions": [
+    "Do you have a separate gluten-free menu?",
+    "Is tamari available?",
+    "Is gochujang, bulgogi or ponzu GF in any dish?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sashimi / nigiri",
+      "note": "If GF soy is confirmed"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/sushi",
+    "https://middleeasttraveller.com/dubai-japanese-restaurant-akira-back-reveals-eight-course-menu-featuring-its-most-iconic-dishes/"
+  ],
+  "status": null,
+  "summary": "There are reports of a GF menu, but they're unconfirmed. Most signatures use soy, gochujang or ponzu.",
+  "tamari": "unknown",
+  "tamari_source": "One GF guide says it has 'separate gluten-free menus', and FMGF lists it on its Dubai sushi page. A hotel listing tags it gluten-free. I found no first-party confirmation or tamari mention. The allergen-marked Akira Back PDF I found appears to be another property's menu (OOMB).",
+  "updated": 0,
+  "website": ""
+}

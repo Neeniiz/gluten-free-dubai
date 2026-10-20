@@ -1,0 +1,50 @@
+{
+  "area": "Dubai Mall",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Sauces such as béchamel, velouté, jus or gravy with meat dishes (e.g. baby chicken)",
+      "reason": "In French cooking these are often roux-thickened or flour-dusted."
+    },
+    {
+      "dish": "Breaded or fried items",
+      "reason": "Probably a shared fryer."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "French",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "La Maison Ani",
+  "notes": "",
+  "questions": [
+    "What is in the gluten-free bread? Any oats?",
+    "Which GF pasta brand do you use?",
+    "Are the sauces and jus thickened with flour?",
+    "Is the chicken dusted with flour before cooking?"
+  ],
+  "quinoa_oat_flags": [
+    "The GF bread ingredients are unknown. Ask about oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free bread (extra charge)",
+      "note": "From an Atly listing marked 'Unverified'."
+    },
+    {
+      "dish": "Gluten-free pasta",
+      "note": "Same Atly listing. The brand is unknown."
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/LaMaisonAni.md",
+    "https://wanderlog.com/place/details/2560663/la-maison-ani"
+  ],
+  "status": null,
+  "summary": "The only evidence is one undated Atly listing marked 'Unverified', which mentions GF bread and pasta; it is the only French lead I found, so call first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

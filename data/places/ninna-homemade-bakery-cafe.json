@@ -1,0 +1,47 @@
+{
+  "area": "Sadaf 7, The Walk / Beach Walk, JBR",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "broad",
+  "cuisine": "Bakery",
+  "delivery": [
+    "Same-day delivery reported (apps unknown)"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Ninna Homemade Bakery & Café",
+  "notes": "",
+  "questions": [
+    "Is everything gluten-free? (Atly tags it as 'Accommodating', not 100% dedicated.)",
+    "Which items contain oats?",
+    "Which delivery apps do you use?"
+  ],
+  "quinoa_oat_flags": [
+    "Unknown. Vegan GF baking often uses oat flour, so ask."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Cornstarch alfajores",
+      "note": "Naturally wheat-free style. The bakery says it is dedicated to GF creations."
+    },
+    {
+      "dish": "Filled savoury croissants (GF)",
+      "note": "Per Atly reviews"
+    },
+    {
+      "dish": "Cakes",
+      "note": "One review says same-day delivery"
+    }
+  ],
+  "sources": [
+    "https://www.happycow.net/members/profile/Ninnadubai",
+    "https://atly.com/best/gluten-free/bread-items-united-arab-emirates-dubai",
+    "https://atly.com/best/gluten-free/bakery-united-arab-emirates"
+  ],
+  "status": null,
+  "summary": "A JBR bakery that describes itself as dedicated to vegan and gluten-free baking. Its alfajores and GF croissants are well reviewed.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,44 @@
+{
+  "area": "Al Murooj Complex, Trade Centre (some sources say DIFC)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Bakery",
+  "delivery": [
+    "Deliveroo",
+    "Talabat"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Keto Kartel",
+  "notes": "",
+  "questions": [
+    "Do your breads use oat fibre, oat flour or quinoa?",
+    "Is the whole menu still 100% gluten-free?",
+    "Which items can be delivered same day?"
+  ],
+  "quinoa_oat_flags": [
+    "Keto breads sometimes use seed or alternative flours. Ingredients were not found, so ask about oat fibre and quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Cakes",
+      "note": "A coeliac reviewer on FMGF recommended the cake to coeliacs visiting Dubai"
+    },
+    {
+      "dish": "Breads and chocolates",
+      "note": "Press says everything is strictly gluten-free and keto"
+    }
+  ],
+  "sources": [
+    "https://tbreak.com/keto-kartel-dubai-healthy-cafe-difc/",
+    "https://gulfnews.com/amp/things-to-do/cafes-restaurants-news/coffee-croissants-and-more-4-new-stylish-bakery-cafes-in-dubai-you-knead-to-know-about-1.1732545982463",
+    "https://www.findmeglutenfree.com/ae/dubai/bakeries"
+  ],
+  "status": null,
+  "summary": "Launched in 2024 and described by the press (2024) and FMGF as fully gluten-free and keto, with delivery on Deliveroo and Talabat; I couldn't see current ingredients.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

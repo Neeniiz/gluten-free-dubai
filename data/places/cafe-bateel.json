@@ -1,0 +1,56 @@
+{
+  "area": "Multiple branches (Dubai Hills Mall, Dubai Mall, Dubai Festival City, Arabian Ranches, Mirdif City Centre)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bisque or cream sauces",
+      "reason": "Check that they are not thickened with a roux."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Italian / Mediterranean café",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Café Bateel",
+  "notes": "",
+  "questions": [
+    "Does any GF pasta contain quinoa? Which brand is it?",
+    "Do any of the GF breads contain oat flour or oats?",
+    "Which superfood salads contain quinoa?",
+    "Is the bisque or cream sauce thickened with flour?",
+    "Is the GF menu still offered at this branch?"
+  ],
+  "quinoa_oat_flags": [
+    "'Three cheese quinoa rigatoni' made with GF pasta appeared on the GF menu (Time Out Abu Dhabi). This is QUINOA, so avoid it.",
+    "The GF menu includes 'superfood salads', which likely contain quinoa. Check.",
+    "Ask whether any of the GF breads contain oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes from the separate gluten-free menu (pastas, soups)",
+      "note": "Bayut and What's On describe a 100% gluten-free menu. The pasta brand is unknown."
+    },
+    {
+      "dish": "Tiger prawn spaghetti in cherry tomato and crab bisque (GF menu)",
+      "note": "From a Harper's Bazaar Arabia write-up of the GF menu launch, which is older. Ask whether the bisque is flour-thickened."
+    },
+    {
+      "dish": "Gluten-free bread basket",
+      "note": "An Atly reviewer at Dubai Hills got three kinds of GF bread."
+    }
+  ],
+  "sources": [
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai",
+    "https://www.harpersbazaararabia.com/?p=9132",
+    "https://dev.timeoutabudhabi.com/?p=8702",
+    "https://www.atly.com/gluten-free/location/Caf%C3%A9-Bateel---Dubai-Hills-Mall",
+    "https://whatson.ae/?p=119444"
+  ],
+  "status": null,
+  "summary": "Café Bateel publicly launched a separate gluten-free menu, covered in several older articles, and a recent-looking Atly review at Dubai Hills confirms GF breads, but at least one GF pasta has used quinoa.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

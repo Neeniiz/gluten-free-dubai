@@ -1,0 +1,46 @@
+{
+  "area": "JBR (Roxy Cinema building area) and City Walk",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Benedicts on muffins, waffles, French toast, regular pancakes",
+      "reason": "Wheat."
+    },
+    {
+      "dish": "Hash browns and fries",
+      "reason": "Probably a shared fryer."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Brunch café",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Eggspectation",
+  "notes": "",
+  "questions": [
+    "Do you have gluten-free bread or English muffins? Any oat flour in them?",
+    "Is the hollandaise made from scratch, with no flour or mix?",
+    "Are the potatoes pan-fried or deep-fried in a shared fryer?",
+    "Which branches are currently open?"
+  ],
+  "quinoa_oat_flags": [
+    "Breakfast menus like this usually include granola, oatmeal or porridge. Avoid them."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Egg dishes made to order without gluten",
+      "note": "What's On and Bayut say they will adapt dishes for GF diners on request."
+    }
+  ],
+  "sources": [
+    "https://whatson.ae/?p=119444",
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai"
+  ],
+  "status": null,
+  "summary": "Undated What's On and Bayut roundups say staff make dishes to order for GF diners, but it is not a GF-focused place and I found no recent celiac reviews.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

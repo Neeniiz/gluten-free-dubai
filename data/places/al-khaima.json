@@ -1,0 +1,43 @@
+{
+  "area": "Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bread, fattoush, kibbeh, tabbouleh",
+      "reason": "wheat/bulgur"
+    },
+    {
+      "dish": "Shisha-lounge snacks such as fried pastries",
+      "reason": "wheat dough, shared fryer"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Middle Eastern",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Al Khaima",
+  "notes": "",
+  "questions": [
+    "Can I see the gluten-free menu?",
+    "Are grills marinated without flour, soy or Maggi?",
+    "Is anything fried in the same oil as bread or kibbeh?",
+    "Does the garlic sauce contain starch?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Items on the GF menu",
+      "note": "FindMeGlutenFree lists it as having a GF menu; dish names not visible in the snippet"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/middle-eastern"
+  ],
+  "status": null,
+  "summary": "FindMeGlutenFree (2025 page) marks it as having a GF menu, and one diner reported feeling safe on two visits; only two safety ratings exist.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

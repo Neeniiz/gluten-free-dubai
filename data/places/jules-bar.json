@@ -1,0 +1,39 @@
+{
+  "area": "Garhoud (Le Méridien Dubai Hotel & Conference Centre)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Sisig, adobo and other soy-based Filipino dishes",
+      "reason": "Usually made with regular soy sauce"
+    },
+    {
+      "dish": "Lechon kawali / crispy pata",
+      "reason": "Often a flour coating, a shared fryer, or a soy-based dip"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Filipino / Mexican",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Jules Bar",
+  "notes": "",
+  "questions": [
+    "Which dishes are GF? The listing mentions GF options.",
+    "Do you have GF soy sauce for adobo, sisig or dips?",
+    "Is the lechon kawali or crispy pata coated in flour, and is the fryer shared?",
+    "Are the Mexican corn tortillas 100% corn?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://intravel.net/dubai/restaurants-cafes/jules",
+    "https://www.nogarlicnoonions.com/jules-bar-brings-filipino-mexican-flavours-to-dubai"
+  ],
+  "status": null,
+  "summary": "The only GF evidence is a directory tag saying it offers 'gluten-free options'. The April 2026 press release covers the Filipino menu but doesn't mention GF, and the two sources' addresses may not match.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": "https://www.morecravings.com/venues/julesbardubai"
+}

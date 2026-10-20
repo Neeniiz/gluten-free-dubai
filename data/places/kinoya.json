@@ -1,0 +1,36 @@
+{
+  "area": "The Greens / The Onyx Tower 2",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Ramen",
+      "reason": "Wheat noodles and soy-based tare"
+    },
+    {
+      "dish": "Gyoza, karaage, robata glazes",
+      "reason": "Wheat / soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Kinoya",
+  "notes": "",
+  "questions": [
+    "Do you have any GF noodles or a GF tare?",
+    "Can robata be cooked salt-only?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.theworlds50best.com/discovery/Establishments/United-Arab-Emirates/Dubai/Kinoya.html"
+  ],
+  "status": null,
+  "summary": "Ramen-focused, with no GF evidence. Likely a poor fit.",
+  "tamari": "unknown",
+  "tamari_source": "No GF information found",
+  "updated": 0,
+  "website": ""
+}

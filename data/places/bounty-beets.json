@@ -1,0 +1,43 @@
+{
+  "area": "Le Méridien Mina Seyahi, Dubai Marina / Al Sufouh",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "western",
+  "cuisine": "Brunch café (healthy, dedicated GF)",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Bounty Beets",
+  "notes": "",
+  "questions": [
+    "Are you still open and still fully gluten-free?",
+    "Which dishes contain oats, oat milk, granola or quinoa?",
+    "Is the burger bun made with oat flour?",
+    "Is the fryer still dedicated GF?"
+  ],
+  "quinoa_oat_flags": [
+    "As a healthy café it probably serves granola, porridge or oat milk, and quinoa bowls. Ask which items contain oats or quinoa.",
+    "The GF bun ingredients are unknown. Ask about oat flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free burger",
+      "note": "From the BBC Good Food ME 'Up Beet' 100% GF menu, an older promotion."
+    },
+    {
+      "dish": "Fries",
+      "note": "Atly reports a dedicated fryer."
+    }
+  ],
+  "sources": [
+    "https://web.atly.com/t/AzhBEzcU3PK",
+    "https://www.bbcgoodfoodme.com/health/bounty-beets-ladies-night/",
+    "https://www.kuoni.co.uk/dubai/hotels/le-meridien-mina-seyahi-beach-resort-and-marina"
+  ],
+  "status": null,
+  "summary": "Atly calls it 100% dedicated GF, and a celiac reviewer said the staff understood contamination risks, but the menu details are from older articles; confirm it is still open.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

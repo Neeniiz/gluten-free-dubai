@@ -1,0 +1,38 @@
+{
+  "area": "",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Soy-based savoury Filipino dishes",
+      "reason": "Regular soy sauce is likely"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Filipino / Asian cafe",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Sola Fluffy",
+  "notes": "",
+  "questions": [
+    "What's in the GF cakes? Are any made with oat flour?",
+    "Are the GF cakes baked separately from wheat cakes?",
+    "Are any savoury Filipino dishes GF?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free cakes",
+      "note": "Atly snippet mentions 'gluten-free cakes'"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/best/gluten-free/united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "It appeared once in an Atly search snippet ('gluten-free cakes and a variety of Asian and Filipino dishes'). I couldn't verify the location or details, and the snippet is undated.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

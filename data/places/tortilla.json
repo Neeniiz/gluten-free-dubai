@@ -1,0 +1,45 @@
+{
+  "area": "Dubai Festival City (DFC); Mall of the Emirates",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Burritos, quesadillas (flour tortilla wraps)",
+      "reason": "The chain's nutrition guide lists the flour tortilla wrap as containing gluten."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Mexican",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Tortilla",
+  "notes": "",
+  "questions": [
+    "Do you have 100% corn tortillas here, and are they warmed on the same press as flour wraps?",
+    "Can you change gloves and use fresh utensils for my bowl?",
+    "Do any of the fillings or salsas contain wheat?",
+    "Are the chips fried with anything breaded?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Burrito bowl (no tortilla)",
+      "note": "Reported as GF at the DFC branch, where staff reportedly take steps to avoid cross-contamination."
+    },
+    {
+      "dish": "Gluten-free taco",
+      "note": "A reviewer at Mall of the Emirates (listing unverified) mentioned one. Confirm it is corn."
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Tortilla---%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D8%A7---DFC",
+    "https://www.atly.com/gluten-free/location/Tortilla---%D8%AA%D9%88%D8%B1%D8%AA%D9%8A%D8%A7---Mall-of-Emirates",
+    "https://a.storyblok.com/f/158888/x/172c6ccedc/tortilla-nutrition-guide-march-2026.pdf"
+  ],
+  "status": null,
+  "summary": "Atly user reports (undated) say the bowls are GF at DFC; a March 2026 chain nutrition guide (possibly UK) confirms the flour wrap contains gluten but does not show a corn tortilla.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

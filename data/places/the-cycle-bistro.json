@@ -1,0 +1,46 @@
+{
+  "area": "Motor City",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Burgers (unless the GF bun is confirmed)",
+      "reason": "It is tagged 'Burgers', but the GF burger praise I found belonged to a different listing."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Brunch café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "The Cycle Bistro",
+  "notes": "",
+  "questions": [
+    "Do you have a gluten-free burger bun, and what is it made of? Any oat flour?",
+    "Are the almond pancakes made with any oat flour?",
+    "What gluten-free bread comes with the shakshuka?",
+    "Which items contain oats or quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "A health-focused café: ask about granola, oats and quinoa bowls."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Almond flour pancakes",
+      "note": "Atly highlights them as GF."
+    },
+    {
+      "dish": "Shakshuka",
+      "note": "Listed as GF. Serve without regular bread."
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/best/gluten-free/restaurant-united-arab-emirates-dubai-dubai",
+    "https://www.atly.com/best/gluten-free/burgers-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "An Atly 'accommodating' listing (undated) says GF, dairy-free and sugar-free dishes are central to the menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

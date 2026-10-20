@@ -1,0 +1,48 @@
+{
+  "area": "Sofitel Dubai The Palm, Palm Jumeirah",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Keralan fried chicken",
+      "reason": "Check the batter and fryer"
+    },
+    {
+      "dish": "Papadum",
+      "reason": "Check the fryer"
+    },
+    {
+      "dish": "Naan",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Zoya by Maui",
+  "notes": "",
+  "questions": [
+    "Is the hing wheat-free?",
+    "Is the meen moilee or other curry thickened with flour?",
+    "Is the fried chicken batter rice or gram flour only, in a separate fryer?",
+    "Is Zoya still running as Maui's evening concept?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Chicken tikka",
+      "note": "A coeliac family on TripAdvisor said it was cooked and served separately"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/ShowUserReviews-g295424-d1015046-r913431914-Sofitel_Dubai_The_Palm-Dubai_Emirate_of_Dubai.html",
+    "https://www.sofitel-dubai-thepalm.com/restaurants/maui-beach-restaurant/"
+  ],
+  "status": null,
+  "summary": "A TripAdvisor review from a family with a coeliac child (date not seen, likely 2023) praised the separate cooking; the hotel page says gluten-free dishes are available.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.sofitel-dubai-thepalm.com/restaurants/maui-beach-restaurant/"
+}

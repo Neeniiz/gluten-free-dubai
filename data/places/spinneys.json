@@ -1,0 +1,66 @@
+{
+  "area": "Online / delivery (plus stores)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Doves Farm multigrain penne",
+      "reason": "Contains quinoa flour"
+    },
+    {
+      "dish": "La Molisana GF spaghetti N.15",
+      "reason": "Contains quinoa (and was out of stock)"
+    }
+  ],
+  "batch": "bakery",
+  "cuisine": "Grocery",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Spinneys",
+  "notes": "",
+  "questions": [
+    "Do you stock GF tamari or GF soy sauce? (None found)",
+    "Do you stock GF bread and an all-purpose GF flour blend?"
+  ],
+  "quinoa_oat_flags": [
+    "Doves Farm multigrain penne contains quinoa",
+    "La Molisana GF spaghetti contains quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Doves Farm maize & rice spaghetti 500g",
+      "note": "Corn and rice only, about AED 21"
+    },
+    {
+      "dish": "Doves Farm buckwheat penne 500g",
+      "note": "Buckwheat flour only, about AED 31.50"
+    },
+    {
+      "dish": "Passion Pasta garlic & parsley spirals 250g",
+      "note": "Rice, potato, tapioca and maize, labelled GF"
+    },
+    {
+      "dish": "Rummo GF mezzi rigatoni 400g",
+      "note": "Brown rice and corn; contains soya and lupin"
+    },
+    {
+      "dish": "Bob's Red Mill tapioca flour 454g",
+      "note": "About AED 31.50"
+    }
+  ],
+  "sources": [
+    "https://spinneys.com/ar-ae/catalogue/doves-maize-and-rice-spaghetti-500g_68998",
+    "https://spinneys.com/ar-ae/catalogue/doves-multigrain-penne-500g_69000",
+    "https://spinneys.com/ar-ae/catalogue/doves-buckwheat-penne-500g_68999",
+    "https://www.spinneys.com/en-ae/catalogue/la-molisana-gluten-free-spaghetti-n15-400g_59239/",
+    "https://www.spinneys.com/en-ae/catalogue/bobs-red-mill-tapioca-flour-454g_11355"
+  ],
+  "status": null,
+  "summary": "Spinneys UAE product pages (indexed snapshots, recent but undated) show several GF pastas and tapioca flour; two pastas contain quinoa, and I found no tamari.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.spinneys.com/en-ae/"
+}

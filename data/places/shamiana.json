@@ -1,0 +1,39 @@
+{
+  "area": "unclear (a 2025 article places it at Taj Dubai, Business Bay; a TripAdvisor thread mentions it for Dubai Mall)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Breads",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Fried snacks",
+      "reason": "shared fryer or wheat batters"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Shamiana",
+  "notes": "",
+  "questions": [
+    "Which buffet or a la carte items are gluten-free?",
+    "Is the hing wheat-free?",
+    "Are gravies thickened with flour?",
+    "Can they serve from fresh trays to avoid buffet cross-contact?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.tripadvisor.com/ShowTopic-g295424-i872-k11769672-Options_for_a_celiac_in_Dubai_Mall-Dubai_Emirate_of_Dubai.html",
+    "https://tbreak.com/diwali-dubai-taj-bombay-brasserie-shamiana-2025/"
+  ],
+  "status": null,
+  "summary": "One TripAdvisor forum reply (undated) recommended it for a celiac, with another warning staff training can be lacking; the location is unclear.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

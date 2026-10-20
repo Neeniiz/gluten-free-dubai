@@ -1,0 +1,61 @@
+{
+  "area": "Palm Jumeirah (Atlantis The Palm)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Black Cod Butter Lettuce",
+      "reason": "Tagged (G) on the official menu (miso marinade)"
+    },
+    {
+      "dish": "Japanese Beef",
+      "reason": "Tagged (G) on the official menu"
+    },
+    {
+      "dish": "Tempura, rock shrimp tempura, anything 'crispy'",
+      "reason": "Wheat batter"
+    },
+    {
+      "dish": "Anything with a (G) tag, teriyaki, anticucho or yuzu-soy dressings (e.g. new-style sashimi)",
+      "reason": "Regular soy/wheat, unless they confirm GF versions"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Nobu Dubai (Atlantis The Palm)",
+  "notes": "",
+  "questions": [
+    "Do you have gluten-free soy sauce or tamari, and GF teriyaki?",
+    "Can you adapt (G)-tagged signatures such as the yellowtail jalapeno (yuzu-soy) or black cod with GF ingredients?",
+    "Is the sushi rice seasoned with plain rice vinegar or with anything containing malt or barley?",
+    "Are the new-style sashimi oil and the dressings soy-based?"
+  ],
+  "quinoa_oat_flags": [
+    "None found on the menus I saw, but check salads"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes with no (G) tag on the official menu",
+      "note": "The Atlantis menu uses (G) for gluten. Choose untagged dishes and confirm with your server."
+    },
+    {
+      "dish": "Sashimi and plain nigiri with GF soy sauce",
+      "note": "The usual GF base, if they bring GF soy sauce."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/nobu/6646787741450240",
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://damstatic.kerzner.com/v1/static/Nobu Dinner Menu",
+    "https://damstatic.kerzner.com/v1/static/Nobu Lunch Menu",
+    "https://www.atlantis.com/dubai/atlantis-the-palm/dining/nobu"
+  ],
+  "status": null,
+  "summary": "Celiac diners on FindMeGlutenFree report knowledgeable staff and careful handling, and the official menus tag gluten with (G). Many signature dishes are tagged, though, so you'll need modifications.",
+  "tamari": "unknown",
+  "tamari_source": "The official Atlantis menus tag gluten with '(G)' but don't mention tamari. FindMeGlutenFree Dubai lists Nobu under 'gluten-free soy sauce'. A celiac reviewer there says staff knew what could be made GF and took 'extreme care' with cross-contamination. A separate FMGF Nobu review mentions GF soy sauce and GF teriyaki, but its location is unclear.",
+  "updated": 0,
+  "website": "https://www.atlantis.com/dubai/atlantis-the-palm/dining/nobu"
+}

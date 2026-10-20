@@ -1,0 +1,38 @@
+{
+  "area": "unknown (confirm current location)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Naan/roti/paratha",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Chaat with wheat puri",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Trèsind",
+  "notes": "",
+  "questions": [
+    "Can the tasting menu be made fully gluten-free?",
+    "Is the hing wheat-free?",
+    "Are marinades free of wheat flour?",
+    "Are fried items in oil shared with wheat batters?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.opentable.co.uk/features/best-gluten-free-restaurants-dubai-nad-al-sheba"
+  ],
+  "status": null,
+  "summary": "An OpenTable listing (undated) says it caters to gluten-free diets on request; no celiac reviews were found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,49 @@
+{
+  "area": "Atlantis The Palm, Palm Jumeirah",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dim sum, dumplings, anything battered",
+      "reason": "Usually wheat-based unless marked GF"
+    },
+    {
+      "dish": "Dishes not marked GF",
+      "reason": "Soy and oyster sauces"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Chinese",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Hakkasan Dubai",
+  "notes": "",
+  "questions": [
+    "Can I have the gluten-free menu?",
+    "Do the GF dishes use tamari or GF soy sauce?",
+    "Can any dim sum be made GF?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes on the GF menu (scan the QR code on the 2026 menu)",
+      "note": "The Dubai menu carries a 'Gluten Free' legend, and the group publishes a GF menu"
+    },
+    {
+      "dish": "Sautéed scallop with salted olive and porcini",
+      "note": "Listed as GF in a 2019 press release; may no longer be on the menu"
+    }
+  ],
+  "sources": [
+    "https://hakkasangroup.com/venues/hakkasan-dubai/menu/",
+    "https://hakkasangroup.com/wp-content/uploads/2026/04/Hakkasan-SpringSummer-ALC-Menu-2026.pdf",
+    "https://hakkasangroup.com/wp-content/uploads/2025/10/HKK-MF-AW-2025-Gluten-free-menu-Kcal.pdf",
+    "https://www.kerznercommunications.com/atlantis/the-palm/hakkasan-dubai-debuts-special-dietary-menus/"
+  ],
+  "status": null,
+  "summary": "Upscale Cantonese with an official gluten-free menu (current through 2026 per its menus). A good splurge option for Asian food.",
+  "tamari": "ask",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://hakkasangroup.com/venues/hakkasan-dubai/menu/"
+}

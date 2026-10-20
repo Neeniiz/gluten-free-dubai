@@ -1,0 +1,40 @@
+{
+  "area": "Multiple Dubai locations (delivery-focused)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Regular crusts, garlic bread",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Pizza & burgers",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Freedom Pizza",
+  "notes": "",
+  "questions": [
+    "Do you still offer a GF crust, and who makes it?",
+    "Does the crust contain oats or quinoa?",
+    "Which toppings contain gluten?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask whether the GF crust contains oat or quinoa flour."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Pizza on GF crust",
+      "note": "An older Gulf News article says the GF crusts were made by Skinny Genie; the supplier may have changed"
+    }
+  ],
+  "sources": [
+    "https://gulfnews.com/amp/story/business%2Fretail%2Ffreedom-pizza-debuts-in-the-uae-1.1499272"
+  ],
+  "status": null,
+  "summary": "A possible GF pizza delivery option, based only on an older article. Confirm the crust and its ingredients.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

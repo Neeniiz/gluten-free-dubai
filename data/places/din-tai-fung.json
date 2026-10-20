@@ -1,0 +1,44 @@
+{
+  "area": "The Dubai Mall",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Xiao long bao and all dumplings or buns",
+      "reason": "Wheat wrappers"
+    },
+    {
+      "dish": "Noodle soups",
+      "reason": "Wheat noodles"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Taiwanese / Chinese",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Din Tai Fung",
+  "notes": "",
+  "questions": [
+    "Is the fried rice seasoned with any soy sauce, and if so is it GF?",
+    "Is the fried rice cooked in a wok also used for noodles?",
+    "Besides the fried rice, are there vegetable dishes made without regular soy or oyster sauce?",
+    "Is the chilli oil or dipping vinegar free of wheat or malt?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Fried rice",
+      "note": "FMGF lists fried rice as a GF item, and a reviewer reports a waiter who knew about celiac and said what was safe. Confirm the soy sauce and whether the wok is shared."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/chinese",
+    "https://thenational-the-national-prod.cdn.arcpublishing.com/lifestyle/food/din-tai-fung-has-opened-at-the-dubai-mall-1.816127"
+  ],
+  "status": null,
+  "summary": "The menu is mostly dumplings and noodles, so options are very limited. The one reported GF dish is the fried rice, from a single undated FMGF review describing celiac-aware staff.",
+  "tamari": "unknown",
+  "tamari_source": "Not reported",
+  "updated": 0,
+  "website": ""
+}

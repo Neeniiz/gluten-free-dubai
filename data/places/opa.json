@@ -1,0 +1,49 @@
+{
+  "area": "Fairmont Dubai, Sheikh Zayed Road",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Pita and Wagyu gyros",
+      "reason": "Wheat pita."
+    },
+    {
+      "dish": "Prawn saganaki and other fried or saganaki dishes",
+      "reason": "Cheese saganaki is often flour-dusted. Check the prawn version too."
+    },
+    {
+      "dish": "Spanakopita, moussaka with béchamel",
+      "reason": "Filo pastry, and the béchamel is roux-based."
+    }
+  ],
+  "batch": "western",
+  "cuisine": "Greek",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Opa",
+  "notes": "",
+  "questions": [
+    "Do you have gluten-free bread or pita?",
+    "Is the kleftiko sauce or any marinade thickened with flour?",
+    "Is the saganaki or any seafood dusted with flour?",
+    "Which salads contain quinoa, bulgur or barley rusks (dakos)?"
+  ],
+  "quinoa_oat_flags": [
+    "Greek or Mediterranean salads sometimes include quinoa or bulgur. Check."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Grilled meats and seafood (e.g. lamb kleftiko)",
+      "note": "Probably naturally GF, but not confirmed. A directory only lists 'gluten-free' as a dietary tag."
+    }
+  ],
+  "sources": [
+    "https://intravel.net/dubai/restaurants-cafes/opa-dubai"
+  ],
+  "status": null,
+  "summary": "The only evidence is a 'gluten-free' tag on one undated Intravel directory listing; no Dubai Greek restaurant had clear GF documentation in my searches, so this is a call-ahead lead only.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

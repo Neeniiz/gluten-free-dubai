@@ -1,0 +1,37 @@
+{
+  "area": "Palm Jumeirah (Atlantis The Royal)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura, crispy rice, teriyaki, miso black cod, ponzu or yuzu-soy dressings",
+      "reason": "Wheat / regular soy"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Nobu by the Beach (Atlantis The Royal)",
+  "notes": "",
+  "questions": [
+    "Do you have GF soy sauce or tamari here, as at Nobu Atlantis The Palm?",
+    "Do you have an allergen-tagged menu?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sashimi / plain nigiri",
+      "note": "Only with GF soy sauce. Confirm first."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/sushi"
+  ],
+  "status": null,
+  "summary": "Listed on FindMeGlutenFree's Dubai sushi page, but I found no details. Treat it like Nobu and confirm GF soy first.",
+  "tamari": "unknown",
+  "tamari_source": "Listed on FindMeGlutenFree's Dubai sushi page with no detail. Probably follows Nobu group practice, but unconfirmed.",
+  "updated": 0,
+  "website": "https://www.atlantis.com/dubai"
+}

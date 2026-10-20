@@ -1,0 +1,51 @@
+{
+  "area": "Alserkal Avenue (Al Quoz) and Emaar / Downtown",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Gluten-Free Granola",
+      "reason": "Granola is likely to contain oats"
+    }
+  ],
+  "batch": "bakery",
+  "cuisine": "Café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Wild & The Moon",
+  "notes": "",
+  "questions": [
+    "Are both Dubai branches still open?",
+    "Which bowls, salads and bakes contain quinoa or oats?",
+    "Is the menu still 100% gluten-free?"
+  ],
+  "quinoa_oat_flags": [
+    "Granola on the breakfast menu",
+    "Plant-based bowls may contain quinoa"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Almond flour pancakes",
+      "note": "Mentioned in reviews"
+    },
+    {
+      "dish": "Buddha bowls, Wild Tacos",
+      "note": "Mentioned in reviews"
+    },
+    {
+      "dish": "Chocolate peanut butter banana bowl",
+      "note": "Listed as GF breakfast"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Wild-The-Moon-%E2%80%93-Al-Serkal-Avenue1",
+    "https://www.atly.com/gluten-free/location/Wild-The-Moon-%E2%80%93-Emaar",
+    "https://sothebysrealty.ae/the-journal/gluten-free-restaurant-downtown"
+  ],
+  "status": null,
+  "summary": "Atly and a Sotheby's blog describe the Dubai branches as 100% gluten-free and plant-based, but I found no 2025-2026 news confirming they are still open, and the granola and bowls need checking for oats and quinoa.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

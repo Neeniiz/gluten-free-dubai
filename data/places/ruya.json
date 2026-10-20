@@ -1,0 +1,43 @@
+{
+  "area": "Grosvenor House, Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Pide, bread, börek",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Bulgur pilav, içli köfte, kısır",
+      "reason": "bulgur"
+    },
+    {
+      "dish": "Baklava/künefe",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Turkish",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Rüya",
+  "notes": "",
+  "questions": [
+    "Does the Dubai branch have a gluten-free menu like London?",
+    "Are the grills marinated without flour?",
+    "Are dips or köfte bound with breadcrumbs?",
+    "Is the restaurant still operating at Grosvenor House?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.esquireme.com/food-and-drink/food/19187-review-ruya",
+    "https://www.factmagazines.com/london/fact-review-journey-through-the-seven-regions-of-anatolia-at-ruya-london/"
+  ],
+  "status": null,
+  "summary": "Only the London branch is reported (in older reviews) to have a gluten-free menu; nothing confirms the Dubai branch's GF handling or current status.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

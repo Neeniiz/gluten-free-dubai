@@ -1,0 +1,42 @@
+{
+  "area": "Delivery only (the cafe closed in November 2023, per HappyCow)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "asia2",
+  "cuisine": "Vegan Asian fusion / sushi",
+  "delivery": [
+    "Deliveroo"
+  ],
+  "evidence_level": "community_reports",
+  "name": "Green Earth",
+  "notes": "",
+  "questions": [
+    "Are you still operating on Deliveroo?",
+    "Is the entire menu still gluten-free, and what soy sauce do you use?",
+    "Do any dishes contain quinoa or oats?",
+    "Is the kitchen fully GF?"
+  ],
+  "quinoa_oat_flags": [
+    "Vegan bowls often use quinoa. Ask about every bowl and salad base."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sushi",
+      "note": "Reviewers say the whole menu is GF ('Celiac and diabetic friendly'). These are user claims."
+    },
+    {
+      "dish": "Noodle bowls / rice dishes",
+      "note": "Same claim. Confirm the noodles are rice and the sauces are GF."
+    }
+  ],
+  "sources": [
+    "https://happycow.net/reviews/green-earth-dubai-297656"
+  ],
+  "status": null,
+  "summary": "HappyCow reviewers describe it as entirely gluten-free vegan Asian fusion, delivery-only since November 2023. The listing looks stale, so check it still exists.",
+  "tamari": "unknown",
+  "tamari_source": "A reviewer claims 'all of their menu is gluten free', which implies a GF soy, but this isn't stated",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,38 @@
+{
+  "area": "Online / delivery",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "bakery",
+  "cuisine": "Meal plan",
+  "delivery": [
+    "Own website"
+  ],
+  "evidence_level": "ask_first",
+  "name": "Right Bite",
+  "notes": "",
+  "questions": [
+    "Can you exclude quinoa and oats as well as gluten?",
+    "Is your soy sauce or tamari gluten-free?",
+    "Is there an extra charge for intolerance plans?"
+  ],
+  "quinoa_oat_flags": [
+    "Healthy meal plans often include quinoa bowls and overnight oats. Ask them to exclude quinoa and oats as well as gluten"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Meal plan with gluten-free flagged as an intolerance",
+      "note": "Set in the app; their FAQ says to contact customer service for complex intolerances"
+    }
+  ],
+  "sources": [
+    "https://rightbite.com/en-ae/faqs",
+    "https://gulfnews.com/amp/story/general%2Fwe-test-diet-deliveries-in-dubai-1.1026381"
+  ],
+  "status": null,
+  "summary": "Right Bite's FAQ (current site) lets you flag gluten-free as an intolerance, and a Gulf News review says there is no extra charge for intolerances; there is no dedicated GF plan, so confirm what it covers.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://rightbite.com/en-ae/faqs"
+}

@@ -1,0 +1,49 @@
+{
+  "area": "Souk Madinat Jumeirah (Jumeirah Waterfront)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Yakitori with tare glaze",
+      "reason": "Tare is normally regular soy plus mirin. Ask for salt-only (shio) skewers."
+    },
+    {
+      "dish": "Tempura / crunchy rolls, kanikama rolls, eel",
+      "reason": "Wheat"
+    },
+    {
+      "dish": "Black cod, wagyu with sauces",
+      "reason": "Miso/soy marinades are likely to contain gluten"
+    }
+  ],
+  "batch": "sushi",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "SushiYaki",
+  "notes": "",
+  "questions": [
+    "Do you still have GF soy sauce?",
+    "Can yakitori be done salt-only, without tare?",
+    "Which rolls contain tempura flakes or kanikama?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Sashimi, plain nigiri, simple fish/veg maki",
+      "note": "With the GF soy sauce. Staff suggested modifications."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/sushiyaki/4984279688151040",
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce",
+    "https://www.atly.com/gluten-free/location/SushiYaki1",
+    "https://visitdubai.com/cs/restaurants/sushiyaki"
+  ],
+  "status": null,
+  "summary": "A celiac reviewer reports GF soy sauce and helpful staff. There's no GF menu, so order simple sushi.",
+  "tamari": "yes",
+  "tamari_source": "A celiac reviewer on FindMeGlutenFree said they had gluten-free soya sauce and staff helped modify dishes. FMGF Dubai lists it under GF soy sauce. It has no GF menu.",
+  "updated": 0,
+  "website": "https://visitdubai.com/cs/restaurants/sushiyaki"
+}

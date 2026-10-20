@@ -1,0 +1,41 @@
+{
+  "area": "The Walk, JBR (Atly also lists an Al Barsha South location)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Anything not on a GF menu",
+      "reason": "Soy and oyster sauces usually contain wheat"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Thai",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Rosa's Thai",
+  "notes": "",
+  "questions": [
+    "Does the Dubai branch use the UK gluten-free menu?",
+    "Is tamari or GF soy sauce used?",
+    "Is the JBR branch still open?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Pad Thai, Thai green curry",
+      "note": "These are on the UK branches' dedicated GF menu. The Dubai GF menu is not confirmed."
+    }
+  ],
+  "sources": [
+    "https://www.restaurantonline.co.uk/Article/2022/10/27/rosa-s-thai-makes-international-debut",
+    "https://www.factmagazines.com/uae/dubai/raise-your-hand-if-youre-familiar-with-rosas-thai/",
+    "https://www.atly.com/gluten-free/location/Rosa's-Thai",
+    "https://www.coeliacsanctuary.co.uk/wheretoeat/nationwide/rosas-thai/york"
+  ],
+  "status": null,
+  "summary": "A UK Thai chain with a strong coeliac GF menu at home. Whether Dubai offers the same menu is unconfirmed, so ask first.",
+  "tamari": "ask",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

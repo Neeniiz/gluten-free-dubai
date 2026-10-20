@@ -1,0 +1,44 @@
+{
+  "area": "Downtown (Address Residences Dubai Opera)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Dim sum / dumplings",
+      "reason": "Wheat wrappers"
+    },
+    {
+      "dish": "Dishes with oyster or hoisin sauce",
+      "reason": "Usually contain wheat"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Chinese (Cantonese)",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "MiMi Mei Fair",
+  "notes": "",
+  "questions": [
+    "Do you have gluten-free (tamari) soy sauce for cooking and for the table, or only for dipping?",
+    "Is the hot and sour soup thickened with cornstarch or with wheat starch?",
+    "Which dishes on the GF menu, if you have one, use oyster or hoisin sauce?",
+    "Can GF dishes be cooked in a cleaned wok?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Hot and sour soup",
+      "note": "Named by an FMGF reviewer as GF. Confirm it isn't thickened with wheat starch or made with regular soy sauce."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/chinese",
+    "https://www.findmeglutenfree.com/ae/dubai/soy-sauce"
+  ],
+  "status": null,
+  "summary": "The best-reviewed GF Chinese option I found on FMGF: a reviewer called it 'a really great option for gluten-free Chinese' and GF soy sauce is reported, but the reviews are undated and FMGF contradicts itself on whether there's a formal GF menu.",
+  "tamari": "yes",
+  "tamari_source": "Find Me Gluten Free (FMGF) lists soy sauce among its reported GF items (crowd-sourced, undated). One FMGF page says it has a GF menu and another says it doesn't.",
+  "updated": 0,
+  "website": ""
+}

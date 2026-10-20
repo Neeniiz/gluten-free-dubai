@@ -1,0 +1,51 @@
+{
+  "area": "Multiple Dubai locations (exact branches not verified)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Soy-sauce or teriyaki marinated proteins",
+      "reason": "Regular soy and teriyaki contain wheat"
+    },
+    {
+      "dish": "Crispy onions, tempura bits, crunchy toppings",
+      "reason": "Usually wheat"
+    },
+    {
+      "dish": "Imitation crab (surimi)",
+      "reason": "Often contains wheat starch"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Poke",
+  "delivery": [
+    "Possibly Deliveroo, Careem, Smiles (Bayut's attribution is ambiguous; verify)"
+  ],
+  "evidence_level": "ask_first",
+  "name": "Poké & Co",
+  "notes": "",
+  "questions": [
+    "Is tamari or GF soy sauce available?",
+    "Is the sushi rice seasoned with a gluten-free vinegar?",
+    "Which bases contain quinoa?",
+    "Which toppings and sauces are gluten-free?"
+  ],
+  "quinoa_oat_flags": [
+    "Poke chains commonly offer a quinoa base. Choose rice or greens, and make sure no quinoa is mixed into 'mixed grain' bases."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Build-your-own bowl on a plain rice or greens base, with tamari",
+      "note": "Bayut lists it for 'healthy gluten-free bowls'. Confirm the rice seasoning and sauces."
+    }
+  ],
+  "sources": [
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai"
+  ],
+  "status": null,
+  "summary": "A poke option the user would enjoy, but GF depends on choosing a rice base, tamari and no crunchy toppings, and on avoiding quinoa.",
+  "tamari": "ask",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

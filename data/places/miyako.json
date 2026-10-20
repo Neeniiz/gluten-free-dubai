@@ -1,0 +1,47 @@
+{
+  "area": "Hyatt property in Dubai (search didn't confirm which hotel)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Sashimi and nigiri",
+      "reason": "Tagged as containing gluten on the menu (probably soy or nikiri)"
+    },
+    {
+      "dish": "Salmon chirashi, seafood toban, Yasai bento, chef special bento",
+      "reason": "Tagged gluten"
+    },
+    {
+      "dish": "Dashimaki tamago, kimchi",
+      "reason": "Tagged gluten"
+    }
+  ],
+  "batch": "asia2",
+  "cuisine": "Japanese / sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Miyako",
+  "notes": "",
+  "questions": [
+    "Why are sashimi and nigiri tagged gluten? Is it the soy sauce?",
+    "Can you serve sashimi plain with tamari?",
+    "Do you stock tamari at all?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Edamame",
+      "note": "Tagged vegan and soy, with no gluten tag"
+    }
+  ],
+  "sources": [
+    "https://www.hyattrestaurants.com/en/dubai/restaurant/miyako-sushi/menu",
+    "https://hyattrestaurants.com/en/dubai/restaurant/miyako-sushi/menu/124ebdd8-489e-47c7-9e7e-a34b1122f339"
+  ],
+  "status": null,
+  "summary": "Its allergen-tagged menu is useful mainly as a warning, because almost everything, even sashimi, is tagged gluten. I'd only consider it if they confirm plain sashimi with tamari (menu date unknown).",
+  "tamari": "unknown",
+  "tamari_source": "Not stated. The menu tags gluten on most dishes, including sashimi and nigiri.",
+  "updated": 0,
+  "website": "https://www.hyattrestaurants.com/en/dubai/restaurant/miyako-sushi/menu"
+}

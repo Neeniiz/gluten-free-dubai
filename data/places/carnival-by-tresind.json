@@ -1,0 +1,46 @@
+{
+  "area": "DIFC",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Naan, kulcha, chaat with wheat puri",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Samosa/kachori",
+      "reason": "wheat"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Indian",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Carnival by Trèsind",
+  "notes": "",
+  "questions": [
+    "Can I see the dedicated GF menu, and are any items made with quinoa or oats?",
+    "Is the hing wheat-free?",
+    "Are tandoor kebabs cooked alongside naan?",
+    "Do the 'molecular' elements (bubbles, foams) use any wheat-based ingredients?"
+  ],
+  "quinoa_oat_flags": [
+    "Modern Indian menus sometimes use quinoa or oats in 'healthy' or GF swaps; check the GF menu"
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Dishes on the dedicated GF menu",
+      "note": "Item names not seen"
+    }
+  ],
+  "sources": [
+    "https://theglutenfreetravelbliss.com/gluten-free-in-dubai/",
+    "https://restaurantsforkings.com/city/dubai/gluten-free-fine-dining/"
+  ],
+  "status": null,
+  "summary": "Two gluten-free guides (2025) say it has a dedicated GF menu; this was not checked against the restaurant's own menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

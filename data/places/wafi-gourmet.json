@@ -1,0 +1,38 @@
+{
+  "area": "Wafi Mall (Oud Metha) and other branches",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bakery items, manakeesh, sweets (kunafa, baklava)",
+      "reason": "wheat"
+    },
+    {
+      "dish": "Kibbeh, tabbouleh",
+      "reason": "bulgur"
+    }
+  ],
+  "batch": "mideast",
+  "cuisine": "Lebanese",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Wafi Gourmet",
+  "notes": "",
+  "questions": [
+    "Which hot and cold mezze contain no bulgur, flour or croutons?",
+    "Is the shawarma marinade free of flour or soy?",
+    "Is the falafel flour-bound?",
+    "Is the rice made with vermicelli?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-10-18",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/middle-eastern"
+  ],
+  "status": null,
+  "summary": "FMGF (2025) lists it with 'No GF Menu'; it is included only as a mezze option to ask about, with no celiac reports found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

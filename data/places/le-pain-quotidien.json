@@ -1,0 +1,47 @@
+{
+  "area": "Multiple Dubai branches, including Dubai Mall, Nakheel Mall, Mall of the Emirates and The Springs Souk",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Regular breads, pastries, croissants",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "broad",
+  "cuisine": "Café",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "Le Pain Quotidien",
+  "notes": "",
+  "questions": [
+    "What are the GF bread's ingredients? Does it contain oats?",
+    "Which salads contain quinoa?",
+    "Can the tartine be toasted separately?"
+  ],
+  "quinoa_oat_flags": [
+    "LPQ menus commonly include granola, overnight oats or porridge, and quinoa salads. Avoid these and check which salads have quinoa. (These are typical LPQ items, not confirmed on the current Dubai menu.)",
+    "Ask whether the GF bread contains oats."
+  ],
+  "researched": "2026-10-18",
+  "safe_dishes": [
+    {
+      "dish": "Any tartine on GF bread",
+      "note": "Brand FAQ says all tartines are available on GF bread on request. The kitchen is not a GF facility."
+    },
+    {
+      "dish": "Some salads and desserts",
+      "note": "The FAQ notes GF options. Confirm which ones."
+    }
+  ],
+  "sources": [
+    "https://www.lepainquotidien.com/br/en/faq",
+    "https://sothebysrealty.ae/the-journal/gluten-free-restaurant-downtown",
+    "https://locations.alshaya.com/le-pain-quotidien/ae/dubai/the-springs-souk"
+  ],
+  "status": null,
+  "summary": "A reliable everyday chain for GF-bread tartines. Watch for granola, oats and quinoa salads.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.lepainquotidienme.com/ae/dubai/nakheel-mall"
+}
