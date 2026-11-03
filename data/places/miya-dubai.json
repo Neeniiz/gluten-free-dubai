@@ -1,0 +1,43 @@
+{
+  "area": "Dubai (exact location not confirmed)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "thin",
+  "cuisine": "Greek",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Miya Dubai",
+  "notes": "",
+  "questions": [
+    "Where exactly is the restaurant?",
+    "Are allergens still marked on the menu?",
+    "Are the kebabs marinated with anything that contains wheat?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask whether any salad contains quinoa"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Steak",
+      "note": "Reported GF on FindMeGlutenFree"
+    },
+    {
+      "dish": "Salad",
+      "note": "Reported GF"
+    },
+    {
+      "dish": "Kebabs",
+      "note": "Reported GF"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai"
+  ],
+  "status": null,
+  "summary": "Only a search snippet of FindMeGlutenFree (no GF menu, one reviewer praised clear allergen marking); I couldn't confirm the location or date, so verify it exists before relying on it.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

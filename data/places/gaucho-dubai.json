@@ -1,0 +1,28 @@
+{
+  "area": "Gate Village, DIFC",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "thin",
+  "cuisine": "Argentine steakhouse",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Gaucho Dubai",
+  "notes": "",
+  "questions": [
+    "Can you send the Dubai allergen matrix?",
+    "Are chimichurri and steak sauces GF?",
+    "Are chips and empanadas fried in shared oil?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://gauchorestaurants.com/legal/allergen-information"
+  ],
+  "status": null,
+  "summary": "The chain's allergen page (updated Jan 2024, appears UK-focused) says dish-level allergen info is available on request; nothing Dubai-specific.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://gauchorestaurants.com"
+}

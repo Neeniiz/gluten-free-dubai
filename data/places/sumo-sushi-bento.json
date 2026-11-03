@@ -1,0 +1,52 @@
+{
+  "area": "Mirdif Hills, Mirdif, Dubai (chain has about 14 UAE outlets; the GF review is about the Mirdif Hills branch only)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Noodle dishes and bento boxes",
+      "reason": "Noodles, teriyaki and katsu-style bento items usually contain wheat"
+    },
+    {
+      "dish": "Sushi sandwiches",
+      "reason": "Likely to contain fried, tempura or sauced parts. Unconfirmed."
+    },
+    {
+      "dish": "Regular soy sauce",
+      "reason": "Contains wheat. No GF alternative confirmed."
+    }
+  ],
+  "batch": "sushi3",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Sumo Sushi & Bento (Mirdif Hills branch)",
+  "notes": "",
+  "questions": [
+    "Do you stock gluten-free tamari or GF soy sauce at the Mirdif Hills branch, and can I see the bottle?",
+    "Is your sushi rice seasoned with plain rice vinegar, not a malt-based or blended seasoning?",
+    "Do your crab sticks, tobiko and spicy sauces contain wheat?",
+    "Can the chef use a clean board and knife and change gloves for my order?",
+    "What is the base of the poke bowl? Is there any quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "The menu includes a poke bowl. Its base wasn't found, so check for quinoa."
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Plain sashimi / simple fish-and-rice nigiri or maki",
+      "note": "A FMGF reviewer said staff recommended the non-gluten foods. The search snippets don't name the dishes they recommended."
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/sushi",
+    "https://globalrlc.com/company/sumo-sushi-bento",
+    "https://campaignme.com/?p=40700"
+  ],
+  "status": null,
+  "summary": "One FMGF reviewer (undated in the search snippets) says the Mirdif Hills staff guided them to non-gluten foods and took cross-contamination seriously, but no source confirms GF soy sauce or tamari, and the review may not apply to other branches.",
+  "tamari": "unknown",
+  "tamari_source": "No source found that confirms GF soy sauce or tamari at any UAE branch. The FMGF 'GF soy sauce' entry under the name Sumo Sushi is a different restaurant in Houston, Texas.",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,40 @@
+{
+  "area": "Near Karama Park, Al Karama",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Rava items, poori, parotta",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "South Indian (vegetarian)",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Saravanaa Bhavan",
+  "notes": "",
+  "questions": [
+    "Is any wheat or semolina in the dosa batter?",
+    "Is the tawa shared with rava dosa?",
+    "Is the hing in the sambar wheat-free?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask about oats or millet-blend dosas"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Plain dosa, idli",
+      "note": "Traditionally rice-lentil; confirm"
+    }
+  ],
+  "sources": [
+    "https://wanderlog.com/place/details/1338001/saravanaa-bhavan-karama"
+  ],
+  "status": null,
+  "summary": "A pure-veg chain known for dosa and idli; no GF evidence found, so ask first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

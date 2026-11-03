@@ -1,0 +1,33 @@
+{
+  "area": "Financial Centre Road, Downtown Dubai (Atly); a Soul Santé also reported in Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "openings",
+  "cuisine": "Vegan café / desserts",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Soul Sante Cafe",
+  "notes": "",
+  "questions": [
+    "Is the entire menu gluten-free, or only some items?",
+    "Which branch is open now, Downtown or Marina?",
+    "Do you use oat milk or oats in desserts and bases?",
+    "Do any dishes contain quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "Vegan café: oat milk, granola or quinoa bowls are likely but not confirmed. Ask"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://atly.com/best/gluten-free/restaurant-united-arab-emirates-dubai",
+    "https://www.bbcgoodfoodme.com/news/soul-sante-dubai-marina",
+    "https://glufind.com/gluten-free-restaurants/dubai-du"
+  ],
+  "status": null,
+  "summary": "A 2026-labelled Glufind page and Atly listings call it a dedicated gluten-free café, but the BBC Good Food ME opening piece (undated) only describes it as vegan. Its status is unverified.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

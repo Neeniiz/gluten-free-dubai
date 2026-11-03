@@ -1,0 +1,48 @@
+{
+  "area": "Dubai Silicon Oasis (Radisson RED branch); other branches citywide",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Multigrain and sourdough breads",
+      "reason": "Gluten; multigrain may also contain oats"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "Café / deli",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Jones the Grocer",
+  "notes": "",
+  "questions": [
+    "Is the wheat-free bread also gluten-free, and does it contain oats?",
+    "Is gluten-free toast made in a separate toaster?",
+    "Does the Silicon Oasis branch have the same menu as the Hyatt branch?",
+    "Which dishes contain quinoa?"
+  ],
+  "quinoa_oat_flags": [
+    "The multigrain bread may contain oats",
+    "Check salads for quinoa"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Toast on wheat-free bread (AED 18)",
+      "note": "The menu says wheat-free, not gluten-free; check that the bread is gluten-free and toasted separately"
+    },
+    {
+      "dish": "Eggs, smoked salmon, sautéed mushrooms",
+      "note": "Tagged wheat-free on a Hyatt-hosted menu; check for barley, malt and shared toasters"
+    }
+  ],
+  "sources": [
+    "https://www.hyattrestaurants.com/en/dubai/restaurant/jones-the-grocer/menu",
+    "https://www.radissonhotels.com/en-us/hotels/radisson-red-apartments-dubai-silicon-oasis/restaurant-bar",
+    "https://www.thenational.ae/lifestyle/food/jones-the-grocer-opens-new-branch-in-downtown-abu-dhabi-1.846749"
+  ],
+  "status": null,
+  "summary": "A current-looking menu at the Hyatt branch tags dishes wheat-free, which is not the same as gluten-free, and I couldn't confirm the Silicon Oasis branch menu.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

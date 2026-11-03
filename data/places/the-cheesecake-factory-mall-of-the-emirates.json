@@ -1,0 +1,36 @@
+{
+  "area": "Al Barsha (Mall of the Emirates)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Regular cheesecakes and breaded or fried items",
+      "reason": "Wheat crusts and coatings"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "American",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "The Cheesecake Factory – Mall of the Emirates",
+  "notes": "",
+  "questions": [
+    "Does this branch have a gluten-free menu, and a gluten-free cheesecake?",
+    "Is the fryer dedicated?",
+    "Can the kitchen use a clean pan and fresh gloves for an allergy order?",
+    "Do you have tamari or gluten-free soy sauce for the Asian dishes?"
+  ],
+  "quinoa_oat_flags": [
+    "Check salads and bowls for quinoa"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://glutenfree.qa/dubai-restaurants/"
+  ],
+  "status": null,
+  "summary": "A guide (the snippet was undated) says staff go far beyond to accommodate gluten-free and allergen needs at this branch, and I found no menu details.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

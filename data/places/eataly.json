@@ -1,0 +1,40 @@
+{
+  "area": "The Dubai Mall; Dubai Festival City",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Regular pasta, pizza, bread",
+      "reason": "Wheat-based, and flour is likely airborne in the shared kitchen"
+    }
+  ],
+  "batch": "openings",
+  "cuisine": "Italian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Eataly",
+  "notes": "",
+  "questions": [
+    "Is gluten-free pasta cooked in separate water?",
+    "Is gluten-free pizza baked on a separate tray or in a separate oven?",
+    "Which branch offers the gluten-free options?",
+    "Are any gluten-free bases made with oat or quinoa flour?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free pasta / pizza",
+      "note": "Reported on an Atly listing marked Unverified"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/Eataly16.md",
+    "https://gulfnews.com/going-out/eataly-now-has-a-second-dubai-location-1.1695450"
+  ],
+  "status": null,
+  "summary": "Atly (undated, Unverified) says it offers gluten-free pasta and pizza on request. The Dubai branches are not new, and no cross-contact information was found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

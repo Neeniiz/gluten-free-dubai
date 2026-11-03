@@ -1,0 +1,34 @@
+{
+  "area": "The Dubai Mall",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Basted ribs",
+      "reason": "Basting sauce GF status unknown"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Steakhouse / ribs",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Hurricane's Grill & Bar",
+  "notes": "",
+  "questions": [
+    "Is the rib basting sauce gluten-free?",
+    "Is there a GF menu or allergen matrix?",
+    "Are fries in a dedicated fryer?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/steakhouses",
+    "https://www.tripadvisor.com/Restaurants-g295424-zfz10992-Dubai_Emirate_of_Dubai.html"
+  ],
+  "status": null,
+  "summary": "Appears on FMGF's steakhouse list and Tripadvisor's 2026 'gluten-free friendly' list, but I found no dish-level detail.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

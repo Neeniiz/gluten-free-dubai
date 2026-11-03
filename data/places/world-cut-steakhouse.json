@@ -1,0 +1,34 @@
+{
+  "area": "Habtoor Palace, Al Habtoor City, Business Bay",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Cheesecake",
+      "reason": "Crust"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Steakhouse",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "World Cut Steakhouse",
+  "notes": "",
+  "questions": [
+    "Which sauces, rubs and sides are GF?",
+    "Is there a GF dessert?",
+    "Can the grill and pans be cleaned for my order?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurants-g295424-zfz10992-Dubai_Emirate_of_Dubai.html",
+    "https://bbcgoodfoodme.com/features/world-cut-steakhouse-dubai"
+  ],
+  "status": null,
+  "summary": "It's on Tripadvisor's 2026 GF list, but no source describes its GF handling (phone 04 435 5577).",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://alhabtoorcity.com/hotels//en-us/al-habtoor-palace-/dining/world-cut-steakhouse"
+}

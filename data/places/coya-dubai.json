@@ -1,0 +1,51 @@
+{
+  "area": "Four Seasons Resort Dubai at Jumeirah Beach, Jumeirah 2",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Unmarked ceviches and other items",
+      "reason": "Not every ceviche is marked GF on the menu; check each one"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Peruvian",
+  "delivery": [],
+  "evidence_level": "restaurant_marks_gf",
+  "name": "COYA Dubai",
+  "notes": "",
+  "questions": [
+    "Which GF-marked dishes have quinoa as a garnish, and can you leave it off?",
+    "Do you use tamari or a gluten-free soy sauce in marinades and the nikkei dishes?",
+    "Are tacos and nachos made from 100% corn and fried in a dedicated fryer?",
+    "Is the GF marking on the current menu the same as on the Jan 2025 menu?"
+  ],
+  "quinoa_oat_flags": [
+    "Crispy Baby Squid salad contains quinoa (marked GF but NOT safe for you)",
+    "Avocado Maki Roll contains quinoa",
+    "Quinoa Stir Fry",
+    "Review notes quinoa appears 'here and there' across the menu as garnish, so ask about every dish"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Classic Sea Bass Ceviche",
+      "note": "Marked GF on Dubai à la carte menu PDF dated Jan 2025"
+    },
+    {
+      "dish": "Mushroom ceviche (weekday lunch)",
+      "note": "Added as part of a gluten-free/vegetarian lunch update (BBC Good Food ME, undated snippet)"
+    }
+  ],
+  "sources": [
+    "https://www.coyarestaurant.com/uploads/content/eat_menu/dxb_alc_19012025.pdf",
+    "https://www.findmeglutenfree.com/biz/coya/5316393212444672",
+    "https://bbcgoodfoodme.com/health/coya-veggie-lunch-menu",
+    "https://opentable.com.au/coya-dubai"
+  ],
+  "status": null,
+  "summary": "The best-documented find: the Jan 2025 Dubai menu marks GF dishes and FindMeGlutenFree reviewers report a GF menu, though one celiac reviewer couldn't confirm the food was fully safe, and quinoa is common across the menu.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.coyarestaurant.com"
+}

@@ -1,0 +1,38 @@
+{
+  "area": "Al Barsha (Dubai branch); also Jumeirah (The Galleria)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Gluten-free porridge (2014 menu)",
+      "reason": "It may be oat- or quinoa-based, and it is a 2014 item"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "Café / all-day dining",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "tashas",
+  "notes": "",
+  "questions": [
+    "Which current dishes are gluten-free at the Al Barsha branch?",
+    "Is the Butternut Salad gluten-free, and does it contain quinoa?",
+    "Do you have gluten-free bread, and is it toasted separately?",
+    "How do you handle allergy orders in the kitchen?"
+  ],
+  "quinoa_oat_flags": [
+    "The 2014 'gluten and wheat free' porridge is probably oat- or grain-based, so ask what it contains"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://whatson.ae/2014/11/cafes-dubai-new-casual-spots-quick-bite/",
+    "https://whatson.ae/2022/06/tashas-al-bateen-has-reopened-with-a-refreshed-look/",
+    "https://gulfnews.com/going-out/food-news-tashas-caf-launches-in-al-barsha-1.1592813892622"
+  ],
+  "status": null,
+  "summary": "The only gluten-free evidence is a 2014 Dubai mention and a 2022 note that the Abu Dhabi branch has gluten-free options, so this is outdated.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

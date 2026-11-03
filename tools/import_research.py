@@ -35,7 +35,7 @@ for r in rows:
     r["delivery"] = [d for d in r.get("delivery", []) if not re.match(r"(unknown|n/a)", str(d).lower())]
     w = r.get("website") or ""
     r["website"] = w if w.startswith("http") else ""
-    r.update({"status": None, "notes": "", "researched": "2026-10-18", "batch": prefix, "updated": 0})
+    r.update({"status": None, "notes": "", "researched": "2026-11-03", "batch": prefix, "updated": 0})
     r.setdefault("ask_dishes", [])
     for k in [k for k in r if k != k.strip()]: r.pop(k)
     json.dump(r, open(f"{outdir}/{slug}.json", "w"), ensure_ascii=False)

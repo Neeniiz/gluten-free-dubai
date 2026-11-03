@@ -1,0 +1,32 @@
+{
+  "area": "Dubai (area not stated)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "openings",
+  "cuisine": "Healthy food",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Gluten Free Paradise",
+  "notes": "",
+  "questions": [
+    "Where are you located, and are you currently open?",
+    "Is the kitchen 100% gluten-free?",
+    "Which dishes contain quinoa or oats?",
+    "Do you deliver, and on which apps?"
+  ],
+  "quinoa_oat_flags": [
+    "Healthy-food concept. Not reported, so ask"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://glutenfree.qa/dubai-restaurants/",
+    "https://glufind.com/gluten-free-restaurants/dubai-du"
+  ],
+  "status": null,
+  "summary": "It is named only in two 2026 aggregator guides (glutenfree.qa, Glufind) as fully gluten-free and reportedly celiac-safe. A direct search found no address or listing of its own, so treat it as unconfirmed.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

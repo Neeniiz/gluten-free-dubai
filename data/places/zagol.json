@@ -1,0 +1,33 @@
+{
+  "area": "Al Karama",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Injera until confirmed",
+      "reason": "Teff content not confirmed"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Ethiopian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Zagol",
+  "notes": "",
+  "questions": [
+    "Is your injera 100% teff?",
+    "Do you make a separate 100% teff injera on request?",
+    "Are you still open, and where?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://gulfnews.com/uae/why-this-flatbread-sells-like-hotcakes-1.1683270"
+  ],
+  "status": null,
+  "summary": "Gulf News (undated) says it serves 200+ injeras a day but gives no teff/wheat information; this is a lead only.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

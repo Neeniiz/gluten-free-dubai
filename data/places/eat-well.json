@@ -1,0 +1,34 @@
+{
+  "area": "Za'abeel 1, Oud Metha Road (per Atly; confirm)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "openings",
+  "cuisine": "Healthy / paleo / vegetarian café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Eat Well",
+  "notes": "",
+  "questions": [
+    "Is the whole kitchen still gluten-free, or only the menu?",
+    "Which dishes contain quinoa or oats?",
+    "Is the address still Oud Metha Road, and are you open?",
+    "Are sauces and baked goods made in-house without gluten?"
+  ],
+  "quinoa_oat_flags": [
+    "Health/paleo café: grain bowls and breakfast items may contain quinoa or oats. No menu was seen, so ask"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://atly.com/best/gluten-free/vegetarian-united-arab-emirates-dubai",
+    "https://atly.com/best/gluten-free/cafe-united-arab-emirates-dubai",
+    "https://www.imagesretailme.com/?p=13000",
+    "https://www.bbcgoodfoodme.com/restaurants-review/eat-well-restaurant-dubai/"
+  ],
+  "status": null,
+  "summary": "Atly user listings (updated around March 2025) tag Eat Well as 100% dedicated gluten-free, and an undated trade announcement describes it as gluten- and sugar-free. No 2025-2026 opening date was found, and it may be an older venue.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

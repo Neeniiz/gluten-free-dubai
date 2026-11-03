@@ -1,0 +1,31 @@
+{
+  "area": "Mirdif (near Mirdif City Centre)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "hoods",
+  "cuisine": "Food court in a sports mall (Burgerstack, Smokey's, Zinc Coffee Lounge, Ranch House, Dr Nutrition)",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Sports Society (food outlets)",
+  "notes": "",
+  "questions": [
+    "Which outlet here has dishes marked gluten-free?",
+    "Does Burgerstack have a gluten-free bun and a dedicated fryer?",
+    "Do the shakes or bowls contain oats?"
+  ],
+  "quinoa_oat_flags": [
+    "Health outlets such as Dr Nutrition commonly use oats in shakes and bowls"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.bayut.com/mybayut/sports-society-mirdif",
+    "https://www.atly.com/best/gluten-free/unverified-united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "Bayut says gluten-free options are available at the mall's outlets without naming which one, and the Atly entry is unverified.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

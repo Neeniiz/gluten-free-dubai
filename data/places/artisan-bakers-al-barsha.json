@@ -1,0 +1,36 @@
+{
+  "area": "Al Barsha",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Anything unlabelled from the main bakery counter",
+      "reason": "It is a wheat bakery, so flour in the air and on shared surfaces is likely"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "Bakery / café",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Artisan Bakers – Al Barsha",
+  "notes": "",
+  "questions": [
+    "Which items are gluten-free, and are they baked separately?",
+    "Do any gluten-free items contain oats, oat flour or quinoa?",
+    "Are gluten-free items packaged or stored apart from wheat products?"
+  ],
+  "quinoa_oat_flags": [
+    "Gluten-free baked goods often use oat flour or quinoa, so check every item"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://glutenfree.qa/dubai-restaurants/",
+    "https://www.atly.com/best/gluten-free/restaurant-united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "It appears on a gluten-free top-50 list and Atly says it has gluten-free options, with no detail or date, so ask about specific items.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

@@ -1,0 +1,35 @@
+{
+  "area": "JVC (Jumeirah Village Circle)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Beer and beer-battered or breaded items",
+      "reason": "It is a brewpub, so expect gluten in the beer, batters and coatings"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "Gastropub / American",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Goose Island Tap House",
+  "notes": "",
+  "questions": [
+    "Do you have a gluten-free bun, and is it toasted separately?",
+    "Is the fries fryer used only for fries?",
+    "Are the burger patties and sauces gluten-free (no breadcrumbs or beer in them)?",
+    "Do you have a gluten-free beer or cider?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://glutenfree.qa/dubai-restaurants/",
+    "https://www.atly.com/best/gluten-free/restaurant-united-arab-emirates-dubai"
+  ],
+  "status": null,
+  "summary": "A guide (2026 or earlier; the snippet was undated) says only that the staff accommodate gluten-free needs, and gives no dish details.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

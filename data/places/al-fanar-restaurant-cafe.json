@@ -1,0 +1,38 @@
+{
+  "area": "Al Seef (also Festival City, Al Barsha, Expo City)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Harees",
+      "reason": "Made with wheat"
+    },
+    {
+      "dish": "Thareed, regag, khameer, chebab, luqaimat",
+      "reason": "Wheat-based breads/dough"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Emirati",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Al Fanar Restaurant & Café",
+  "notes": "",
+  "questions": [
+    "Which rice dishes (machboos, biryani) contain no wheat, vermicelli or stock cubes?",
+    "Is the grilled fish or meat dusted in flour?",
+    "Is the spice mix (bzar) blended in-house with no wheat?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.lonelyplanet.com/articles/dubai-best-emirati-restaurants",
+    "https://www.euronews.com/travel/2019/06/05/dubai-s-top-emirati-restaurants"
+  ],
+  "status": null,
+  "summary": "Michelin-listed Emirati chain; no gluten-free evidence found, and many Emirati staples are wheat-based, so ask first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

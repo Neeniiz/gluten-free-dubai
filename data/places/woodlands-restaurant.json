@@ -1,0 +1,46 @@
+{
+  "area": "Al Karama",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Rava dosa, upma, rava idli",
+      "reason": "Semolina (wheat)"
+    },
+    {
+      "dish": "Poori, parotta, chapati",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "South Indian (Udupi vegetarian)",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Woodlands Restaurant",
+  "notes": "",
+  "questions": [
+    "Is wheat or semolina added to your dosa/idli batter?",
+    "Is the dosa tawa shared with rava dosa?",
+    "Does the sambar contain asafoetida (hing) cut with wheat flour?",
+    "Is the vada batter pure urad dal?"
+  ],
+  "quinoa_oat_flags": [
+    "Ask whether any 'healthy' dosa variants contain oats (oats dosa is common in South Indian menus)"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Plain/paper dosa, idli",
+      "note": "Rice-lentil batter by tradition; confirm no semolina/wheat added"
+    }
+  ],
+  "sources": [
+    "https://wanderlog.com/place/details/4392026/woodlands-restaurant",
+    "https://www.fryingpanadventures.com/dubai-tips/the-oldest-restaurant-serving-dosa-in-dubai/"
+  ],
+  "status": null,
+  "summary": "A 40+ year-old Udupi place with naturally rice-based dosas; I found no gluten-free statement at all, so it's an ask-first lead.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

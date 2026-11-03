@@ -1,0 +1,31 @@
+{
+  "area": "JVC (Jumeirah Village Circle)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "hoods",
+  "cuisine": "Café / healthy",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "One Life Kitchen & Café",
+  "notes": "",
+  "questions": [
+    "Do you have dishes marked gluten-free, or a gluten-free menu?",
+    "Do you use separate boards, pans and utensils for gluten-free orders?",
+    "Which dishes have quinoa or oats in them?",
+    "Is the fryer shared with breaded items?"
+  ],
+  "quinoa_oat_flags": [
+    "Healthy-café format: check bowls and breakfasts for quinoa or oats (not confirmed either way)"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/One-Life-Kitchen-Caf%C3%A9-JVC"
+  ],
+  "status": null,
+  "summary": "Atly lists it as an unverified gluten-free spot with delivery and takeaway, and gives no gluten-free details or date, so this is a lead only.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

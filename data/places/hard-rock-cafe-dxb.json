@@ -1,0 +1,36 @@
+{
+  "area": "Dubai International Airport, Terminal 3, Concourse B (near Gate 25)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Standard buns, fried items unless a dedicated fryer is confirmed",
+      "reason": "Gluten and shared-fryer risk"
+    }
+  ],
+  "batch": "openings",
+  "cuisine": "American burgers",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Hard Rock Cafe DXB",
+  "notes": "",
+  "questions": [
+    "Does this location have a gluten-free menu?",
+    "Is there a gluten-free bun?",
+    "Are fries cooked in a dedicated fryer?",
+    "Can staff flag a celiac order to the kitchen?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.atly.com/gluten-free/location/HardRockCafe72.md",
+    "https://atly.com/best/gluten-free/open-late-united-arab-emirates-dubai",
+    "https://cafe.hardrock.com/dubai-airport/"
+  ],
+  "status": null,
+  "summary": "Atly user listings (around 2025) tag it as celiac-friendly or having a gluten-free menu, and one reviewer mentions its own gluten-free menu, but another reported an order error and the official site says nothing about gluten-free. It is an older venue, not a new opening.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://cafe.hardrock.com/dubai-airport/"
+}

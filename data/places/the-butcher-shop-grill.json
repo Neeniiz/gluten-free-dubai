@@ -1,0 +1,34 @@
+{
+  "area": "The Walk, JBR (also Al Barsha 1)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "thin",
+  "cuisine": "Steakhouse",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "The Butcher Shop & Grill",
+  "notes": "",
+  "questions": [
+    "Are steaks basted or seasoned with anything containing gluten?",
+    "Which sauces and sides are GF?",
+    "Are fries cooked in a dedicated fryer?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Steak",
+      "note": "FMGF reviewer ate it several times without problems (~2 years old)"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/the-butcher-shop-and-grill/5326365615849472",
+    "https://www.tripadvisor.com/Restaurant_Review-g295424-d10343636-Reviews-The_Butcher_Shop_Grill-Dubai_Emirate_of_Dubai.html"
+  ],
+  "status": null,
+  "summary": "There's no GF menu, but one FMGF review (~2 years old) reports safe steak; a separate Tripadvisor review says GF options are minimal.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

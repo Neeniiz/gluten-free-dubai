@@ -1,0 +1,43 @@
+{
+  "area": "Central Park Towers podium, DIFC",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Crispy polenta",
+      "reason": "Coating and fryer not confirmed"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Brazilian churrasco",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Fogo de Chão Dubai",
+  "notes": "",
+  "questions": [
+    "Is the Dubai pão de queijo made with only cassava/tapioca flour, with no wheat?",
+    "Are any meats marinated or basted with wheat-containing sauces (e.g. soy or beer)?",
+    "Can I see your allergen list?",
+    "Is the polenta fried in a shared fryer?"
+  ],
+  "quinoa_oat_flags": [
+    "Market table/salad bar not checked; ask about quinoa grain salads"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Pão de queijo (cheese bread)",
+      "note": "Described as GF (yucca/cassava flour) at other Fogo locations; not confirmed for Dubai"
+    }
+  ],
+  "sources": [
+    "https://fogodechao.com/location/dubai/",
+    "https://arabianbusiness.com/lifestyle/gourmet/409802-review-fogo-de-chao-taste-of-brazil-in-dubai",
+    "https://findmeglutenfree.com/biz/fogo-de-chao/1900003"
+  ],
+  "status": null,
+  "summary": "The pão de queijo is called gluten-free at Fogo's US locations, but I found no Dubai-specific allergen information, so ask first (the Dubai sources are undated reviews).",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://fogodechao.com/location/dubai/"
+}

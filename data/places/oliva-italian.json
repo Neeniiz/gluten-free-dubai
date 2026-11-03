@@ -1,0 +1,28 @@
+{
+  "area": "Dubai (area not stated)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "openings",
+  "cuisine": "Italian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Oliva Italian",
+  "notes": "",
+  "questions": [
+    "Which branch, and do you have a gluten-free menu?",
+    "Is gluten-free pasta cooked separately?",
+    "Is there gluten-free pizza or bread, and is it prepared apart?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://glutenfree.qa/dubai-restaurants/"
+  ],
+  "status": null,
+  "summary": "It is only listed under restaurants with gluten-free options in the 2026 glutenfree.qa guide. No details or location were found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

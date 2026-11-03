@@ -1,0 +1,50 @@
+{
+  "area": "Ground Floor, Kempinski The Boulevard, Sheikh Mohammed bin Rashid Blvd, Downtown Dubai",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Crispy tempura shrimp roll / yuzu shrimp tempura",
+      "reason": "Tempura batter contains wheat"
+    },
+    {
+      "dish": "Spicy tuna roll",
+      "reason": "Spicy mayo or chili sauce may contain soy sauce or wheat"
+    },
+    {
+      "dish": "Ramen and yaki soba",
+      "reason": "Wheat noodles and soy-based broth or sauce"
+    }
+  ],
+  "batch": "sushi3",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Ram&Roll",
+  "notes": "",
+  "questions": [
+    "Which hand rolls are gluten-free as served, and do you have GF tamari?",
+    "Is the nori toasted or brushed with any soy or teriyaki glaze?",
+    "Are the truffle and yuzu toppings free of soy sauce and ponzu?",
+    "Is tempura fried in a separate fryer, and is the rolling station cleaned between orders?",
+    "Is the sushi rice seasoning gluten-free?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Salmon and avocado hand roll",
+      "note": "Listed as a signature roll. Its GF status isn't stated, so ask for no sauce and bring your own tamari if they have none."
+    }
+  ],
+  "sources": [
+    "https://platinumlist.net/guide/ram-roll-dubais-newest-japanese-restaurant-at-kempinski-the-boulevard/",
+    "https://whatson.ae/2025/11/ramroll-brings-tokyo-flavours-to-downtown-dubai/",
+    "https://www.factmagazines.com/uae/dubai/food/ram-roll-is-opening-at-kempinski-the-boulevard-dubai"
+  ],
+  "status": null,
+  "summary": "The restaurant opened in late 2025. A promotional guide from around that time says the menu caters to gluten-free diners, but no dish-level GF information, tamari confirmation or celiac review was found.",
+  "tamari": "unknown",
+  "tamari_source": "Not mentioned. A Platinumlist guide only says the menu 'caters to gluten-free and vegetarian diners'.",
+  "updated": 0,
+  "website": ""
+}

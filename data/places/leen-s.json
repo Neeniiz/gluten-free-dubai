@@ -1,0 +1,39 @@
+{
+  "area": "DIFC",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Tempura, teriyaki, eel sauce, regular soy",
+      "reason": "Typical gluten sources in Japanese cooking"
+    }
+  ],
+  "batch": "openings",
+  "cuisine": "Japanese / sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Leen's",
+  "notes": "",
+  "questions": [
+    "Is your gluten-free soy sauce tamari, and which brand?",
+    "Is the sushi rice vinegar gluten-free?",
+    "Which sauces and marinades contain soy or wheat?",
+    "Is there tempura in the same fryer as other items?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Sushi with gluten-free soy sauce",
+      "note": "Per one aggregator snippet only. Unverified"
+    }
+  ],
+  "sources": [
+    "https://www.atly.com/best/gluten-free/100%25-gf-united-arab-emirates-dubai-dubai"
+  ],
+  "status": null,
+  "summary": "Only one 2026 search snippet summarising Atly mentions gluten-free sushi and soy sauce here. A targeted search returned nothing, so call first.",
+  "tamari": "unknown",
+  "tamari_source": "A search snippet summarising Atly said it offers gluten-free soy sauce. That could not be confirmed on a follow-up search",
+  "updated": 0,
+  "website": ""
+}

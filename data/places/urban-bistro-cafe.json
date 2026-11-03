@@ -1,0 +1,41 @@
+{
+  "area": "Dubai Media City (Bayut also mentions an Al Barsha branch)",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "hoods",
+  "cuisine": "Healthy / paleo café",
+  "delivery": [
+    "Deliveroo",
+    "Careem",
+    "Smiles"
+  ],
+  "evidence_level": "community_reports",
+  "name": "Urban Bistro Café",
+  "notes": "",
+  "questions": [
+    "Is the Al Barsha branch still open?",
+    "Which dishes are fully gluten-free, rather than just paleo?",
+    "Is there wheat or regular bread on site, and is it prepared on the same surfaces?",
+    "Which dishes contain quinoa or oats?"
+  ],
+  "quinoa_oat_flags": [
+    "Paleo/healthy menu: confirm salads and bowls have no quinoa and breakfasts have no oats"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Super green power salad",
+      "note": "What's On recommends it, but no source says it is gluten-free, so confirm first"
+    }
+  ],
+  "sources": [
+    "https://www.bayut.com/mybayut/gluten-free-restaurants-dubai",
+    "https://whatson.ae/?p=119444"
+  ],
+  "status": null,
+  "summary": "Bayut (undated) and What's On (older) describe paleo and gluten-free food with delivery on Deliveroo, Careem and Smiles, but I couldn't confirm the delivery listings or the Al Barsha branch for 2026.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

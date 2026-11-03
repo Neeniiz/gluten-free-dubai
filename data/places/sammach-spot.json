@@ -1,0 +1,34 @@
+{
+  "area": "Souk Al Bahar, Downtown Dubai",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Regular soy sauce, tempura, crunch, eel sauce, teriyaki, ponzu, spicy mayo, kanikama",
+      "reason": "These are standard sushi gluten sources. No venue-specific information was found."
+    }
+  ],
+  "batch": "sushi3",
+  "cuisine": "Japanese / Sushi",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Sammach Spot",
+  "notes": "",
+  "questions": [
+    "Do you have gluten-free tamari or GF soy sauce?",
+    "Which rolls are made without tempura, crunch, kanikama or sauces?",
+    "Is the nigiri brushed with nikiri or soy before serving?",
+    "Can you use clean prep surfaces and gloves for a celiac order?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/sushi"
+  ],
+  "status": null,
+  "summary": "One search-engine summary of the FMGF Dubai sushi page names it as having gluten-free sushi options, but a direct search for the venue found nothing, so the evidence is very weak and undated. Treat it as unverified.",
+  "tamari": "unknown",
+  "tamari_source": "None found",
+  "updated": 0,
+  "website": ""
+}

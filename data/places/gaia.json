@@ -1,0 +1,44 @@
+{
+  "area": "Gate Village 4, DIFC",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Seafood orzo",
+      "reason": "Wheat pasta"
+    },
+    {
+      "dish": "Handmade pastas",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Greek / Mediterranean",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Gaia",
+  "notes": "",
+  "questions": [
+    "Is the fish or octopus dusted with flour before grilling?",
+    "Is the taramosalata thickened with bread?",
+    "Are the fried items fried in oil shared with breaded food?",
+    "Can the kitchen mark GF dishes for a celiac?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Grilled octopus / grilled whole fish",
+      "note": "Naturally GF in principle; check marinades and flour dusting"
+    }
+  ],
+  "sources": [
+    "https://intravel.net/dubai/restaurants-cafes/gaia-dubai",
+    "https://gaia-restaurants.com/dubai"
+  ],
+  "status": null,
+  "summary": "The only gluten-free evidence is a 'Gluten-free' tag on a directory listing (undated), so ask first.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://gaia-restaurants.com/dubai"
+}

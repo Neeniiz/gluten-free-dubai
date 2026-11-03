@@ -1,0 +1,39 @@
+{
+  "area": "Bur Dubai (Al Fahidi / Bastakiya)",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Breads, regag, chebab and khameer",
+      "reason": "Wheat-based"
+    },
+    {
+      "dish": "Harees or porridge-style dishes",
+      "reason": "Often made with wheat or barley"
+    }
+  ],
+  "batch": "hoods",
+  "cuisine": "Emirati / Middle Eastern breakfast",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Arabian Tea House (Al Fahidi)",
+  "notes": "",
+  "questions": [
+    "Which breakfast items have no bread, flour or wheat (for example eggs or balaleet)?",
+    "Is balaleet vermicelli wheat-based? (Usually yes)",
+    "Are dips and salads prepared away from bread?",
+    "Is your karak made with any malt or flour?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://atly.com/best/gluten-free/mediterranean-united-arab-emirates",
+    "https://visitdubai.com/cs/places-to-visit/arabian-tea-house"
+  ],
+  "status": null,
+  "summary": "An unnamed Atly entry describing a historic Emirati tea house that accommodates gluten-free needs probably refers to this place, but I couldn't confirm it, and there is no official gluten-free statement.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

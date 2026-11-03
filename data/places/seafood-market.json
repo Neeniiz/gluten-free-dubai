@@ -1,0 +1,33 @@
+{
+  "area": "Le Méridien Dubai, Airport Rd, Al Garhoud",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Battered or fried fish",
+      "reason": "Coating and fryer unknown"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Seafood",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Seafood Market",
+  "notes": "",
+  "questions": [
+    "Can you grill my fish plain, with no flour, butter sauce or soy?",
+    "Do the Asian-style preparations use soy sauce, and do you have tamari?",
+    "Is the grill shared with marinated items?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g295424-d1637446-Reviews-Seafood_Market-Dubai_Emirate_of_Dubai.html"
+  ],
+  "status": null,
+  "summary": "The only evidence is a Tripadvisor 'gluten free options' feature tag (undated); it's a market-style seafood place open since 1992.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": "https://www.seafoodmarket-dubai.com/"
+}

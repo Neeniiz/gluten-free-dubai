@@ -1,0 +1,30 @@
+{
+  "area": "Al Sufouh / Dubai Marina",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "openings",
+  "cuisine": "Hotel dining",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "The Westin Dubai Mina Seyahi (hotel restaurants)",
+  "notes": "",
+  "questions": [
+    "Which outlets can do a celiac-safe meal?",
+    "Can the chef prepare breakfast separately from the buffet?",
+    "Is there a gluten-free bread or toaster?"
+  ],
+  "quinoa_oat_flags": [
+    "Hotel breakfast buffets often have oats or granola. Ask"
+  ],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai/hotels"
+  ],
+  "status": null,
+  "summary": "One FindMeGlutenFree reviewer (listing labelled 2025) said staff were well informed and careful about cross-contamination, but there is no dedicated gluten-free menu. It is not a new opening.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

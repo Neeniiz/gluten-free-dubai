@@ -1,0 +1,40 @@
+{
+  "area": "Club Vista Mare, Palm Jumeirah",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Injera, if it's a wheat/barley blend",
+      "reason": "Many restaurants blend teff with wheat or barley to cut costs"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Ethiopian",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Gursha",
+  "notes": "",
+  "questions": [
+    "Is your injera 100% teff, with no wheat or barley flour?",
+    "Is it made in-house, or bought in?",
+    "Are you still open at Club Vista Mare?",
+    "Do any stews use flour or a niter kibbeh made with wheat?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Injera with stews (doro wat, minced beef, kale with beef)",
+      "note": "2018 reviews call the injera gluten-free, but neither confirms 100% teff"
+    }
+  ],
+  "sources": [
+    "https://khaleejtimes.com/food--review-ethiopias-gursha-is-ahead-of-the-curve",
+    "https://www.bbcgoodfoodme.com/restaurants-review/gursha-dubai/"
+  ],
+  "status": null,
+  "summary": "Two 2018 reviews describe the injera as gluten-free, but nothing confirms 100% teff and the evidence is 8 years old, so check it's still open.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

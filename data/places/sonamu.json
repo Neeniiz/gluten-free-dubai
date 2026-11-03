@@ -1,0 +1,44 @@
+{
+  "area": "Asiana Hotel, Salahuddin Rd, Deira",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Bulgogi / galbi and other marinated BBQ",
+      "reason": "Usually marinated in wheat soy sauce"
+    },
+    {
+      "dish": "Anything with gochujang",
+      "reason": "Often contains wheat"
+    },
+    {
+      "dish": "Hotpots with soy-based broth",
+      "reason": "Probable soy sauce"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Korean",
+  "delivery": [],
+  "evidence_level": "ask_first",
+  "name": "Sonamu",
+  "notes": "",
+  "questions": [
+    "Do you have tamari or gluten-free soy sauce?",
+    "Can you grill unmarinated meat (samgyeopsal/plain beef) on a clean grill?",
+    "Which banchan are made without soy sauce or gochujang?",
+    "Is your gochujang gluten-free?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [],
+  "sources": [
+    "https://intravel.net/dubai/restaurants-cafes/sonamu-restaurant",
+    "https://insurancemarket.ae/lifestyle/korean-restaurants-in-dubai",
+    "https://www.bbcgoodfoodme.com/news/discover-sonamu-in-asiana-hotel"
+  ],
+  "status": null,
+  "summary": "Two listicles (undated) say it caters to gluten-free diners, but nothing confirms tamari or how it handles celiac orders; plain grilled meat is the realistic option.",
+  "tamari": "unknown",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

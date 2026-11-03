@@ -1,0 +1,33 @@
+{
+  "area": "Dubai Festival City",
+  "ask_dishes": [],
+  "avoid_dishes": [],
+  "batch": "thin",
+  "cuisine": "Seafood",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "John Dory Seafood Market",
+  "notes": "",
+  "questions": [
+    "Which mains can be made gluten-free?",
+    "Is the fish dusted with flour?",
+    "Which dessert is GF and how is it made?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Gluten-free dessert",
+      "note": "FMGF lists a GF dessert; no other detail"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/ae/dubai"
+  ],
+  "status": null,
+  "summary": "A thin FMGF report (no GF menu, just a GF dessert; date unknown) is all I found.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}

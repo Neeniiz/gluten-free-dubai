@@ -1,0 +1,39 @@
+{
+  "area": "City Centre Mirdif; also The Dubai Mall",
+  "ask_dishes": [],
+  "avoid_dishes": [
+    {
+      "dish": "Rolls",
+      "reason": "Wheat"
+    }
+  ],
+  "batch": "thin",
+  "cuisine": "Steakhouse (American)",
+  "delivery": [],
+  "evidence_level": "community_reports",
+  "name": "Texas Roadhouse",
+  "notes": "",
+  "questions": [
+    "Is the steak seasoning gluten-free here in Dubai?",
+    "Are fries in a dedicated fryer?",
+    "Can you flag my order as an allergy order?"
+  ],
+  "quinoa_oat_flags": [],
+  "researched": "2026-11-03",
+  "safe_dishes": [
+    {
+      "dish": "Steak (ordered as gluten-free)",
+      "note": "Reviewers say staff were careful and took a separate GF order"
+    }
+  ],
+  "sources": [
+    "https://www.findmeglutenfree.com/biz/texas-roadhouse/5305959188135936",
+    "https://www.findmeglutenfree.com/chains/texas-roadhouse"
+  ],
+  "status": null,
+  "summary": "FMGF reviewers (undated in the snippets) report careful staff and separate GF order handling at the Mirdif and Dubai Mall branches, but there's no GF menu.",
+  "tamari": "n/a",
+  "tamari_source": "",
+  "updated": 0,
+  "website": ""
+}
